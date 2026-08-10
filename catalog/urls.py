@@ -5,7 +5,8 @@ endpoint. The games/genres/library REST resources are mounted at
 
 from django.urls import path
 
-from . import api, views
+from . import views
+from . import api
 
 urlpatterns = [
     # Page shells

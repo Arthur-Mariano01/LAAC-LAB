@@ -6,7 +6,7 @@ auto-discovers tasks in the installed apps (``catalog/tasks.py``).
 
 import os
 
-from celery import Celery
+from config.celery import Celery
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings")
 
