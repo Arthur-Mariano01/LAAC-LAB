@@ -5,8 +5,7 @@ mounted at ``/api/v1/`` by the single router in ``config.urls``.
 
 from django.urls import path
 
-from . import views
-from . import api
+from . import api, views
 
 urlpatterns = [
     # Page shell

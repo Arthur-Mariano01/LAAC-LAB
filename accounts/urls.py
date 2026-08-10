@@ -4,9 +4,7 @@ endpoints, and the profile REST resource under ``/api/v1/``.
 
 from django.urls import path
 
-from . import views
-from . import api
-from . import rest
+from . import api, rest, views
 
 urlpatterns = [
     # Page shell
