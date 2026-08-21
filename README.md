@@ -14,8 +14,6 @@ HTML / CSS / C#
 
 BACKEND - 
 Python 3.12
-Django 6.x
-Django REST Framework
 SimpleJWT
 Docker + Docker Compose
 Redis
@@ -23,7 +21,6 @@ Celery
 Brevo (SMTP)
 drf-spectacular (Swagger)
 python-decouple
-django-cors-headers
 Gunicorn
 
 BANCO DE DADOS -
