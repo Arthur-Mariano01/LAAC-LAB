@@ -51,12 +51,14 @@ class BugometroService(ServicoBase):
         repositorio_status=None,
         repositorio_jogos=None,
         repositorio_votos=None,
+        repositorio_historico=None,
         **kwargs,
     ):
         super().__init__(*args, **kwargs)
         self.repositorio_status = repositorio_status
         self.repositorio_jogos = repositorio_jogos
         self.repositorio_votos = repositorio_votos
+        self.repositorio_historico = repositorio_historico
 
     # ------------------------------------------------------------------
     @staticmethod

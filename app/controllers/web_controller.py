@@ -17,6 +17,7 @@ PAGINAS_POR_ROTA = {
     "/": "inicio.html",
     "/biblioteca": "biblioteca.html",
     "/bugometro": "bugometro.html",
+    "/historicos": "historicos.html",
     "/alertas": "alertas.html",
     "/comunidade": "comunidade.html",
     "/perfil": "perfil.html",
