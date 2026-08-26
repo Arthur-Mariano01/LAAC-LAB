@@ -497,3 +497,112 @@ class TelaService:
             "icone": apresentado["icone"],
             "texto": alerta.texto,
         }
+
+    def historicos(self, slug: str, periodo: str = "7d", ultimo_id: int = 0) -> dict:
+        from app.errors import NaoEncontrado
+        from datetime import timedelta, timezone
+        from app.models.usuario import agora
+        from app.services.rotulos import rotulo_categoria, rotulo_severidade # <-- Importação adicionada
+
+        jogo = self.jogos.buscar_por_slug(slug)
+        if not jogo:
+            raise NaoEncontrado("Jogo não encontrado.")
+
+        agora_utc = agora()
+        if agora_utc.tzinfo is None:
+            agora_utc = agora_utc.replace(tzinfo=timezone.utc)
+        
+        delta = None
+        if periodo == "24h": delta = timedelta(hours=24)
+        elif periodo == "7d": delta = timedelta(days=7)
+        elif periodo == "30d": delta = timedelta(days=30)
+        elif periodo == "6m": delta = timedelta(days=180)
+
+        historicos_db = jogo.historico
+        historicos_filtrados = []
+
+        for h in historicos_db:
+            dt = h.registrado_em
+            if dt:
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                if delta and dt < (agora_utc - delta):
+                    continue
+            historicos_filtrados.append(h)
+
+        def _sort_key(h):
+            dt = h.registrado_em or agora_utc
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+
+        historicos_db = sorted(historicos_filtrados, key=_sort_key, reverse=True)
+        novo_ultimo_id = historicos_db[0].id if historicos_db else 0
+
+        if ultimo_id > 0 and novo_ultimo_id <= ultimo_id:
+            return {"mudou": False}
+
+        eventos = [
+            {
+                "id": h.id,
+                "evento": getattr(h, 'evento', 'mudanca_pontuacao') or "mudanca_pontuacao",
+                "descricao": getattr(h, 'descricao', 'Status atualizado.') or "Status atualizado.",
+                "pontuacao": getattr(h, 'pontuacao', 0) or 0,
+                "status_nivel": getattr(h, 'status_nivel', 'stable') or "stable",
+                "quando": tempo_relativo(h.registrado_em, agora_utc)
+            }
+            for h in historicos_db
+        ]
+
+        # --- NOVA LÓGICA: Buscar os relatos detalhados do jogo ---
+        relatos_ordenados = sorted(jogo.relatos, key=lambda r: r.criado_em or agora_utc, reverse=True)
+        bugs_reportados = [
+            {
+                "id": r.id,
+                "titulo": r.titulo,
+                "descricao": r.descricao if r.descricao else "Nenhuma descrição adicional fornecida.",
+                "categoria_rotulo": rotulo_categoria(r.categoria),
+                "severidade": r.severidade,
+                "severidade_rotulo": rotulo_severidade(r.severidade),
+                "status": r.status,
+                "confirmacoes": r.confirmacoes,
+                "quando": tempo_relativo(r.criado_em, agora_utc)
+            }
+            for r in relatos_ordenados
+        ]
+
+        return {
+            "mudou": True,
+            "ultimo_id": novo_ultimo_id,
+            "jogo": self.jogos.montar_card(jogo, favorito=False, na_biblioteca=False),
+            "estatisticas": {
+                "pontuacao": jogo.bugometro.pontuacao if jogo.bugometro else 0,
+                "bugs_ativos": len([r for r in jogo.relatos if r.status in ("aberto", "confirmado") and not r.oculto]),
+                "resolvidos": len([r for r in jogo.relatos if r.status == "resolvido"]),
+            },
+            "eventos": eventos,
+            "grafico": self._gerar_grafico_real(historicos_db),
+            "bugs_reportados": bugs_reportados # <-- Adicionado ao Payload
+        }
+
+    def _gerar_grafico_real(self, historicos_desc) -> dict:
+        hist_asc = list(reversed(historicos_desc))
+        if not hist_asc:
+            return {"rotulos": ["—"], "series": [{"chave": "score", "rotulo": "Pontuação Geral", "dados": [0]}]}
+
+        passo = max(1, len(hist_asc) // 20)
+        pontos = hist_asc[::passo]
+        if hist_asc[-1] not in pontos:
+            pontos.append(hist_asc[-1])
+
+        rotulos = []
+        for p in pontos:
+            try:
+                rotulos.append(p.registrado_em.strftime("%d/%m %H:%M") if p.registrado_em else "—")
+            except Exception:
+                rotulos.append("—")
+
+        return {
+            "rotulos": rotulos,
+            "series": [{"chave": "score", "rotulo": "Pontuação", "dados": [getattr(p, 'pontuacao', 0) or 0 for p in pontos]}]
+        }

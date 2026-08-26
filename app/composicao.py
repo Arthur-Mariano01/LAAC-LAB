@@ -93,7 +93,7 @@ def montar_servicos() -> SimpleNamespace:
 
     # Substitui os services genéricos pelos especializados, que carregam
     # as fórmulas do domínio.
-    from app.models import Alerta, BugometroStatus, Jogo, RelatoBug, VotoBug
+    from app.models import Alerta, BugometroStatus, Jogo, RelatoBug, VotoBug, HistoricoBug
     from app.repositories.jogo_repository import RepositorioJogos
     from app.services.alerta_service import AlertaService
     from app.services.bugometro_service import BugometroService
@@ -119,6 +119,7 @@ def montar_servicos() -> SimpleNamespace:
         repositorio_status=RepositorioBase(BugometroStatus),
         repositorio_jogos=RepositorioBase(Jogo),
         repositorio_votos=RepositorioVotosBug(),
+        repositorio_historico=RepositorioBase(HistoricoBug, ordenacao_permitida=("registrado_em",)),
     )
 
     # Confirmar um relato é ato de moderação: quem confirma sozinho o

@@ -64,11 +64,21 @@ class VotoBug(db.Model):
     criado_em = db.Column(db.DateTime, default=agora)
 
 
+
+
 class HistoricoBug(db.Model):
     __tablename__ = "historico_bug"
 
     id = db.Column(db.Integer, primary_key=True)
     jogo_id = db.Column(db.Integer, db.ForeignKey("jogos.id", ondelete="CASCADE"))
+    
+    # --- Novos campos para o Histórico Real ---
+    pontuacao = db.Column(db.SmallInteger, default=0, nullable=False)
+    status_nivel = db.Column(db.String(20), default="stable", nullable=False)
+    evento = db.Column(db.String(50), nullable=False)
+    descricao = db.Column(db.Text, nullable=False)
+    
+    # --- Campos Legados (Mantidos para retrocompatibilidade) ---
     quantidade_crash = db.Column(db.Integer, default=0)
     quantidade_bug = db.Column(db.Integer, default=0)
     quantidade_fps_drop = db.Column(db.Integer, default=0)

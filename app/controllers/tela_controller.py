@@ -82,5 +82,13 @@ def criar_blueprint_telas(servico_telas, servico_auth) -> Blueprint:
             else None
         )
         return jsonify(corpo), 200
+    
+    @bp.get("/telas/historicos")
+    @jwt_required()
+    def historicos():
+        slug = request.args.get("jogo")
+        periodo = request.args.get("periodo", "7d")
+        ultimo_id = request.args.get("ultimo_id", 0, type=int)
+        return jsonify(servico_telas.historicos(slug=slug, periodo=periodo, ultimo_id=ultimo_id)), 200
 
     return bp

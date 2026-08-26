@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Históricos do Bugômetro · LaaCLab</title>
+  <link rel="stylesheet" href="/estatico/css/estilos.css">
+</head>
+<body data-tela="historicos">
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--brand)">
+        <path d="M9 3h6M10 3v6l-5.5 9.5A2 2 0 0 0 6.2 21h11.6a2 2 0 0 0 1.7-3L14 9V3"/>
+        <path d="M7.5 15h9"/>
+      </svg>
+      <span>LaaC<span style="color:var(--brand)">Lab</span></span>
+    </div>
+
+    <nav class="nav">
+      <a class="nav-item" data-tela="inicio" href="/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9.5 12 3l9 6.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg> Início</a>
+      <a class="nav-item" data-tela="biblioteca" href="/biblioteca"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="12" rx="4"/><path d="M7 11v4M5 13h4M15 12h.01M18 15h.01"/></svg> Meus jogos</a>
+      <a class="nav-item" data-tela="explorar" href="/explorar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg> Explorar</a>
+      <a class="nav-item" data-tela="bugometro" href="/bugometro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6 6.5 4.5M16 6l1.5-1.5M12 8a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0v-3a5 5 0 0 1 5-5Z"/><path d="M2 13h5M17 13h5M4 18h3M17 18h3M12 8V5"/></svg> BugoMetro</a>
+      <a class="nav-item" data-tela="historicos" href="/historicos"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 4v4h4M12 8v4l3 2"/></svg> Históricos</a>
+      <a class="nav-item" data-tela="alertas" href="/alertas"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.3 3.7 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3l-8.5-14.3a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4M12 17h.01"/></svg> Alertas</a>
+      <a class="nav-item" data-tela="comunidade" href="/comunidade"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 20v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 20v-2a4 4 0 0 0-3-3.9M16 3.1a4 4 0 0 1 0 7.8"/></svg> Comunidade</a>
+    </nav>
+    <div class="sidebar-bottom">
+      <a class="nav-item" href="/configuracao" data-tela="configuracao"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.6 1.6 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.6 1.6 0 0 0-2.7 1.1V21a2 2 0 1 1-4 0v-.1A1.6 1.6 0 0 0 7 19.4a1.6 1.6 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.6 1.6 0 0 0-1.1-2.7H1a2 2 0 1 1 0-4h.1A1.6 1.6 0 0 0 2.6 7a1.6 1.6 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.6 1.6 0 0 0 1.8.3H7a1.6 1.6 0 0 0 1-1.5V1a2 2 0 1 1 4 0v.1a1.6 1.6 0 0 0 2.7 1.1l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.6 1.6 0 0 0-.3 1.8V7a1.6 1.6 0 0 0 1.5 1H23a2 2 0 1 1 0 4h-.1a1.6 1.6 0 0 0-1.5 1Z"/></svg> Configuração</a>
+      <div class="level-card"><div class="who"><div class="flame">🔥</div><div><div style="font-weight:700"><span id="sb-nome">—</span></div><div class="lvl" id="sb-nivel">Nível —</div></div></div><div class="progress"><span id="sb-xp-barra" style="width:0"></span></div><div class="xp" id="sb-xp">— / — XP</div></div>
+    </div>
+  </aside>
+
+  <div class="main">
+    <header class="topbar">
+      <div class="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:18px;height:18px"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+        <input type="search" placeholder="Buscar jogos..." aria-label="Buscar">
+      </div>
+      <div class="topbar-actions">
+        <button class="icon-btn" aria-label="Notificações"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg></button>
+        <button class="icon-btn" id="alternar-tema" aria-label="Alternar tema"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg></button>
+        <a class="avatar js-avatar" href="/perfil" title="Perfil">GP</a>
+      </div>
+    </header>
+
+    <main class="page" id="conteudo">
+      <div class="page-head">
+        <div class="icon-badge">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 4v4h4M12 8v4l3 2"/></svg>
+        </div>
+        <div>
+          <h1>Históricos do Bugômetro</h1>
+          <p>Acompanhe a evolução da estabilidade dos jogos em tempo real.</p>
+        </div>
+      </div>
+
+      <div class="row between" style="margin-bottom:22px;gap:12px;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <select id="hs-jogo-selector" style="width:100%;background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:8px 12px;color:var(--text);font-weight:700">
+             <option value="">Selecione um jogo...</option>
+          </select>
+        </div>
+        <select id="hs-periodo" style="background:var(--surface-2);border:1px solid var(--border);border-radius:10px;padding:8px 12px;color:var(--text)">
+          <option value="24h">Últimas 24 horas</option>
+          <option value="7d" selected>Últimos 7 dias</option>
+          <option value="30d">Últimos 30 dias</option>
+          <option value="6m">Últimos 6 meses</option>
+          <option value="tudo">Todo o período</option>
+        </select>
+      </div>
+
+      <div id="hs-empty-state">
+        <div class="estado estado--vazio">Escolha um jogo acima para ver o histórico.</div>
+      </div>
+
+      <div id="hs-content" style="display:none">
+        <div class="with-rail">
+          <!-- Coluna principal -->
+          <div class="stack">
+            <div id="hs-card-jogo"></div>
+            
+            <div class="card chart-card">
+              <div class="row between" style="margin-bottom:12px">
+                <b>Evolução da Pontuação</b>
+                <span id="hs-atualizado" class="badge badge--info">Atualizado agora</span>
+              </div>
+              <div id="hs-chart" class="mt"><div class="skeleton">Carregando…</div></div>
+            </div>
+
+            <!-- NOVA SESSÃO: Relatório de Bugs e Botão de Ação -->
+            <div class="card" style="margin-top: 6px">
+              <div class="row between" style="margin-bottom:16px; border-bottom:1px solid var(--border-soft); padding-bottom:12px;">
+                <div class="section-title">Relatório Detalhado de Bugs</div>
+                <a id="hs-link-bugometro" href="/bugometro" class="btn btn--outline" style="text-decoration:none;">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                  Auditar no Bugômetro
+                </a>
+              </div>
+              <div class="stack" id="hs-bugs-reportados">
+                <div class="skeleton">Carregando bugs detalhados…</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rail">
+            <div class="card">
+              <div class="section-title" style="margin-bottom: 14px">Timeline de Eventos</div>
+              <div id="hs-timeline" style="max-height:500px;overflow-y:auto;padding-right:8px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+  </div>
+</div>
+<script src="/estatico/js/api.js"></script>
+<script src="/estatico/js/casca.js"></script>
+<script src="/estatico/js/historicos.js"></script>
+</body>
+</html>
