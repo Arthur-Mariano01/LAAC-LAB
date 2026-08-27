@@ -3,7 +3,7 @@ import re
 import unicodedata
 
 from app.services.base import ServicoBase
-from app.services.midia_catalogo import extras_do_slug
+from app.services.midia_catalogo import extras_do_slug, para_origem
 
 #: Gradiente aplicado quando o jogo não tem capa. NUNCA devolver lista
 #: vazia: em JS `[] || padrao` resolve para `[]`, e o gradiente quebra.
@@ -206,8 +206,16 @@ class JogoService(ServicoBase):
         elif trailer.get("mp4"):
             src = trailer["mp4"]
         else:
-            src = trailer.get("hls") or trailer.get("src") or ""
+            src = ""
         if src:
+            galeria.append(
+                {
+                    "tipo": "trailer",
+                    "src": src,
+                    "thumb": trailer.get("thumb") or "",
+                    "titulo": trailer.get("titulo") or "Trailer",
+                }
+            )
             galeria.append(
                 {
                     "tipo": "trailer",
@@ -226,7 +234,7 @@ class JogoService(ServicoBase):
                 }
             )
         if not galeria and (jogo.capa_url or jogo.arquivo_capa):
-            fonte = jogo.arquivo_capa or jogo.capa_url
+            fonte = para_origem(jogo.arquivo_capa or jogo.capa_url)
             galeria.append(
                 {
                     "tipo": "imagem",
@@ -256,6 +264,7 @@ class JogoService(ServicoBase):
                 "desenvolvedora": jogo.desenvolvedora or "",
                 "publicadora": jogo.publicadora or "",
                 "galeria": galeria,
+                "imagem_capa": para_origem(jogo.capa_url or "") or detalhe.get("imagem_capa") or "",
                 "requisitos": extras.get("requisitos") or {
                     "minimo": [],
                     "recomendado": [],

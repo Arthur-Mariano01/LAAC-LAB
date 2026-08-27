@@ -168,14 +168,16 @@ function mostrarMidia(indice) {
         controls: "true",
         playsinline: "true",
         poster: item.thumb || "",
+        src: item.src,
+        onerror: () => {
+          if (itensMidia.length > 1) mostrarMidia(indiceMidia + 1);
+        },
       });
       stage.replaceChildren(video);
       if (/\.m3u8(\?|$)/.test(item.src) && window.Hls && Hls.isSupported()) {
         playerHls = new Hls();
         playerHls.loadSource(item.src);
         playerHls.attachMedia(video);
-      } else {
-        video.src = item.src;
       }
     }
   } else {
