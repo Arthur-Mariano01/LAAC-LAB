@@ -216,14 +216,6 @@ class JogoService(ServicoBase):
                     "titulo": trailer.get("titulo") or "Trailer",
                 }
             )
-            galeria.append(
-                {
-                    "tipo": "trailer",
-                    "src": src,
-                    "thumb": trailer.get("thumb") or "",
-                    "titulo": trailer.get("titulo") or "Trailer",
-                }
-            )
         for foto in extras.get("imagens") or []:
             galeria.append(
                 {
