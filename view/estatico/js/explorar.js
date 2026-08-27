@@ -62,7 +62,50 @@ function montarCartao(jogo) {
     jogo.na_biblioteca ? "Na biblioteca ✓" : "Adicionar"
   );
   if (jogo.na_biblioteca) botao.disabled = true;
-  return Api.cartaoDeJogo(jogo, botao);
+  const pecas = [];
+  if (jogo.slug === "palworld") {
+    pecas.push(Api.criar("span", { class: "store-chip" }, "Abrir vitrine"));
+  }
+  pecas.push(botao);
+  const cartao = Api.cartaoDeJogo(jogo, Api.criar("div", {}, ...pecas));
+  if (jogo.slug === "palworld") cartao.classList.add("game-card--vitrine");
+  return cartao;
+}
+
+function montarVitrine(jogo) {
+  const bloco = document.getElementById("ex-vitrine");
+  if (!jogo) {
+    bloco.hidden = true;
+    bloco.replaceChildren();
+    return;
+  }
+  const capa = jogo.arquivo_capa || jogo.imagem_capa || "";
+  bloco.hidden = false;
+  bloco.replaceChildren(
+    Api.criar(
+      "a",
+      { class: "ex-vitrine-card", href: "/jogo/" + jogo.slug },
+      capa
+        ? Api.criar("img", {
+            class: "ex-vitrine-art",
+            src: capa,
+            alt: jogo.nome,
+          })
+        : Api.criar("div", { class: "ex-vitrine-art" }),
+      Api.criar(
+        "div",
+        { class: "ex-vitrine-copy" },
+        Api.criar("div", { class: "ex-vitrine-kicker" }, "Em destaque"),
+        Api.criar("h2", {}, jogo.nome),
+        Api.criar(
+          "p",
+          {},
+          jogo.descricao_curta || "Abra a página da loja: trailer, capturas e requisitos."
+        ),
+        Api.criar("span", { class: "btn btn--primary" }, "Ver página do jogo")
+      )
+    )
+  );
 }
 
 /* Os gêneros vêm dentro do próprio envelope de /telas/explorar, então
@@ -110,6 +153,8 @@ async function carregar(caminho, reset) {
   }
 
   preencherGeneros(dados.generos);
+
+  if (reset) montarVitrine(dados.vitrine);
 
   // Busca sem resultado é caso comum, não erro.
   if (reset && dados.itens.length === 0) {

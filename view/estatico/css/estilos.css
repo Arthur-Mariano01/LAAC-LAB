@@ -700,3 +700,46 @@ body[data-casca="auth"] { display: grid; place-items: center; min-height: 100vh;
   .store-bottom { grid-template-columns: 1fr; }
   .store-reqs { grid-template-columns: 1fr; }
 }
+
+.game-card--vitrine {
+  border: 1px solid rgba(102, 192, 244, 0.55);
+  box-shadow: 0 0 0 1px rgba(102, 192, 244, 0.15);
+}
+.ex-vitrine-card {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: 0;
+  margin: 0 0 22px;
+  overflow: hidden;
+  border-radius: var(--radius);
+  border: 1px solid rgba(102, 192, 244, 0.4);
+  background: linear-gradient(90deg, #1b2838, #0c1018);
+  min-width: 0;
+}
+.ex-vitrine-art {
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  object-fit: cover;
+  display: block;
+}
+.ex-vitrine-copy {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+.ex-vitrine-copy h2 { margin: 0; font-size: 28px; }
+.ex-vitrine-copy p { margin: 0; color: var(--text-muted); line-height: 1.45; }
+.ex-vitrine-kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #66c0f4;
+}
+.ex-vitrine-copy .btn { width: fit-content; margin-top: 6px; }
+@media (max-width: 720px) {
+  .ex-vitrine-card { grid-template-columns: 1fr; }
+}

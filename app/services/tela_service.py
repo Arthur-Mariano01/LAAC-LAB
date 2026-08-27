@@ -3,8 +3,10 @@
 Compõe SERVICES de domínio, nunca repositórios: cada regra continua morando
 com seu dono, e esta camada só monta o objeto que a tela consome.
 """
+from app.errors import NaoEncontrado
 from app.services.formatacao import tempo_relativo, duracao_jogada
 from app.services.jogo_service import CAPA_PADRAO, gerar_iniciais
+from app.services.midia_catalogo import extras_do_slug
 
 GRUPO_ASSUNTOS = "Últimos assuntos"
 SEM_ALERTA = "Nenhum alerta recente."
@@ -220,17 +222,37 @@ class TelaService:
                     na_biblioteca=entrada is not None,
                 )
             )
+        catalogo_livre = pagina == 1 and not (busca or "").strip() and not genero_slug
         return {
             "itens": itens,
             "pagina": resultado.pagina,
             "por_pagina": resultado.por_pagina,
             "total": resultado.total,
             "paginas": resultado.paginas,
+            "vitrine": self._vitrine_palworld(usuario, na_biblioteca) if catalogo_livre else None,
             "generos": [
                 {"slug": g.slug or "", "nome": g.nome}
                 for g in self.generos.listar_todos(ordenar_por="nome")
             ],
         }
+
+    SLUG_VITRINE = "palworld"
+
+    def _vitrine_palworld(self, usuario, na_biblioteca: dict) -> dict | None:
+        """Card de Palworld no topo de Explorar, ligado à página da loja."""
+        try:
+            jogo = self.jogos.buscar_por_slug(self.SLUG_VITRINE)
+        except NaoEncontrado:
+            return None
+        entrada = na_biblioteca.get(jogo.id)
+        extras = extras_do_slug(self.SLUG_VITRINE)
+        card = self.jogos.montar_card(
+            jogo,
+            favorito=bool(entrada and entrada.favorito),
+            na_biblioteca=entrada is not None,
+        )
+        card["descricao_curta"] = extras.get("legenda") or jogo.descricao or ""
+        return card
 
     # ------------------------------------------------------------------
     RECENTES_NO_PERFIL = 3

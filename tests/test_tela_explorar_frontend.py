@@ -23,7 +23,7 @@ def _codigo():
 
 def test_pagina_tem_as_regioes(cliente):
     corpo = cliente.get("/explorar").get_data(as_text=True)
-    for regiao in ["ex-busca", "ex-genero", "ex-ordem", "ex-grade", "ex-mais"]:
+    for regiao in ["ex-busca", "ex-genero", "ex-ordem", "ex-grade", "ex-mais", "ex-vitrine"]:
         assert f'id="{regiao}"' in corpo
 
 
@@ -95,3 +95,10 @@ def test_falha_no_carregar_mais_nao_apaga_a_grade():
     # O botão continua utilizável para nova tentativa, não escondido.
     assert "botaoMais.disabled = false" in ramo_incremental
     assert "style.display" not in ramo_incremental
+
+
+def test_card_do_palworld_abre_a_pagina_da_loja():
+    texto = _codigo()
+    assert '"/jogo/" + jogo.slug' in texto
+    assert "palworld" in texto
+    assert "montarVitrine" in texto
