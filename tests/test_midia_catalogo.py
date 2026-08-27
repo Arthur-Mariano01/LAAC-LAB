@@ -13,7 +13,8 @@ def test_palworld_traz_trailer_imagens_historia_e_requisitos():
     assert "Pals" in extras["historia"]
     assert extras["tempo_medio"] == "40h"
     trailer = extras["trailer"] or {}
-    assert trailer.get("embed") or trailer.get("mp4") or trailer.get("hls")
+    assert trailer["embed"].startswith("https://www.youtube.com/embed/")
+    assert extras["imagens"][0]["src"].startswith("https://i.ytimg.com/")
     assert len(extras["imagens"]) >= 4
     assert extras["requisitos"]["minimo"]
     assert extras["requisitos"]["recomendado"]
@@ -27,13 +28,12 @@ def test_slug_desconhecido_nao_quebra():
     assert extras["tags"] == []
 
 
-def test_todo_jogo_do_explorar_tem_trailer_e_fotos():
+def test_catalogo_usa_youtube_como_o_palworld():
     jogos = json.loads((RAIZ / "dados" / "jogos_steam.json").read_text(encoding="utf-8"))
     for jogo in jogos:
         slug = jogo.get("slug") or gerar_slug(jogo["name"])
         extras = extras_do_slug(slug)
         trailer = extras["trailer"] or {}
-        assert extras["imagens"], f"{slug} sem fotos"
-        assert trailer.get("embed") or trailer.get("mp4") or trailer.get("hls"), (
-            f"{slug} sem trailer"
-        )
+        assert (trailer.get("embed") or "").startswith("https://www.youtube.com/embed/"), slug
+        assert extras["imagens"], slug
+        assert all("ytimg.com" in (f.get("src") or "") for f in extras["imagens"]), slug

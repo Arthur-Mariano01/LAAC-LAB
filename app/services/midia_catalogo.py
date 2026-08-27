@@ -30,7 +30,12 @@ def para_origem(url: str | None) -> str:
     texto = (url or "").strip()
     if not texto:
         return ""
-    if texto.startswith("/") or "youtube.com" in texto or "youtu.be" in texto:
+    if (
+        texto.startswith("/")
+        or "youtube.com" in texto
+        or "youtu.be" in texto
+        or "ytimg.com" in texto
+    ):
         return texto
     return "/media/origem?u=" + quote(texto, safe="")
 

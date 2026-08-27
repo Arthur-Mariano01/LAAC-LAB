@@ -7,34 +7,34 @@
       "Ação"
     ],
     "trailer": {
-      "titulo": "Beta Trailer (ptBR)",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257402390/70e1a238276ce364a32d0fdbdd8135242dd80fea/movie_600x337.jpg?t=1787071115",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/1938090/499826026/993466b68c2117dd87d372c1cb05981a8bf12c90/1787069764/hls_264_master.m3u8?t=1787071115"
+      "titulo": "Call of Duty: Black Ops 6 | The Truth Lies",
+      "embed": "https://www.youtube.com/embed/TGnCArMHE58",
+      "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ca97243a998802a38c7cddf195cee327c5760353/ss_ca97243a998802a38c7cddf195cee327c5760353.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ca97243a998802a38c7cddf195cee327c5760353/ss_ca97243a998802a38c7cddf195cee327c5760353.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/c6f865bd79b76a1fa50c59cd17a68d7837abf0b2/ss_c6f865bd79b76a1fa50c59cd17a68d7837abf0b2.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/c6f865bd79b76a1fa50c59cd17a68d7837abf0b2/ss_c6f865bd79b76a1fa50c59cd17a68d7837abf0b2.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/619503d5c40001a5e72717bedccbbca027084d94/ss_619503d5c40001a5e72717bedccbbca027084d94.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/619503d5c40001a5e72717bedccbbca027084d94/ss_619503d5c40001a5e72717bedccbbca027084d94.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/88dbb0eae312359216204ce3ab34b2f476177efd/ss_88dbb0eae312359216204ce3ab34b2f476177efd.1920x1080.jpg?t=1787790337",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/88dbb0eae312359216204ce3ab34b2f476177efd/ss_88dbb0eae312359216204ce3ab34b2f476177efd.600x338.jpg?t=1787790337"
+        "src": "https://i.ytimg.com/vi/TGnCArMHE58/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/TGnCArMHE58/3.jpg"
       }
     ],
     "requisitos": {
@@ -69,34 +69,34 @@
       "Grátis para Jogar"
     ],
     "trailer": {
-      "titulo": "Launch Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg?t=1696005467",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256972298/movie_max.mp4"
+      "titulo": "Counter-Strike 2 - Launch Trailer",
+      "embed": "https://www.youtube.com/embed/nSE38xjMLqE",
+      "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.1920x1080.jpg?t=1784564069",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1784564069"
+        "src": "https://i.ytimg.com/vi/nSE38xjMLqE/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/nSE38xjMLqE/3.jpg"
       }
     ],
     "requisitos": {
@@ -120,34 +120,34 @@
       "Aventura"
     ],
     "trailer": {
-      "titulo": "GTA Online: Oscar Guzman Flies Again EN NR",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257109786/974f93db1b97f206de6f21d585524d598cdbe137/movie_600x337.jpg?t=1741119978",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/257109786/movie_max.mp4"
+      "titulo": "Grand Theft Auto V Trailer",
+      "embed": "https://www.youtube.com/embed/QkkoHAzjnUs",
+      "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.1920x1080.jpg?t=1765387725",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1765387725"
+        "src": "https://i.ytimg.com/vi/QkkoHAzjnUs/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/QkkoHAzjnUs/3.jpg"
       }
     ],
     "requisitos": {
@@ -180,34 +180,34 @@
       "RPG"
     ],
     "trailer": {
-      "titulo": "\"Cyberpunk 2077: Ultimate Edition\" — City of Dreams",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081132/885331d24a8e88a0a90903f588835ed38b2f82cf/movie_600x337.jpg?t=1734434783",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/257081132/movie_max.mp4"
+      "titulo": "Cyberpunk 2077 — Official E3 Trailer",
+      "embed": "https://www.youtube.com/embed/8X2kIfS6fb8",
+      "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1784714077",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1784714077"
+        "src": "https://i.ytimg.com/vi/8X2kIfS6fb8/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/8X2kIfS6fb8/3.jpg"
       }
     ],
     "requisitos": {
@@ -243,34 +243,34 @@
       "Grátis para Jogar"
     ],
     "trailer": {
-      "titulo": "Apex Legends: Marked Gameplay Trailer EN  ",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391801/a8d21c02f35b1aea10893708f9f744552f770377/movie_600x337.jpg?t=1786031865",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/1172470/1182889611/d98a0365413af7dca2b67039b260d8849a97627d/1785867041/hls_264_master.m3u8?t=1786031865"
+      "titulo": "Apex Legends | Cinematic Trailer",
+      "embed": "https://www.youtube.com/embed/nGXk-In_vBA",
+      "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2/ss_3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2/ss_3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d64ce54903a3ba6429c6e3189ad746a7db70ee3e/ss_d64ce54903a3ba6429c6e3189ad746a7db70ee3e.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d64ce54903a3ba6429c6e3189ad746a7db70ee3e/ss_d64ce54903a3ba6429c6e3189ad746a7db70ee3e.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6593905f527d4b1bf01b0bb148b9c9a39616a2e4/ss_6593905f527d4b1bf01b0bb148b9c9a39616a2e4.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6593905f527d4b1bf01b0bb148b9c9a39616a2e4/ss_6593905f527d4b1bf01b0bb148b9c9a39616a2e4.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6/ss_d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6/ss_d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4a30ba1dd184e8ebdbab3814ea3726008647ea17/ss_4a30ba1dd184e8ebdbab3814ea3726008647ea17.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4a30ba1dd184e8ebdbab3814ea3726008647ea17/ss_4a30ba1dd184e8ebdbab3814ea3726008647ea17.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f880e64654baad384f3afb9e4b0004e411770241/ss_f880e64654baad384f3afb9e4b0004e411770241.1920x1080.jpg?t=1786031871",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f880e64654baad384f3afb9e4b0004e411770241/ss_f880e64654baad384f3afb9e4b0004e411770241.600x338.jpg?t=1786031871"
+        "src": "https://i.ytimg.com/vi/nGXk-In_vBA/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/nGXk-In_vBA/3.jpg"
       }
     ],
     "requisitos": {
@@ -307,30 +307,34 @@
       "Aventura"
     ],
     "trailer": {
-      "titulo": "RDR2 60 FPS Trailer (BR)",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256768244/movie.293x165.jpg?t=1574881606",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256768244/movie_max.mp4"
+      "titulo": "Red Dead Redemption 2: Official Trailer",
+      "embed": "https://www.youtube.com/embed/F63h3v9QV7w",
+      "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg?t=1759502961"
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg?t=1759502961",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1759502961"
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg?t=1759502961",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.600x338.jpg?t=1759502961"
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.1920x1080.jpg?t=1759502961",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.600x338.jpg?t=1759502961"
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg?t=1759502961",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.600x338.jpg?t=1759502961"
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/2.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/F63h3v9QV7w/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/F63h3v9QV7w/3.jpg"
       }
     ],
     "requisitos": {
@@ -365,34 +369,34 @@
       "RPG"
     ],
     "trailer": {
-      "titulo": "ELDEN RING Accolades Trailer - UNRATED",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256889456/movie.293x165.jpg?t=1654109241",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256889456/movie_max.mp4"
+      "titulo": "ELDEN RING – Official Launch Trailer",
+      "embed": "https://www.youtube.com/embed/qqiC88f9ogU",
+      "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.1920x1080.jpg?t=1784684281",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.600x338.jpg?t=1784684281"
+        "src": "https://i.ytimg.com/vi/qqiC88f9ogU/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/qqiC88f9ogU/3.jpg"
       }
     ],
     "requisitos": {
@@ -428,34 +432,34 @@
       "Ação"
     ],
     "trailer": {
-      "titulo": "Gameplay Reveal Trailer WW",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961704/81b7876759c2ded02b1b07025e14b15bb8c40733/movie_600x337.jpg?t=1778795127",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256961704/movie_max.mp4"
+      "titulo": "Mortal Kombat 1 - Official Announcement Trailer",
+      "embed": "https://www.youtube.com/embed/UZ6eFEjFfJ0",
+      "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_7eb14734a264570367c607698371e492415f48a4.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_7eb14734a264570367c607698371e492415f48a4.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_29b0a9e87d5a4981d7403994b661c43117a87d84.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_29b0a9e87d5a4981d7403994b661c43117a87d84.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_02b8c4f08fbf4d1a5affb9e6e64716d63df16760.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_02b8c4f08fbf4d1a5affb9e6e64716d63df16760.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_2509da69bd12d209bd0ef9eed13f25cfa551f8e5.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_2509da69bd12d209bd0ef9eed13f25cfa551f8e5.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_fc0fd6c946a9f182bf8f0059bf4260ff07b0fec7.1920x1080.jpg?t=1778795130",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_fc0fd6c946a9f182bf8f0059bf4260ff07b0fec7.600x338.jpg?t=1778795130"
+        "src": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/UZ6eFEjFfJ0/3.jpg"
       }
     ],
     "requisitos": {
@@ -490,34 +494,34 @@
       "Aventura"
     ],
     "trailer": {
-      "titulo": "Launch Trailer (BR-PT)",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256936983/movie.293x165.jpg?t=1680015334",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256936983/movie_max.mp4"
+      "titulo": "The Last of Us Part I - Launch Trailer",
+      "embed": "https://www.youtube.com/embed/R2Ebc_OFeug",
+      "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3f1805ecddafacee7f61f87cb8e4624435a83ee3.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3f1805ecddafacee7f61f87cb8e4624435a83ee3.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_89fffc2857dcae29dee2a09f1be33d745610e19d.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_89fffc2857dcae29dee2a09f1be33d745610e19d.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_8cd55ab975b2e47f4d4d9a0da4ae6948040ef807.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_8cd55ab975b2e47f4d4d9a0da4ae6948040ef807.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_f4829000d3677a9b5b2f234482a7deff12b31ac9.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_f4829000d3677a9b5b2f234482a7deff12b31ac9.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3bed642215856b863799884f6f11671a1ef014d4.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3bed642215856b863799884f6f11671a1ef014d4.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_a80060b89b2c81121c2d7a3fc2a3b13ddc18a0a6.1920x1080.jpg?t=1750959031",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_a80060b89b2c81121c2d7a3fc2a3b13ddc18a0a6.600x338.jpg?t=1750959031"
+        "src": "https://i.ytimg.com/vi/R2Ebc_OFeug/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/R2Ebc_OFeug/3.jpg"
       }
     ],
     "requisitos": {
@@ -551,34 +555,34 @@
       "Estratégia"
     ],
     "trailer": {
-      "titulo": "Baldur's Gate 3 - Accolades Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987424/movie.293x165.jpg?t=1702007645",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256987424/movie_max.mp4"
+      "titulo": "Baldur's Gate 3 Official Launch Trailer",
+      "embed": "https://www.youtube.com/embed/1T22wNvoNiU",
+      "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.1920x1080.jpg?t=1777363040",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.600x338.jpg?t=1777363040"
+        "src": "https://i.ytimg.com/vi/1T22wNvoNiU/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/1T22wNvoNiU/3.jpg"
       }
     ],
     "requisitos": {
@@ -612,34 +616,34 @@
       "RPG"
     ],
     "trailer": {
-      "titulo": "W3NG PEGI The Witcher 3: Wild Hunt - Geralt and Ciri",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256927226/movie.293x165.jpg?t=1674829926",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256927226/movie_max.mp4"
+      "titulo": "The Witcher 3: Wild Hunt - Cinematic Trailer",
+      "embed": "https://www.youtube.com/embed/c0i88t0Kacs",
+      "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.1920x1080.jpg?t=1787688132",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.600x338.jpg?t=1787688132"
+        "src": "https://i.ytimg.com/vi/c0i88t0Kacs/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/c0i88t0Kacs/3.jpg"
       }
     ],
     "requisitos": {
@@ -674,34 +678,34 @@
       "Grátis para Jogar"
     ],
     "trailer": {
-      "titulo": "RPD",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257396880/54e9218342178f9139f19eb7fa2d0a9854b9102a/movie_600x337.jpg?t=1786493084",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/578080/149606980/a6802ac8a3cb9f85eab879f3875c8924e6fab09d/1786492554/hls_264_master.m3u8?t=1786493084"
+      "titulo": "PUBG: BATTLEGROUNDS Cinematic trailer",
+      "embed": "https://www.youtube.com/embed/u1oqfdh4xBY",
+      "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/c16e2f2d122cae77a1cbaca19263df0f2d2214fa/ss_c16e2f2d122cae77a1cbaca19263df0f2d2214fa.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/c16e2f2d122cae77a1cbaca19263df0f2d2214fa/ss_c16e2f2d122cae77a1cbaca19263df0f2d2214fa.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/aa1c51a9b45c88e770b443d8d3cd28f3024b0760/ss_aa1c51a9b45c88e770b443d8d3cd28f3024b0760.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/aa1c51a9b45c88e770b443d8d3cd28f3024b0760/ss_aa1c51a9b45c88e770b443d8d3cd28f3024b0760.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/bf9b3de5896d4ec7ef9531938b26946cded81fdf/ss_bf9b3de5896d4ec7ef9531938b26946cded81fdf.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/bf9b3de5896d4ec7ef9531938b26946cded81fdf/ss_bf9b3de5896d4ec7ef9531938b26946cded81fdf.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/faa4f9f6caa9613f07fd1193a143f66e0fac489c/ss_faa4f9f6caa9613f07fd1193a143f66e0fac489c.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/faa4f9f6caa9613f07fd1193a143f66e0fac489c/ss_faa4f9f6caa9613f07fd1193a143f66e0fac489c.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/3ae78fac4c07e9a2e2955286014355d6b7f3c8c7/ss_3ae78fac4c07e9a2e2955286014355d6b7f3c8c7.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/3ae78fac4c07e9a2e2955286014355d6b7f3c8c7/ss_3ae78fac4c07e9a2e2955286014355d6b7f3c8c7.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/eb19c1ce924ff4689105242257b6d377ffe2e264/ss_eb19c1ce924ff4689105242257b6d377ffe2e264.1920x1080.jpg?t=1786493086",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/eb19c1ce924ff4689105242257b6d377ffe2e264/ss_eb19c1ce924ff4689105242257b6d377ffe2e264.600x338.jpg?t=1786493086"
+        "src": "https://i.ytimg.com/vi/u1oqfdh4xBY/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/u1oqfdh4xBY/3.jpg"
       }
     ],
     "requisitos": {
@@ -737,34 +741,34 @@
       "Grátis para Jogar"
     ],
     "trailer": {
-      "titulo": "Dota 2 - Join the Battle",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692021/movie.293x165.jpg?t=1762820639",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256692021/movie_max.mp4"
+      "titulo": "Dota 2 Gamescom Trailer",
+      "embed": "https://www.youtube.com/embed/-cSFPIwMEq4",
+      "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.1920x1080.jpg?t=1769535998",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.600x338.jpg?t=1769535998"
+        "src": "https://i.ytimg.com/vi/-cSFPIwMEq4/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/-cSFPIwMEq4/3.jpg"
       }
     ],
     "requisitos": {
@@ -793,34 +797,34 @@
       "RPG"
     ],
     "trailer": {
-      "titulo": "Official Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256684736/movie.293x165.jpg?t=1699598112",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256684736/movie_max.mp4"
+      "titulo": "Rust - Official Trailer",
+      "embed": "https://www.youtube.com/embed/LGcECozNXEw",
+      "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_e825b087b95e51c3534383cfd75ad6e8038147c3.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_e825b087b95e51c3534383cfd75ad6e8038147c3.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/69dc23d53163b755e809a562a377bd276154c70e/ss_69dc23d53163b755e809a562a377bd276154c70e.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/69dc23d53163b755e809a562a377bd276154c70e/ss_69dc23d53163b755e809a562a377bd276154c70e.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_d0fdacaeef5a28a7cee525fd73376adfe083c964.1920x1080.jpg?t=1781536981",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_d0fdacaeef5a28a7cee525fd73376adfe083c964.600x338.jpg?t=1781536981"
+        "src": "https://i.ytimg.com/vi/LGcECozNXEw/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/LGcECozNXEw/3.jpg"
       }
     ],
     "requisitos": {
@@ -858,34 +862,34 @@
       "Simulação"
     ],
     "trailer": {
-      "titulo": "Stardew Valley Trailer 1080p",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256815967/movie.293x165.jpg?t=1754692862",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256815967/movie_max.mp4"
+      "titulo": "Stardew Valley Trailer",
+      "embed": "https://www.youtube.com/embed/ot7uXNQskhs",
+      "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_c32865684c8d45b3f57fbb1e93bfa47c2a845cbf.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_c32865684c8d45b3f57fbb1e93bfa47c2a845cbf.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.1920x1080.jpg?t=1786554168",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.600x338.jpg?t=1786554168"
+        "src": "https://i.ytimg.com/vi/ot7uXNQskhs/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/ot7uXNQskhs/3.jpg"
       }
     ],
     "requisitos": {
@@ -911,33 +915,33 @@
     ],
     "trailer": {
       "titulo": "Hades - v1.0 Launch Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801252/movie.293x165.jpg?t=1600353465",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256801252/movie_max.mp4"
+      "embed": "https://www.youtube.com/embed/Bz8l935Bv0Y",
+      "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_fa48b583bfd1423561c6efdd6690b30acd85887c.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_fa48b583bfd1423561c6efdd6690b30acd85887c.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_68300459a8c3daacb2ec687adcdbf4442fcc4f47.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_68300459a8c3daacb2ec687adcdbf4442fcc4f47.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_bcb499a0dd001f4101823f99ec5094d2872ba6ee.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_bcb499a0dd001f4101823f99ec5094d2872ba6ee.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8e07e477fa7ff2f88c8984bc89b9652a655da0e9.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8e07e477fa7ff2f88c8984bc89b9652a655da0e9.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_34e6660705cfe47d2b2f95189c37f7cb77f75ca6.1920x1080.jpg?t=1758127023",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_34e6660705cfe47d2b2f95189c37f7cb77f75ca6.600x338.jpg?t=1758127023"
+        "src": "https://i.ytimg.com/vi/Bz8l935Bv0Y/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/Bz8l935Bv0Y/3.jpg"
       }
     ],
     "requisitos": {
@@ -967,34 +971,34 @@
       "Indie"
     ],
     "trailer": {
-      "titulo": "Release Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256679401/movie.293x165.jpg?t=1497589417",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256679401/movie_max.mp4"
+      "titulo": "Hollow Knight - Release Trailer",
+      "embed": "https://www.youtube.com/embed/UAO2urG23S4",
+      "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_bd76bd88bc5334ee56ae3d5f0d8dec4455e8e3b8.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_bd76bd88bc5334ee56ae3d5f0d8dec4455e8e3b8.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_33a645903d6dd9beec39f272a3daf57174a6cc26.1920x1080.jpg?t=1776125684",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_33a645903d6dd9beec39f272a3daf57174a6cc26.600x338.jpg?t=1776125684"
+        "src": "https://i.ytimg.com/vi/UAO2urG23S4/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/UAO2urG23S4/3.jpg"
       }
     ],
     "requisitos": {
@@ -1027,30 +1031,34 @@
       "Aventura"
     ],
     "trailer": {
-      "titulo": "Sekiro™: Shadows Die Twice - Game of the Year Edition",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256806899/movie.293x165.jpg?t=1603837979",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256806899/movie_max.mp4"
+      "titulo": "Sekiro: Shadows Die Twice - Official Launch Trailer",
+      "embed": "https://www.youtube.com/embed/rXMX4YJ7Lks",
+      "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.1920x1080.jpg?t=1762888662",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.600x338.jpg?t=1762888662"
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.1920x1080.jpg?t=1762888662",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.600x338.jpg?t=1762888662"
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.1920x1080.jpg?t=1762888662",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.600x338.jpg?t=1762888662"
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.1920x1080.jpg?t=1762888662",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.600x338.jpg?t=1762888662"
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.1920x1080.jpg?t=1762888662",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.600x338.jpg?t=1762888662"
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/2.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/rXMX4YJ7Lks/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/rXMX4YJ7Lks/3.jpg"
       }
     ],
     "requisitos": {
@@ -1084,34 +1092,34 @@
       "Ação"
     ],
     "trailer": {
-      "titulo": "191203_防衛隊派生武器_BP_STEAM版",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256769112/movie.293x165.jpg?t=1578590997",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256769112/movie_max.mp4"
+      "titulo": "Monster Hunter: World - Launch Trailer",
+      "embed": "https://www.youtube.com/embed/OotQrKEqe94",
+      "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6b4986a37c7b5c185a796085c002febcdd5357b5.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6b4986a37c7b5c185a796085c002febcdd5357b5.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.1920x1080.jpg?t=1773328926",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.600x338.jpg?t=1773328926"
+        "src": "https://i.ytimg.com/vi/OotQrKEqe94/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/OotQrKEqe94/3.jpg"
       }
     ],
     "requisitos": {
@@ -1150,34 +1158,34 @@
       "Aventura"
     ],
     "trailer": {
-      "titulo": "08【RE4】_GELaunchPV_Multi_BR_FullHD_DJCTQ_好評発売中.mp4",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256998127/movie.293x165.jpg?t=1730246640",
-      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256998127/movie_max.mp4"
+      "titulo": "Resident Evil 4 Remake - Reveal Trailer",
+      "embed": "https://www.youtube.com/embed/j5Ic2z3_xp0",
+      "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.1920x1080.jpg?t=1772502922",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.600x338.jpg?t=1772502922"
+        "src": "https://i.ytimg.com/vi/j5Ic2z3_xp0/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/j5Ic2z3_xp0/3.jpg"
       }
     ],
     "requisitos": {
@@ -1215,34 +1223,33 @@
     ],
     "trailer": {
       "titulo": "Palworld 1.0 Official Launch Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257373728/7e13113e161160ac94f46ef35ac809e374f7ab7e/movie_600x337.jpg?t=1783652949",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/1623730/1248102289/5810f9197a1aa0ad560333997b04947d443c7bcd/1783607226/hls_264_master.m3u8?t=1783652949",
-      "embed": "https://www.youtube.com/embed/1fpGg9wNM9A"
+      "embed": "https://www.youtube.com/embed/1fpGg9wNM9A",
+      "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/648ed4266fc18f413292292741304ef648421c55/ss_648ed4266fc18f413292292741304ef648421c55.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/648ed4266fc18f413292292741304ef648421c55/ss_648ed4266fc18f413292292741304ef648421c55.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/cd7b46028d10c21db8fc8217192094d309efcebc/ss_cd7b46028d10c21db8fc8217192094d309efcebc.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/cd7b46028d10c21db8fc8217192094d309efcebc/ss_cd7b46028d10c21db8fc8217192094d309efcebc.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.1920x1080.jpg?t=1784714419",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.600x338.jpg?t=1784714419"
+        "src": "https://i.ytimg.com/vi/1fpGg9wNM9A/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/1fpGg9wNM9A/3.jpg"
       }
     ],
     "requisitos": {
@@ -1278,34 +1285,34 @@
       "Ação"
     ],
     "trailer": {
-      "titulo": "Face the unknown",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391604/01449b1c2230f3901f09313fcbbf813f45edde93/movie_600x337.jpg?t=1786525386",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/553850/1066241062/9d085e63a7061466f8db4a78f6dab24e1df5de9a/1785860021/hls_264_master.m3u8?t=1786525386"
+      "titulo": "Helldivers 2 - Reveal Trailer",
+      "embed": "https://www.youtube.com/embed/RDhaY8T9fyw",
+      "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.1920x1080.jpg?t=1786525389",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.600x338.jpg?t=1786525389"
+        "src": "https://i.ytimg.com/vi/RDhaY8T9fyw/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/RDhaY8T9fyw/3.jpg"
       }
     ],
     "requisitos": {
@@ -1336,34 +1343,34 @@
       "RPG"
     ],
     "trailer": {
-      "titulo": "Free Lanes Update",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257304516/a1c476a2c5a0acaec3b89551aab73988baec78a9/movie_600x337.jpg?t=1775574003",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/1716740/1715467803/6c43957e8c847d5445cfd951f9ca1b0e3176b79d/1773679572/hls_264_master.m3u8?t=1775574003"
+      "titulo": "Starfield Official Gameplay Trailer",
+      "embed": "https://www.youtube.com/embed/kfYEiTdsyas",
+      "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_4887dc140a637684ddcfca518458668409f946dc.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_4887dc140a637684ddcfca518458668409f946dc.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_b2821283cb140cd5a6289a8160016b6a60d8f96e.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_b2821283cb140cd5a6289a8160016b6a60d8f96e.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_68f15d580bf91971f637be5e464bc803482d78f7.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_68f15d580bf91971f637be5e464bc803482d78f7.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_aae99c177004bb5ec653d2fcb65a5d30489ec7b8.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_aae99c177004bb5ec653d2fcb65a5d30489ec7b8.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_c8594798fadfd8e042b2fc8afff7bcf4872c5198.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_c8594798fadfd8e042b2fc8afff7bcf4872c5198.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_2288919a390c0147b7d2226354a61452016fd087.1920x1080.jpg?t=1786648030",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_2288919a390c0147b7d2226354a61452016fd087.600x338.jpg?t=1786648030"
+        "src": "https://i.ytimg.com/vi/kfYEiTdsyas/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/kfYEiTdsyas/3.jpg"
       }
     ],
     "requisitos": {
@@ -1400,34 +1407,34 @@
       "Acesso Antecipado"
     ],
     "trailer": {
-      "titulo": "1.0 Release Date Reveal Trailer",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257363622/e979dd1440c9a792e9439d71c4982874abf19a0e/movie_600x337.jpg?t=1782130908",
-      "hls": "https://video.akamai.steamstatic.com/store_trailers/892970/1497098081/82852b46712774fa05d84fbaf0fb0ab9679a07f0/1782129560/hls_264_master.m3u8?t=1782130908"
+      "titulo": "Valheim: Deep North – Animated Trailer",
+      "embed": "https://www.youtube.com/embed/ywonBIDgJH4",
+      "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/hqdefault.jpg"
     },
     "imagens": [
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/hqdefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/sddefault.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/0.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/1.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/2.jpg"
       },
       {
-        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.1920x1080.jpg?t=1786012504",
-        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.600x338.jpg?t=1786012504"
+        "src": "https://i.ytimg.com/vi/ywonBIDgJH4/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/ywonBIDgJH4/3.jpg"
       }
     ],
     "requisitos": {
@@ -1462,7 +1469,7 @@
       "Ação"
     ],
     "trailer": {
-      "titulo": "Trailer oficial Fortnite",
+      "titulo": "Fortnite Battle Royale | Official Season Trailer",
       "embed": "https://www.youtube.com/embed/5uE0XFJSVZA",
       "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/hqdefault.jpg"
     },
@@ -1472,12 +1479,24 @@
         "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/hqdefault.jpg"
       },
       {
-        "src": "https://i.ytimg.com/vi/YUbGFGltS0s/hqdefault.jpg",
-        "thumb": "https://i.ytimg.com/vi/YUbGFGltS0s/hqdefault.jpg"
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/sddefault.jpg"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fortnite_Pro-Am_stadium_at_E3_2018_3.jpg",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fortnite_Pro-Am_stadium_at_E3_2018_3.jpg"
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/0.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/1.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/2.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/3.jpg"
       }
     ],
     "requisitos": {
@@ -1494,7 +1513,7 @@
       "Tático"
     ],
     "trailer": {
-      "titulo": "Cinemática Valorant",
+      "titulo": "VALORANT | Official Launch Cinematic Trailer",
       "embed": "https://www.youtube.com/embed/e_E9W2vsRbQ",
       "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/hqdefault.jpg"
     },
@@ -1504,8 +1523,24 @@
         "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/hqdefault.jpg"
       },
       {
-        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png",
-        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/320px-Valorant_logo_-_pink_color_version.svg.png"
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/sddefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/sddefault.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/0.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/0.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/1.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/1.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/2.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/2.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/3.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/3.jpg"
       }
     ],
     "requisitos": {
