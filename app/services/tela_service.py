@@ -65,7 +65,7 @@ class TelaService:
     # ------------------------------------------------------------------
     def inicio(self, usuario_id: int) -> dict:
         favoritos = self._cartoes_favoritos(usuario_id)
-        alertas = self.alertas_servico.recentes(limite=4)
+        alertas = self.alertas_servico.recentes(limite=6)
 
         return {
             "banners": [self._banner(j) for j in self.jogos.destaques(limite=3)],

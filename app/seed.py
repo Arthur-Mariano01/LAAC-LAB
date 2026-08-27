@@ -55,6 +55,8 @@ ALERTAS_DEMO = [
     ("call-of-duty", "critica", "Servidores instáveis após o patch de ontem."),
     ("counter-strike", "instavel", "Queda de FPS relatada em mapas novos."),
     ("grand-theft", "atualizacao", "Atualização 1.6 disponível para download."),
+    ("apex", "instavel", "Fila ranqueada instável neste fim de semana."),
+    ("valorant", "atualizacao", "Novo episódio no ar: confira o patch notes."),
 ]
 
 #: (slug parcial, categoria, severidade, título, votos)
