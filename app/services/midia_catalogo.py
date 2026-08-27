@@ -9,17 +9,18 @@ from pathlib import Path
 
 _ARQUIVO = Path(__file__).resolve().parents[2] / "dados" / "midia_jogos.json"
 _cache = None
-
-REQUISITOS_VAZIOS = {"minimo": [], "recomendado": []}
+_mtime = None
 
 
 def _catalogo() -> dict:
-    global _cache
-    if _cache is None:
+    global _cache, _mtime
+    stamp = _ARQUIVO.stat().st_mtime if _ARQUIVO.exists() else None
+    if _cache is None or stamp != _mtime:
         if _ARQUIVO.exists():
             _cache = json.loads(_ARQUIVO.read_text(encoding="utf-8"))
         else:
             _cache = {}
+        _mtime = stamp
     return _cache
 
 

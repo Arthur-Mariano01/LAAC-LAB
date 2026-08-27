@@ -140,22 +140,44 @@ function montarStats(dados) {
 
 let indiceMidia = 0;
 let itensMidia = [];
+let playerHls = null;
 
 function mostrarMidia(indice) {
   if (!itensMidia.length) return;
   indiceMidia = (indice + itensMidia.length) % itensMidia.length;
   const item = itensMidia[indiceMidia];
   const stage = document.getElementById("jg-stage");
+  if (playerHls) {
+    playerHls.destroy();
+    playerHls = null;
+  }
   if (item.tipo === "trailer") {
-    stage.replaceChildren(
-      Api.criar("iframe", {
+    if (/youtube\.com|youtu\.be/.test(item.src)) {
+      stage.replaceChildren(
+        Api.criar("iframe", {
+          class: "store-frame",
+          src: item.src + (item.src.includes("?") ? "&" : "?") + "rel=0",
+          title: item.titulo || "Trailer",
+          allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+          allowfullscreen: "true",
+        })
+      );
+    } else {
+      const video = Api.criar("video", {
         class: "store-frame",
-        src: item.src + (item.src.includes("?") ? "&" : "?") + "rel=0",
-        title: item.titulo || "Trailer",
-        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
-        allowfullscreen: "true",
-      })
-    );
+        controls: "true",
+        playsinline: "true",
+        poster: item.thumb || "",
+      });
+      stage.replaceChildren(video);
+      if (/\.m3u8(\?|$)/.test(item.src) && window.Hls && Hls.isSupported()) {
+        playerHls = new Hls();
+        playerHls.loadSource(item.src);
+        playerHls.attachMedia(video);
+      } else {
+        video.src = item.src;
+      }
+    }
   } else {
     stage.replaceChildren(
       Api.criar("img", {

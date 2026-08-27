@@ -202,10 +202,16 @@ class JogoService(ServicoBase):
         galeria = []
         trailer = extras.get("trailer") or {}
         if trailer.get("embed"):
+            src = trailer["embed"]
+        elif trailer.get("mp4"):
+            src = trailer["mp4"]
+        else:
+            src = trailer.get("hls") or trailer.get("src") or ""
+        if src:
             galeria.append(
                 {
                     "tipo": "trailer",
-                    "src": trailer["embed"],
+                    "src": src,
                     "thumb": trailer.get("thumb") or "",
                     "titulo": trailer.get("titulo") or "Trailer",
                 }

@@ -1,13 +1,1223 @@
 {
-  "palworld": {
-    "legenda": "Lute, cultive, construa e sobreviva ao lado dos Pals neste mundo aberto de crafting e cooperação.",
-    "historia": "Nas ilhas palianas, criaturas misteriosas chamadas Pals compartilham o território com humanos. Você pode viver em paz ao lado delas — montá-las, fazê-las trabalhar na fazenda ou na fábrica, explorar terra, mar e céu — ou arriscar a vida contra um sindicato de caçadores. Comida é escassa, o clima é hostil e cada escolha pesa: até o pal que você criou pode ser a diferença entre sobreviver e sucumbir. Palworld mistura coleta, combate, construção de base e cooperativo em um sandbox onde a linha entre parceiro e recurso nunca é simples.",
-    "tempo_medio": "40h",
-    "tags": ["Mundo aberto", "Sobrevivência", "Criaturas", "Cooperativo", "Crafting"],
+  "call-of-duty": {
+    "legenda": "A experiência Call of Duty® é compatível com Modern Warfare® 4, Black Ops 7 e Call of Duty®: Warzone™.",
+    "historia": "O acesso ao Beta Aberto de Modern Warfare® 4 estará disponível para todos os jogadores de 28 de agosto a 1º de setembro*.\nA experiência Call of Duty® é compatível com Modern Warfare® 4, Black Ops 7 e Call of Duty®: Warzone™.\nCall of Duty®: Modern Warfare® 4 traz aos jogadores uma guerra sem limites.\nEm Call of Duty®: Black Ops 7, a Treyarch e a Raven Software trazem aos jogadores o maior Black Ops já feito.\nO Call of Duty®: Warzone™ é uma enorme arena de combate gratuita, com Battle Royale, Ressurgência e, agora, a chegada de Black Ops Royale, um novo modo gratuito inspirado em Blecaute e reimaginado para o Warzone™ atual.\nOs Pontos Call of Duty® (PC)** são a moeda do jogo que pode ser usada no Black Ops 7, Black Ops 6, Modern Warfare® III, Modern Warfare® II ou no Call of Duty®: Warzone™ para obter conteúdo novo.\nÉ necessário ter o Call of Duty®: Black Ops 7, Call of Duty®: Black Ops 6, Call of Duty®: Modern Warfare® III, Call of Duty®: Modern Warfare® II or Call of Duty®: Warzone™ para efetuar o resgate. Jogos vendidos / baixados separadamente.\nOs PC adquiridos também podem ser usados para obter conteúdo em certos jogos Call of Duty® compatíveis com os PC*. Cada jogo é vendido separadamente.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação"
+    ],
     "trailer": {
-      "titulo": "Trailer oficial Palworld 1.0",
-      "embed": "https://www.youtube.com/embed/1fpGg9wNM9A",
-      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257373728/7e13113e161160ac94f46ef35ac809e374f7ab7e/movie_600x337.jpg?t=1783652949"
+      "titulo": "Beta Trailer (ptBR)",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257402390/70e1a238276ce364a32d0fdbdd8135242dd80fea/movie_600x337.jpg?t=1787071115",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/1938090/499826026/993466b68c2117dd87d372c1cb05981a8bf12c90/1787069764/hls_264_master.m3u8?t=1787071115"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ee5f6b6aebe4dc9e86b49c4e309d361b132df308/ss_ee5f6b6aebe4dc9e86b49c4e309d361b132df308.600x338.jpg?t=1787790337"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ca97243a998802a38c7cddf195cee327c5760353/ss_ca97243a998802a38c7cddf195cee327c5760353.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/ca97243a998802a38c7cddf195cee327c5760353/ss_ca97243a998802a38c7cddf195cee327c5760353.600x338.jpg?t=1787790337"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/6b8f4040a1e923f036e04d9eb21ecb0f866be57e/ss_6b8f4040a1e923f036e04d9eb21ecb0f866be57e.600x338.jpg?t=1787790337"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/c6f865bd79b76a1fa50c59cd17a68d7837abf0b2/ss_c6f865bd79b76a1fa50c59cd17a68d7837abf0b2.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/c6f865bd79b76a1fa50c59cd17a68d7837abf0b2/ss_c6f865bd79b76a1fa50c59cd17a68d7837abf0b2.600x338.jpg?t=1787790337"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/619503d5c40001a5e72717bedccbbca027084d94/ss_619503d5c40001a5e72717bedccbbca027084d94.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/619503d5c40001a5e72717bedccbbca027084d94/ss_619503d5c40001a5e72717bedccbbca027084d94.600x338.jpg?t=1787790337"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/88dbb0eae312359216204ce3ab34b2f476177efd/ss_88dbb0eae312359216204ce3ab34b2f476177efd.1920x1080.jpg?t=1787790337",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/88dbb0eae312359216204ce3ab34b2f476177efd/ss_88dbb0eae312359216204ce3ab34b2f476177efd.600x338.jpg?t=1787790337"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows® 10 64 Bit (atualização mais recente)",
+        "Processador: AMD Ryzen™ 5 1400 ou Intel® Core™ i5-6600",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: AMD Radeon™ RX 470, NVIDIA® GeForce® GTX 970 / 1060 ou Intel® Arc™ A580",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Outras observações: SSD com 161 GB de espaço disponível no lançamento"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows® 11 64 Bit (atualização mais recente)",
+        "Processador: AMD Ryzen™ 5 1600X ou Intel® Core™ i7-6700K",
+        "Memória: 12 GB de RAM",
+        "Placa de vídeo: AMD Radeon™ RX 6600XT ou NVIDIA® GeForce® RTX 3060 ou Intel® Arc™ B580",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Outras observações: SSD com 161 GB de espaço disponível no lançamento"
+      ]
+    }
+  },
+  "counter-strike-2": {
+    "legenda": "Há mais de duas décadas, o Counter-Strike oferece uma experiência competitiva de elite moldada por milhões de jogadores mundialmente. Agora, o próximo capítulo da história do CS vai começar. Isso é Counter-Strike 2.",
+    "historia": "Há mais de duas décadas, o Counter-Strike oferece uma experiência competitiva de elite moldada por milhões de jogadores mundialmente. Agora, o próximo capítulo da história do CS vai começar. Isso é Counter-Strike 2.\n\nUma atualização gratuita para o CS:GO, o Counter-Strike 2 é o maior salto tecnológico na história da série. Feito na engine Source 2, o Counter-Strike 2 foi modernizado com renderização realística baseada na física, mecanismos de conexão de ponta e ferramentas da Oficina aprimoradas.\n\nAlém da clássica jogabilidade focada em objetivos, marca registrada da série Counter-Strike desde 1999, o Counter-Strike 2 inclui:\n\nInédita CSficação no modo Especial atualizado.\n\nTabelas de classificação mundiais e regionais.\n\nMapas aprimorados e reformulados.\n\nGranadas de fumaça dinâmicas inovadoras.\n\nJogabilidade independente da taxa de atualização ( ticks ) do servidor.\n\nEfeitos visuais e sonoros refeitos.\n\nTodos os itens do CS:GO.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Grátis para Jogar"
+    ],
+    "trailer": {
+      "titulo": "Launch Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256972298/movie.293x165.jpg?t=1696005467",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256972298/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_796601d9d67faf53486eeb26d0724347cea67ddc.600x338.jpg?t=1784564069"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_d830cfd0550fbb64d80e803e93c929c3abb02056.600x338.jpg?t=1784564069"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_13bb35638c0267759276f511ee97064773b37a51.600x338.jpg?t=1784564069"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.600x338.jpg?t=1784564069"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_ef82850f036dac5772cb07dbc2d1116ea13eb163.600x338.jpg?t=1784564069"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.1920x1080.jpg?t=1784564069",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/ss_76f6730dbb911650ba1f41c8e5b4bac638b5beea.600x338.jpg?t=1784564069"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO: Windows® 10",
+        "Processador: Processador com 4 threads físicas — Intel® Core™ i5 750 ou superior",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: A placa de vídeo deve ter 1 GB ou mais de memória, e ser compatível com DirectX 11 e Shader Model 5.0",
+        "DirectX: Versão 11",
+        "Armazenamento: 85 GB de espaço disponível"
+      ],
+      "recomendado": []
+    }
+  },
+  "grand-theft-auto-v-legacy": {
+    "legenda": "Grand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).",
+    "historia": "Quando um malandro de rua, um ladrão de bancos aposentado e um psicopata aterrorizante se envolvem com alguns dos criminosos mais assustadores e loucos do submundo, o governo dos EUA e a indústria do entretenimento, eles devem realizar golpes ousados para sobreviver nessa cidade implacável onde não podem confiar em ninguém, nem mesmo um no outro.\n\r\n\n\r\nGrand Theft Auto V para PC oferece aos jogadores a opção de explorar o gigantesco e premiado mundo de Los Santos e Blaine County em resoluções de até 4K e além, assim como a chance de experimentar o jogo rodando a 60 FPS (quadros por segundo).\n\r\n\n\r\nO jogo oferece uma ampla seleção de opções de personalização específicas para o PC, com mais de 25 configurações separadas para qualidade de textura, sombreamentos, suavização de bordas e muito mais. Além disso, ele contém diversas opções de personalização dos controles de mouse e teclado. Entre as opções adicionais estão a densidade da população, o controle do tráfego de carros e pedestres, suporte para dois ou três monitores, compatibilidade com telas 3D e suporte para controle plug-and-play.\n\r\n\n\r\nGrand Theft Auto V para PC inclui o Grand Theft Auto Online, com suporte para até 30 jogadores e dois espectadores. Grand Theft Auto Online para PC inclui todas as atualizações de jogo e conteúdos criados pela Rockstar lançados desde que Grand Theft Auto Online foi ao ar, incluindo os recém-lançados Golpes e Modos Adversários.\n\r\n\n\r\nA versão para PC do Grand Theft Auto V e Grand Theft Auto Online apresenta o Modo em Primeira Pessoa, que dá aos jogadores a chance de explorar o mundo incrivelmente detalhado de Los Santos e Blaine County de uma maneira completamente nova.\n\r\n\n\r\nGrand Theft Auto V para PC também traz a estreia do Editor Rockstar, um poderoso conjunto de ferramentas criativ",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura"
+    ],
+    "trailer": {
+      "titulo": "GTA Online: Oscar Guzman Flies Again EN NR",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257109786/974f93db1b97f206de6f21d585524d598cdbe137/movie_600x337.jpg?t=1741119978",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/257109786/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg?t=1765387725"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg?t=1765387725"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg?t=1765387725"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bd5db78286be0a7c6b2c62519099a9e27e6b06f3.600x338.jpg?t=1765387725"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_b1a1cb7959d6a0e6fcb2d06ebf97a66c9055cef3.600x338.jpg?t=1765387725"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.1920x1080.jpg?t=1765387725",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1765387725"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 64 Bit",
+        "Processador: Intel Core 2 Quad CPU Q6600 @ 2.40 GHz (4 CPUs) / AMD Phenom 9850 Quad-Core (4 CPUs) @ 2.5 GHz",
+        "Memória: 4 GB de RAM",
+        "Placa de vídeo: NVIDIA 9800 GT 1 GB / AMD HD 4870 1 GB (DX 10, 10.1, 11)",
+        "Armazenamento: 125 GB de espaço disponível",
+        "Placa de som: 100% compatível com DirectX 10",
+        "Outras observações: Com o decorrer do tempo, conteúdos para download e modificações na programação poderão alterar os requisitos de sistema deste jogo. Entre em contato com o fabricante do seu equipamento e visite para informações de compatibilidade atualizadas. Alguns componentes do sistema, como chipsets móveis, integrados e placas AGP podem ser incompatíveis. Especificações não listadas também podem não ser compatíveis. Outros requisitos: A instalação e jogo online requerem uma conta na rede Social Club da Rockstar Games (para maiores de 13 anos); uma conexão com a internet é necessária para a ativação, jogo online e verificações de autenticidade periódicas; instalação de softwares necessários, incluindo a plataforma Social Club da Rockstar Games, DirectX , Chromium, Microsoft Visual C++ 2008 sp1 Redistributable Package, e o software de autenticação para o reconhecimento de certos atributos de hardware para verificação, gerenciamento de direitos digitais, sistema e assistência ao cliente. É NECESSÁRIO O USO DE UM CÓDIGO DE REGISTRO DE USO ÚNICO VIA INTERNET; O REGISTRO É LIMITADO A UMA CONTA DO SOCIAL CLUB DA ROCKSTAR GAMES (MAIORES DE 13 ANOS) POR CÓDIGO DE SÉRIE; SOMENTE UMA CONTA DE PC PODE SER USADA POR CADA CONTA DO SOCIAL CLUB AO MESMO TEMPO; O(S) CÓDIGO(S) DE SÉRIE NÃO É(SÃO) TRANSFERÍVEL(IS) APÓS O USO; AS CONTAS DO SOCIAL CLUB NÃO SÃO TRANSFERÍVEIS. Requisitos de Parceiros: Verifique os termos de serviço deste site antes da compra."
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 64 Bit",
+        "Processador: Intel Core i5 3470 @ 3.2 GHZ (4 CPUs) / AMD X8 FX-8350 @ 4 GHZ (8 CPUs)",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA GTX 660 2 GB / AMD HD7870 2 GB",
+        "Armazenamento: 125 GB de espaço disponível",
+        "Placa de som: 100% compatível com DirectX 10"
+      ]
+    }
+  },
+  "cyberpunk-2077": {
+    "legenda": "Cyberpunk 2077 é um RPG de ação e aventura em mundo aberto que se passa em Night City, uma megalópole perigosa onde todos são obcecados por poder, glamour e alterações corporais.",
+    "historia": "",
+    "tempo_medio": "",
+    "tags": [
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "\"Cyberpunk 2077: Ultimate Edition\" — City of Dreams",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257081132/885331d24a8e88a0a90903f588835ed38b2f82cf/movie_600x337.jpg?t=1734434783",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/257081132/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.600x338.jpg?t=1784714077"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.600x338.jpg?t=1784714077"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_af2804aa4bf35d4251043744412ce3b359a125ef.600x338.jpg?t=1784714077"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_7924f64b6e5d586a80418c9896a1c92881a7905b.600x338.jpg?t=1784714077"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_4eb068b1cf52c91b57157b84bed18a186ed7714b.600x338.jpg?t=1784714077"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.1920x1080.jpg?t=1784714077",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1784714077"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: Core i7-6700 or Ryzen 5 1600",
+        "Memória: 12 GB de RAM",
+        "Placa de vídeo: GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380",
+        "DirectX: Versão 12",
+        "Armazenamento: 70 GB de espaço disponível",
+        "Outras observações: SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately."
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: Core i7-12700 or Ryzen 7 7800X3D",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770",
+        "DirectX: Versão 12",
+        "Armazenamento: 70 GB de espaço disponível",
+        "Outras observações: SSD required."
+      ]
+    }
+  },
+  "apex-legendstm": {
+    "legenda": "Apex Legends é o premiado jogo de tiro em primeira pessoa de heróis e heroínas da Respawn Entertainment. Domine um elenco cada vez mais amplo de personagens lendários com habilidades poderosas, experimente partidas estratégicas e a jogabilidade inovadora na próxima evolução do gênero battle royale.",
+    "historia": "Domine com personalidade em Apex Legends, um jogo de tiro grátis* no qual personagens lendários com habilidades poderosas se unem para lutar por fama e fortuna na Fronteira.\n\nDomine um elenco diverso de Lendas, jogabilidade tática de equipe e inovações ousadas que elevam o nível da experiência battle royale, tudo dentro de um mundo inóspito onde vale tudo. Esta é a próxima evolução do jogo de tiro de heroísmo.\n\nCARACTERÍSTICAS PRINCIPAIS: \n\nEste jogo inclui compras opcionais de moeda virtual dentro do jogo, que pode ser usada para adquirir itens virtuais do jogo, incluindo uma seleção aleatória de itens virtuais do jogo.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Grátis para Jogar"
+    ],
+    "trailer": {
+      "titulo": "Apex Legends: Marked Gameplay Trailer EN  ",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391801/a8d21c02f35b1aea10893708f9f744552f770377/movie_600x337.jpg?t=1786031865",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/1172470/1182889611/d98a0365413af7dca2b67039b260d8849a97627d/1785867041/hls_264_master.m3u8?t=1786031865"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2/ss_3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2/ss_3fc2dfcf0e8d7d7202a3ca32ae26c7afaec723e2.600x338.jpg?t=1786031871"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d64ce54903a3ba6429c6e3189ad746a7db70ee3e/ss_d64ce54903a3ba6429c6e3189ad746a7db70ee3e.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d64ce54903a3ba6429c6e3189ad746a7db70ee3e/ss_d64ce54903a3ba6429c6e3189ad746a7db70ee3e.600x338.jpg?t=1786031871"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6593905f527d4b1bf01b0bb148b9c9a39616a2e4/ss_6593905f527d4b1bf01b0bb148b9c9a39616a2e4.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6593905f527d4b1bf01b0bb148b9c9a39616a2e4/ss_6593905f527d4b1bf01b0bb148b9c9a39616a2e4.600x338.jpg?t=1786031871"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6/ss_d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6/ss_d8a07de4444fb8f43ad19c7aa9e3fa8e26eb94d6.600x338.jpg?t=1786031871"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4a30ba1dd184e8ebdbab3814ea3726008647ea17/ss_4a30ba1dd184e8ebdbab3814ea3726008647ea17.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/4a30ba1dd184e8ebdbab3814ea3726008647ea17/ss_4a30ba1dd184e8ebdbab3814ea3726008647ea17.600x338.jpg?t=1786031871"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f880e64654baad384f3afb9e4b0004e411770241/ss_f880e64654baad384f3afb9e4b0004e411770241.1920x1080.jpg?t=1786031871",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/f880e64654baad384f3afb9e4b0004e411770241/ss_f880e64654baad384f3afb9e4b0004e411770241.600x338.jpg?t=1786031871"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+        "Memória: 6 GB de RAM",
+        "Placa de vídeo: AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 75 GB de espaço disponível",
+        "Outras observações: ~3.8GB for 1 localized language"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: Ryzen 5 CPU or Equivalent",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 75 GB de espaço disponível",
+        "Outras observações: ~3.8GB for 1 localized language"
+      ]
+    }
+  },
+  "red-dead-redemption-2": {
+    "legenda": "Arthur Morgan e a gangue Van der Linde são forçados a fugir. Com agentes federais e caçadores de recompensas no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos.",
+    "historia": "Estados Unidos, 1899. Arthur Morgan e a gangue Van der Linde são bandidos em fuga. Com agentes federais e os melhores caçadores de recompensa no seu encalço, a gangue precisa roubar, assaltar e lutar para sobreviver no impiedoso coração dos Estados Unidos. Conforme divisões internas profundas ameaçam despedaçar a gangue, Arthur deve fazer uma escolha entre os seus próprios ideais e a lealdade à gangue que o criou. \n\r\n\n\r\nVencedor de mais de 175 prêmios de Jogo do Ano e avaliado com mais de 250 notas máximas, Red Dead Redemption 2 é uma história épica de honra e lealdade no alvorecer dos tempos modernos. \n\r\n\n\r\nRed Dead Redemption 2 inclui também Red Dead Online, a experiência multijogador ambientada no mundo vivo de Red Dead Redemption 2: cavalgue só ou forme um Bando; produza moonshine; lute contra autoridades, gangues de fora da lei, animais silvestres ferozes e muito mais à medida que traça seu próprio caminho na fronteira dos EUA.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura"
+    ],
+    "trailer": {
+      "titulo": "RDR2 60 FPS Trailer (BR)",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256768244/movie.293x165.jpg?t=1574881606",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256768244/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg?t=1759502961",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg?t=1759502961"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg?t=1759502961",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1759502961"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg?t=1759502961",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.600x338.jpg?t=1759502961"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.1920x1080.jpg?t=1759502961",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.600x338.jpg?t=1759502961"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.1920x1080.jpg?t=1759502961",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.600x338.jpg?t=1759502961"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 - 64-bit",
+        "Processador: Intel® Core™ i5-2500K / AMD FX-6300",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: Nvidia GeForce GTX 770 2GB / AMD Radeon R9 280 3GB",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 150 GB de espaço disponível",
+        "Placa de som: Direct X Compatible"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 - 64-bit",
+        "Processador: Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+        "Memória: 12 GB de RAM",
+        "Placa de vídeo: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 150 GB de espaço disponível",
+        "Placa de som: Direct X Compatible"
+      ]
+    }
+  },
+  "elden-ring": {
+    "legenda": "O NOVO RPG DE AÇÃO E FANTASIA. Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+    "historia": "O NOVO RPG DE AÇÃO E FANTASIA.\nLevante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.\n\n• Um mundo vasto e emocionante\nUm mundo vasto onde campos abertos e uma variedade de situações e masmorras imensas, com complexos designs tridimensionais se conectam com fluidez. Conforme explora, sinta a alegria de descobrir poderosas e desconhecidas ameaças que aguardam por você, levando a um grande senso de conquista.\n\n• Crie seu próprio personagem\nAlém de personalizar a aparência do seu personagem, você pode combinar livremente armas, armaduras e magias que equipar. Você pode desenvolver seu personagem de acordo com seu estilo de jogo, como aumentar a força muscular para se tornar um poderoso guerreiro, ou dominar a magia.\n\n• Um drama épico nascido de um mito\nUma história cheia de camadas, contada em fragmentos. Um drama épico onde os vários pensamentos dos personagens se interligam nas Terras Intermédias.\n\n• Jogo on-line único que conecta você livremente aos outros\nAlém do multijogador, onde você pode se conectar diretamente com outros jogadores e viajarem juntos, o jogo suporta um elemento on-line assíncrono único que permite que você sinta a presença dos outros.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "ELDEN RING Accolades Trailer - UNRATED",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256889456/movie.293x165.jpg?t=1654109241",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256889456/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.600x338.jpg?t=1784684281"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.600x338.jpg?t=1784684281"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.600x338.jpg?t=1784684281"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_e0316c76f8197405c1312d072b84331dd735d60b.600x338.jpg?t=1784684281"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_ef61b771ee6b269b1f0cb484233e07a0bfb5f81b.600x338.jpg?t=1784684281"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.1920x1080.jpg?t=1784684281",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/ss_b1b91299d7e4b94201ac840aa64de54d9f5cb7f3.600x338.jpg?t=1784684281"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10",
+        "Processador: INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+        "Memória: 12 GB de RAM",
+        "Placa de vídeo: NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB",
+        "DirectX: Versão 12",
+        "Armazenamento: 60 GB de espaço disponível",
+        "Placa de som: Windows Compatible Audio Device",
+        "Outras observações:"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10/11",
+        "Processador: INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB",
+        "DirectX: Versão 12",
+        "Armazenamento: 60 GB de espaço disponível",
+        "Placa de som: Windows Compatible Audio Device",
+        "Outras observações:"
+      ]
+    }
+  },
+  "mortal-kombat-1": {
+    "legenda": "Descubra um Universo renascido de Mortal Kombat™criado pelo Deus do Fogo Liu Kang. Mortal Kombat™ 1 inaugura uma nova era da franquia icônica com um novo sistema de luta, modos de jogo e fatalities!",
+    "historia": "Está no Nosso Sangue! \nDescubra um Universo renascido de Mortal Kombat™ criado pelo Deus do Fogo Liu Kang. \n\nNovas Origens \nRefletindo a visão de perfeição do Deus do Fogo Liu Kang, o novo universo de Mortal Kombat 1 é familiar, mas totalmente alterado.\n\nInvasões \nInvasões é uma campanha dinâmica para um jogador com uma variedade de desafios distintos. Com progressão integrada e mecânica de RPG, misturada com a incrível ação de luta de MK1, Invasões oferece desafios profundos e envolventes, além de muitas recompensas ao longo do caminho.\n\nParcerias \nParcerias aprimoram cada luta, auxiliando companheiros de equipe com seus próprios movimentos especiais, arremessos e quebra-kombos defensivos.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação"
+    ],
+    "trailer": {
+      "titulo": "Gameplay Reveal Trailer WW",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256961704/81b7876759c2ded02b1b07025e14b15bb8c40733/movie_600x337.jpg?t=1778795127",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256961704/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_7eb14734a264570367c607698371e492415f48a4.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_7eb14734a264570367c607698371e492415f48a4.600x338.jpg?t=1778795130"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_29b0a9e87d5a4981d7403994b661c43117a87d84.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_29b0a9e87d5a4981d7403994b661c43117a87d84.600x338.jpg?t=1778795130"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.600x338.jpg?t=1778795130"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_02b8c4f08fbf4d1a5affb9e6e64716d63df16760.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_02b8c4f08fbf4d1a5affb9e6e64716d63df16760.600x338.jpg?t=1778795130"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_2509da69bd12d209bd0ef9eed13f25cfa551f8e5.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_2509da69bd12d209bd0ef9eed13f25cfa551f8e5.600x338.jpg?t=1778795130"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_fc0fd6c946a9f182bf8f0059bf4260ff07b0fec7.1920x1080.jpg?t=1778795130",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971870/ss_fc0fd6c946a9f182bf8f0059bf4260ff07b0fec7.600x338.jpg?t=1778795130"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 64-bit",
+        "Processador: Intel® Core™ i5-6600 | AMD Ryzen™ 3 3100 or Ryzen™ 5 2600",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: Nvidia GeForce® GTX 1660 or AMD Radeon™ RX 590 or Intel® Arc™ A750",
+        "DirectX: Versão 12",
+        "Armazenamento: 140 GB de espaço disponível",
+        "Outras observações: SSD (Preferred for full online cross-play capabilities), HDD (Supported), 1080p/Low"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10/11 64-bit",
+        "Processador: Intel® Core™ i5-8400 | AMD Ryzen™ 5 3600X",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: Nvidia GeForce® GTX 2080 Ti or AMD Radeon™ RX 5700 XT or Intel® Arc™ A770",
+        "DirectX: Versão 12",
+        "Armazenamento: 140 GB de espaço disponível",
+        "Outras observações: SSD, 1440p/High"
+      ]
+    }
+  },
+  "the-last-of-ustm-parte-i": {
+    "legenda": "Descubra o jogo premiado que inspirou a série de TV aclamada pela crítica. Desbrave a América pós-apocalíptica com Joel e Ellie e conheça aliados e inimigos inesquecíveis em The Last of Us™.",
+    "historia": "Conheça a história emocionante e os personagens inesquecíveis de The Last of Us™, vencedor de mais de 200 prêmios de Jogo do Ano.\n\nEm uma civilização devastada, em que infectados e sobreviventes veteranos estão à solta, Joel, um protagonista abatido, é contratado para tirar uma garota de 14 anos, Ellie, de uma zona de quarentena militar. No entanto, o que começa como um pequeno serviço se transforma em uma jornada brutal através do país. \nInclui a campanha de The Last of Us e o aclamado capítulo anterior à trama, Left Behind, que explora os eventos que mudaram para sempre as vidas de Ellie e sua melhor amiga, Riley. \nFeito para o PC\nO lançamento de The Last of Us™ Part I para PC traz vários recursos da plataforma para dar vida à jornada tensa e inesquecível de Joel and Ellie. Esta versão de The Last of Us™ Part I é otimizada para a plataforma, com várias melhorias de qualidade de vida específicas para PC. Part I será compatível com AMD FSR 2.2 e Nvidia DLSS Super Resolution*, terá opções de VSync e limite de taxa de quadros, além de diversos recursos criados exclusivamente para PC, inclusive qualidade das texturas, sombras, reflexos, oclusão ambiental e mais. \n\nPor meio das experiências de Joel e Ellie, os jogadores no PC terão imersão total em ambientes deslumbrantes, embora aterradores, com detalhamento incrível em resoluções 4K reais**. Das ruas opressoras e cruéis da ZQ de Boston aos lares abandonados e cobertos de vegetação da Cidade do Bill e muito mais, embarque em uma jornada espetacular pelos Estados Unidos compatível com monitores ultra-wide nas proporções 21:9 e 32:9.\n\nExplore todos esses locais, esgueirando-se sorrateiramente por casas e cidades abandonadas (revirando gavetas e armários em busca de suprimentos) ou participe de momentos tensos e cativantes co",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura"
+    ],
+    "trailer": {
+      "titulo": "Launch Trailer (BR-PT)",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256936983/movie.293x165.jpg?t=1680015334",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256936983/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3f1805ecddafacee7f61f87cb8e4624435a83ee3.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3f1805ecddafacee7f61f87cb8e4624435a83ee3.600x338.jpg?t=1750959031"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_89fffc2857dcae29dee2a09f1be33d745610e19d.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_89fffc2857dcae29dee2a09f1be33d745610e19d.600x338.jpg?t=1750959031"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_8cd55ab975b2e47f4d4d9a0da4ae6948040ef807.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_8cd55ab975b2e47f4d4d9a0da4ae6948040ef807.600x338.jpg?t=1750959031"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_f4829000d3677a9b5b2f234482a7deff12b31ac9.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_f4829000d3677a9b5b2f234482a7deff12b31ac9.600x338.jpg?t=1750959031"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3bed642215856b863799884f6f11671a1ef014d4.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_3bed642215856b863799884f6f11671a1ef014d4.600x338.jpg?t=1750959031"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_a80060b89b2c81121c2d7a3fc2a3b13ddc18a0a6.1920x1080.jpg?t=1750959031",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1888930/ss_a80060b89b2c81121c2d7a3fc2a3b13ddc18a0a6.600x338.jpg?t=1750959031"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 (Version 1909 or Newer)",
+        "Processador: AMD Ryzen 5 1500X, Intel Core i7-4770K",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 470 (4 GB), AMD Radeon RX 6500 XT (4 GB), NVIDIA GeForce GTX 970 (4 GB), NVIDIA GeForce GTX 1050 Ti (4 GB)",
+        "Armazenamento: 100 GB de espaço disponível",
+        "Outras observações: SSD Recommended"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 (Version 1909 or Newer)",
+        "Processador: AMD Ryzen 5 3600X, Intel Core i7-8700",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 5700 XT (8 GB), AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 2070 SUPER (8 GB), NVIDIA GeForce RTX 3060 (8 GB)",
+        "Armazenamento: 100 GB de espaço disponível",
+        "Outras observações: SSD Recommended"
+      ]
+    }
+  },
+  "baldurs-gate-3": {
+    "legenda": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+    "historia": "Reúna seu grupo e volte aos Reinos Esquecidos em uma história de amizade e traição, sacrifício e sobrevivência, e tentação pelo poder absoluto.\n\nHabilidades misteriosas despertam em você, semeadas por um parasita devorador de mentes no seu cérebro. Resista e faça a escuridão ruir a si mesma, ou aceite a corrupção e torne-se o mal supremo.\n\nDos criadores de Divinity: Original Sin 2, este é um RPG da nova geração situado no mundo de Dungeons and Dragons.\n\nEscolha dentre diversas raças e classes de D&D ou assuma o papel de um personagem original com um histórico detalhado. Aventure-se, saqueie, lute e envolva-se em romances ao longo da sua jornada pelos Reinos Esquecidos e além. Jogue solo e escolha seus companheiros com cuidado, ou jogue em grupo com até quatro amigos no multijogador.\n\nVítima de um rapto e sem rumo, você está se transformando em um monstro devido a uma infecção. No entanto, quanto mais a corrupção se desenvolve, mais forte você fica. Este poder tem seus benefícios, mas também um preço a pagar. E, mais do que qualquer habilidade, os laços de confiança que nutrir com seus companheiros podem ser sua maior força. Em meio a um conflito entre demônios, divindades e forças sobrenaturais sinistras, o destino dos Reinos Esquecidos está em suas mãos.\n\nForjado a partir da nova engine Divinity 4.0, Baldur's Gate 3 oferece liberdade de forma inédita para explorar, experimentar e interagir com um mundo que reage às suas escolhas. A narrativa grandiosa e cinematográfica tornam seus personagens mais envolventes do que nunca ao longo da sua aventura pelo maior dos nossos mundos.\n\nOs Reinos Esquecidos são um mundo vasto, rico e diverso, com segredos por toda a parte, prezando a verticalidade na exploração. Esgueire-se, impregne, empurre, escale e salte desde as profundezas",
+    "tempo_medio": "",
+    "tags": [
+      "Aventura",
+      "RPG",
+      "Estratégia"
+    ],
+    "trailer": {
+      "titulo": "Baldur's Gate 3 - Accolades Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256987424/movie.293x165.jpg?t=1702007645",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256987424/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_c73bc54415178c07fef85f54ee26621728c77504.600x338.jpg?t=1777363040"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_73d93bea842b93914d966622104dcb8c0f42972b.600x338.jpg?t=1777363040"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_cf936d31061b58e98e0c646aee00e6030c410cda.600x338.jpg?t=1777363040"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.600x338.jpg?t=1777363040"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_6b8faba0f6831a406ce015648958da9612d14dbb.600x338.jpg?t=1777363040"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.1920x1080.jpg?t=1777363040",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/ss_8fc5eba770b4a1639b31666908bdd2bbc1aa2ae4.600x338.jpg?t=1777363040"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 64-bit",
+        "Processador: Intel I5 4690 / AMD FX 8350 / Snapdragon X Elite",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: Nvidia GTX 970 / RX 480 / Intel Arc A380 / Qualcomm Adreno X1 (4GB+ of VRAM)",
+        "DirectX: Versão 11",
+        "Armazenamento: 150 GB de espaço disponível",
+        "Outras observações: SSD required"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 64-bit",
+        "Processador: Intel i7 8700K / AMD r5 3600",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: Nvidia 2060 Super / RX 5700 XT / Intel Arc A580 (8GB+ of VRAM)",
+        "DirectX: Versão 11",
+        "Armazenamento: 150 GB de espaço disponível",
+        "Outras observações: SSD required"
+      ]
+    }
+  },
+  "the-witcher-3-wild-hunt": {
+    "legenda": "Você é Geralt de Rívia, mercenário matador de monstros. Você está em um continente devastado pela guerra e infestado de monstros para você explorar à vontade. Sua tarefa é encontrar Ciri, a Criança da Profecia — uma arma viva que pode alterar a forma do mundo.",
+    "historia": "",
+    "tempo_medio": "",
+    "tags": [
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "W3NG PEGI The Witcher 3: Wild Hunt - Geralt and Ciri",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256927226/movie.293x165.jpg?t=1674829926",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256927226/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.600x338.jpg?t=1787688132"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.600x338.jpg?t=1787688132"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.600x338.jpg?t=1787688132"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.600x338.jpg?t=1787688132"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_107600c1337accc09104f7a8aa7f275f23cad096.600x338.jpg?t=1787688132"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.1920x1080.jpg?t=1787688132",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/ss_64eb760f9a2b67f6731a71cce3a8fb684b9af267.600x338.jpg?t=1787688132"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO *: 64-bit Windows 7, 64-bit Windows 8 (8.1)",
+        "Processador: Intel CPU Core i5-2500K 3.3GHz / AMD A10-5800K APU (3.8GHz)",
+        "Memória: 6 GB de RAM",
+        "Placa de vídeo: Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870",
+        "DirectX: Versão 11",
+        "Armazenamento: 50 GB de espaço disponível",
+        "Outras observações: *System requirements will change on 2026.09.29."
+      ],
+      "recomendado": [
+        "SO: 64-bit Windows 10/11",
+        "Processador: Intel Core i5-7400 / Ryzen 5 1600",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: Nvidia GTX 1070 / Radeon RX 480",
+        "DirectX: Versão 12",
+        "Armazenamento: 50 GB de espaço disponível",
+        "Outras observações: *System requirements will change on 2026.09.29."
+      ]
+    }
+  },
+  "pubg-battlegrounds": {
+    "legenda": "PUBG: BATTLEGROUNDS, o jogo de tiro de alto risco em que o vencedor leva tudo e que deu início ao fenômeno do Battle Royale, é gratuito! Entre em diversos mapas, saqueie armas e suprimentos exclusivos e sobreviva em uma zona cada vez menor, onde cada turno pode ser o último.",
+    "historia": "ATERRISAGEM  \n \nEntre em uma seleção de mapas que está em constante crescimento e sempre mudando  \npara manter o desafio fresco. Você escolherá os arredores mais seguros e correrá o risco de  \nnão conseguir saques suficientes ou cairá nas cidades densas e lutará desde o momento em  \nque chegar ao chão? Cada descida é diferente, e cabe a você fazer o melhor com o que  \nencontrar. \n\nSAQUE  \n   \nCom armas exclusivas, uma variedade de suprimentos e ferramentas especiais para superar seus adversários, você é quem decide como se equipar! Equipe suas armas favoritas com acessórios poderosos ou se arrisque a ir atrás dos disputadíssimos Pacotes de Ajuda para obter itens exclusivos que darão a vantagem que você precisa para vencer. \n\nSOBREVIVÊNCIA  \n  \nEstocar é apenas o começo. Com a Zona Segura ficando cada vez menor com o passar do tempo, seu risco de encontrar outros sobreviventes aumenta drasticamente. Se você morrer, estará fora. Você precisará ser mais esperto e mais rápido que seus adversários se quiser ser o último sobrevivente e conquistar a vitória no final. \n\nMUITAS MANEIRAS DE JOGAR  \n  \nFaça um aquecimento no Mata-Mata em Equipe, experimente os modos em constante mudança no Arcade, participe do mais recente evento sazonal ou crie seu próprio lobby personalizado e desafie seus amigos para algo único. \n\nE CADA PARTIDA É ÚNICA  \n   \nNão há duas batalhas iguais; tudo depende das escolhas que você faz para aterrissar, saquear e sobreviver. Entre nos Campos de Batalha, onde a vitória depende de cada movimento e de cada escolha. Lute para ser o último sobrevivente. \n\nCompras opcionais disponíveis no jogo.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Multijogador Massivo Online (MMO)",
+      "Grátis para Jogar"
+    ],
+    "trailer": {
+      "titulo": "RPD",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257396880/54e9218342178f9139f19eb7fa2d0a9854b9102a/movie_600x337.jpg?t=1786493084",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/578080/149606980/a6802ac8a3cb9f85eab879f3875c8924e6fab09d/1786492554/hls_264_master.m3u8?t=1786493084"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/c16e2f2d122cae77a1cbaca19263df0f2d2214fa/ss_c16e2f2d122cae77a1cbaca19263df0f2d2214fa.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/c16e2f2d122cae77a1cbaca19263df0f2d2214fa/ss_c16e2f2d122cae77a1cbaca19263df0f2d2214fa.600x338.jpg?t=1786493086"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/aa1c51a9b45c88e770b443d8d3cd28f3024b0760/ss_aa1c51a9b45c88e770b443d8d3cd28f3024b0760.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/aa1c51a9b45c88e770b443d8d3cd28f3024b0760/ss_aa1c51a9b45c88e770b443d8d3cd28f3024b0760.600x338.jpg?t=1786493086"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/bf9b3de5896d4ec7ef9531938b26946cded81fdf/ss_bf9b3de5896d4ec7ef9531938b26946cded81fdf.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/bf9b3de5896d4ec7ef9531938b26946cded81fdf/ss_bf9b3de5896d4ec7ef9531938b26946cded81fdf.600x338.jpg?t=1786493086"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/faa4f9f6caa9613f07fd1193a143f66e0fac489c/ss_faa4f9f6caa9613f07fd1193a143f66e0fac489c.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/faa4f9f6caa9613f07fd1193a143f66e0fac489c/ss_faa4f9f6caa9613f07fd1193a143f66e0fac489c.600x338.jpg?t=1786493086"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/3ae78fac4c07e9a2e2955286014355d6b7f3c8c7/ss_3ae78fac4c07e9a2e2955286014355d6b7f3c8c7.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/3ae78fac4c07e9a2e2955286014355d6b7f3c8c7/ss_3ae78fac4c07e9a2e2955286014355d6b7f3c8c7.600x338.jpg?t=1786493086"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/eb19c1ce924ff4689105242257b6d377ffe2e264/ss_eb19c1ce924ff4689105242257b6d377ffe2e264.1920x1080.jpg?t=1786493086",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/eb19c1ce924ff4689105242257b6d377ffe2e264/ss_eb19c1ce924ff4689105242257b6d377ffe2e264.600x338.jpg?t=1786493086"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: Intel Core i5-4430 / AMD FX-6300",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 40 GB de espaço disponível"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: 64-bit Windows 10",
+        "Processador: Intel Core i5-6600K / AMD Ryzen 5 1600",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 50 GB de espaço disponível"
+      ]
+    }
+  },
+  "dota-2": {
+    "legenda": "Diariamente, milhões de jogadores mundo afora batalham como um dentre os mais de cem heróis do Dota. Estejam jogando há 10 ou 1.000 horas, há sempre algo novo para descobrir. Com atualizações constantes das mecânicas, recursos e heróis, o Dota 2 se tornou mais que um simples jogo.",
+    "historia": "O jogo mais jogado no Steam. \nDiariamente, milhões de jogadores mundo afora batalham como um dentre os mais de cem heróis do Dota. Estejam jogando há 10 ou 1.000 horas, há sempre algo novo para descobrir. Com atualizações constantes das mecânicas, recursos e heróis, o Dota 2 se tornou mais que um simples jogo.\n\nUm campo de batalha. Infinitas possibilidades. \nQuando o assunto é diversidade de heróis, habilidades e itens poderosos, o Dota reina — não há duas partidas iguais. Qualquer herói pode se encaixar em várias funções, e há inúmeros itens para ajudar a atender às necessidades de cada partida. O Dota não limita como você deve jogar, permitindo que se expresse no seu estilo.\n\nTodos os heróis são gratuitos. \nO equilíbrio competitivo é a peça mais importante do Dota, e para garantir que todos estão em pé de igualdade, o conteúdo base do jogo — como o vasto elenco de heróis — está disponível a todos os jogadores. Fãs podem colecionar itens cosméticos para heróis e o mundo em que habitam, mas tudo o que precisa para jogar está liberado antes mesmo de entrar na primeira partida.\n\nChame os amigos e joguem juntos. \nO Dota é um jogo complexo e em constante evolução, mas nunca é tarde demais para começar. \nAprenda o básico jogando cooperativamente contra bots. Aprimore as suas habilidades no modo de teste de heróis. Entre de cabeça no sistema de criação de partidas, que usa o seu comportamento e nível de habilidade para garantir que você jogará com os jogadores certos a cada partida.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Estratégia",
+      "Grátis para Jogar"
+    ],
+    "trailer": {
+      "titulo": "Dota 2 - Join the Battle",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256692021/movie.293x165.jpg?t=1762820639",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256692021/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_ad8eee787704745ccdecdfde3a5cd2733704898d.600x338.jpg?t=1769535998"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_7ab506679d42bfc0c0e40639887176494e0466d9.600x338.jpg?t=1769535998"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_c9118375a2400278590f29a3537769c986ef6e39.600x338.jpg?t=1769535998"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.600x338.jpg?t=1769535998"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_27b6345f22243bd6b885cc64c5cda74e4bd9c3e8.600x338.jpg?t=1769535998"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.1920x1080.jpg?t=1769535998",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/570/ss_b33a65678dc71cc98df4890e22a89601ee56a918.600x338.jpg?t=1769535998"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO *: Windows 7 ou posterior",
+        "Processador: Processador com dois núcleos da Intel ou AMD (2,8 GHz)",
+        "Memória: 4 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 60 GB de espaço disponível",
+        "Placa de som: Compatibilidade com DirectX"
+      ],
+      "recomendado": []
+    }
+  },
+  "rust": {
+    "legenda": "O único objetivo no Rust é sobreviver. Tudo contribui para sua morte: os animais selvagens da ilha, outros habitantes, o ambiente e outros sobreviventes. Faça o que for preciso para durar mais uma noite.",
+    "historia": "O único objetivo no Rust é sobreviver. Tudo contribui para sua morte: os animais selvagens da ilha, outros habitantes, o ambiente e outros sobreviventes. Faça o que for preciso para durar mais uma noite.\n\nSOBRE ESTE JOGO\nO único objetivo no Rust é sobreviver. Tudo contribui para sua morte: os animais selvagens da ilha, outros habitantes, o ambiente e outros sobreviventes. Faça o que for preciso para durar mais uma noite.\n\nO Rust está em seu 13º ano de expansão contínua e teve mais de 395 atualizações de conteúdo, com um patch mensal de conteúdo garantido. As atualizações incluíram correções de balanceamento, melhorias na IA e nos gráficos, além de atualizações nos ambientes e a inclusão frequente de conteúdo, como novos mapas, mais armas, veículos adicionais e muitos objetos utilitários. Fique de olho nos eventos sazonais, pois sempre há algo interessante ou perigoso (ou ambos) acontecendo na ilha. \nAs atualizações no jogo incluem:\n\nMundos gerados automaticamente, com suporte para editor de mapas da comunidade.\n\nHospede seus próprios servidores e adicione mods direto no servidor.\n\nTransporte: cavalos, carros modulares, balões de ar quente, helicópteros, motos, barcos, trens e muito mais.\n\nConstrução e invasão de bases.\n\nNovas facções, inimigos e animais selvagens.\n\nÁreas submersas avançadas para descobrir.\n\nSistemas complexos de eletricidade, agricultura e automação.\n\nNovos monumentos, terrenos e áreas para explorar.\n\nGrandes redes ferroviárias subterrâneas e de superfície.\n\nInstrumentos musicais e a capacidade de se apresentar para os jogadores.\n\nRenovação dos gráficos e reformulação do ambiente.\n\nModo de jogo Primitivo, armas de cerco e veículos adicionados. \n\nNovo bioma Selva com mais animais selvagens, missões e monumentos.  \n\nNovas inclusões em 2026: Barcos modular",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Indie",
+      "Multijogador Massivo Online (MMO)",
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "Official Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256684736/movie.293x165.jpg?t=1699598112",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256684736/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.600x338.jpg?t=1781536981"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_e825b087b95e51c3534383cfd75ad6e8038147c3.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_e825b087b95e51c3534383cfd75ad6e8038147c3.600x338.jpg?t=1781536981"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.600x338.jpg?t=1781536981"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/69dc23d53163b755e809a562a377bd276154c70e/ss_69dc23d53163b755e809a562a377bd276154c70e.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/69dc23d53163b755e809a562a377bd276154c70e/ss_69dc23d53163b755e809a562a377bd276154c70e.600x338.jpg?t=1781536981"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.600x338.jpg?t=1781536981"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_d0fdacaeef5a28a7cee525fd73376adfe083c964.1920x1080.jpg?t=1781536981",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/252490/ss_d0fdacaeef5a28a7cee525fd73376adfe083c964.600x338.jpg?t=1781536981"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 11 64bit",
+        "Processador: AMD Ryzen 5 1400 or Intel Core i5-6600",
+        "Memória: 12 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 470, NVIDIA GeForce GTX 1060, Intel® Arc™ A580",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 45 GB de espaço disponível",
+        "Outras observações: SSD is highly recommended or expect longer than average load times."
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 11 64bit",
+        "Processador: AMD Ryzen 7 3700X or Intel® Core i7-6700K",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 6600XT, NVIDIA GeForce RTX 3060, Intel Arc B580",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 45 GB de espaço disponível",
+        "Outras observações: SSD Required"
+      ]
+    }
+  },
+  "stardew-valley": {
+    "legenda": "Você herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?",
+    "historia": "Você está de mudança para o Vale...\n\nVocê herdou a antiga fazenda do seu avô, em Stardew Valley. Com ferramentas de segunda-mão e algumas moedas, você parte para dar início a sua nova vida. Será que você vai aprender a viver da terra, a transformar esse matagal em um próspero lar?\n\nCrie a fazenda dos seus sonhos! Construa sua fazenda do zero em 1 de 5 mapas diferentes.\n\nDomine as técnicas da agropecuária! Crie animais, plantações, máquinas úteis e muito mais.\n\nFaça parte de uma comunidade local! Faça amizade com mais de 30 moradores diferentes de Pelican Town.\n\nPersonalize seu fazendeiro! Escolha entre centenas de opções para modificar seu personagem.\n\nOrganize-se e crie uma família! Compartilhe sua vida na fazenda em um relacionamento com 1 entre 12 personagens disponíveis.\n\nExplore cavernas vastas e misteriosas! Encontre monstros perigosos e tesouros valiosos.",
+    "tempo_medio": "",
+    "tags": [
+      "Indie",
+      "RPG",
+      "Simulação"
+    ],
+    "trailer": {
+      "titulo": "Stardew Valley Trailer 1080p",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256815967/movie.293x165.jpg?t=1754692862",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256815967/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_b887651a93b0525739049eb4194f633de2df75be.600x338.jpg?t=1786554168"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.600x338.jpg?t=1786554168"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_4fa0866709ede3753fdf2745349b528d5e8c4054.600x338.jpg?t=1786554168"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.600x338.jpg?t=1786554168"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_c32865684c8d45b3f57fbb1e93bfa47c2a845cbf.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_c32865684c8d45b3f57fbb1e93bfa47c2a845cbf.600x338.jpg?t=1786554168"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.1920x1080.jpg?t=1786554168",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/ss_6422d297347258086b389e3d5d9c0e0c698312e4.600x338.jpg?t=1786554168"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO *: Windows Vista or greater",
+        "Processador: 2 Ghz",
+        "Memória: 2 GB de RAM",
+        "Placa de vídeo: 256 mb video memory, shader model 3.0+",
+        "DirectX: Versão 10",
+        "Armazenamento: 500 MB de espaço disponível"
+      ],
+      "recomendado": []
+    }
+  },
+  "hades": {
+    "legenda": "Desafie o deus dos mortos enquanto você batalha para sair do Submundo neste jogo roguelike dos mesmos criadores de Bastion, Transistor e Pyre.",
+    "historia": "Hades é um jogo roguelike que combina os melhores aspectos dos títulos da Supergiant aclamados pela crítica, incluindo a ação rápida de Bastion , a rica atmosfera e profundidade de Transistor e a narrativa baseada em personagens de Pyre . LUTE PARA SAIR DO INFERNO\nNa pele do imortal Príncipe do Submundo, você usará os poderes e as armas míticas do Olimpo para se libertar das garras do deus dos mortos, enquanto se fortalece e descobre mais sobre a história a cada tentativa única de fuga. LIBERE A FÚRIA DO OLIMPO\nOs deuses do Olimpo vão te ajudar! Conheça Zeus, Atena, Poseidon e muitos outros, e escolha entre dezenas de Dádivas poderosas que aprimoram suas habilidades. Existem milhares de construções possíveis de personagens para descobrir à medida que avança.\n\nFAÇA AMIZADE COM DEUSES, FANTASMAS E MONSTROS\nUm elenco repleto de vozes de personagens pitorescos e impressionantes está esperando para conhecê-lo! Aprimore seu relacionamento com eles e vivencie centenas de eventos únicos da história enquanto aprende sobre o que realmente está em jogo para esta grande e disfuncional família. CONSTRUÍDO PARA REJOGABILIDADE\nNovas surpresas aguardam cada vez que você mergulhar no Submundo em constante mudança, repleto de chefes guardiões que nunca se esquecem de você. Use o poderoso Espelho da Noite para ficar permanentemente mais forte e aprimore suas habilidades na próxima vez que fugir de casa. NADA É IMPOSSÍVEL\nAtualizações permanentes significam que você não precisa ser um deus para vivenciar combates e histórias emocionantes. No entanto, se você é um deles, aceite o desafio e prepare-se para a ação emocionante que colocará suas habilidades bem praticadas à prova.\n\nCLÁSSICO ESTILO SUPERGIANT\nA apresentação rica e atmosférica e a combinação única de jogabilidade e narrativa, ess",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Indie",
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "Hades - v1.0 Launch Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256801252/movie.293x165.jpg?t=1600353465",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256801252/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_c0fed447426b69981cf1721756acf75369801b31.600x338.jpg?t=1758127023"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_fa48b583bfd1423561c6efdd6690b30acd85887c.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_fa48b583bfd1423561c6efdd6690b30acd85887c.600x338.jpg?t=1758127023"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_68300459a8c3daacb2ec687adcdbf4442fcc4f47.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_68300459a8c3daacb2ec687adcdbf4442fcc4f47.600x338.jpg?t=1758127023"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_bcb499a0dd001f4101823f99ec5094d2872ba6ee.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_bcb499a0dd001f4101823f99ec5094d2872ba6ee.600x338.jpg?t=1758127023"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8e07e477fa7ff2f88c8984bc89b9652a655da0e9.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_8e07e477fa7ff2f88c8984bc89b9652a655da0e9.600x338.jpg?t=1758127023"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_34e6660705cfe47d2b2f95189c37f7cb77f75ca6.1920x1080.jpg?t=1758127023",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1145360/ss_34e6660705cfe47d2b2f95189c37f7cb77f75ca6.600x338.jpg?t=1758127023"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO *: Windows 7 SP1",
+        "Processador: Dual Core 2.4 GHz",
+        "Memória: 4 GB de RAM",
+        "Placa de vídeo: 1GB VRAM / DirectX 10+ support",
+        "Armazenamento: 15 GB de espaço disponível"
+      ],
+      "recomendado": [
+        "SO *: Windows 7 SP1",
+        "Processador: Dual Core 3.0 GHz+",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: 2GB VRAM / DirectX 10+ support",
+        "Armazenamento: 20 GB de espaço disponível"
+      ]
+    }
+  },
+  "hollow-knight": {
+    "legenda": "Forje seu caminho em Hollow Knight! Uma aventura de ação épica em um vasto reino arruinado de insetos e heróis. Explore cavernas serpenteantes, lute contra criaturas malignas e alie-se a insetos bizarros num estilo clássico 2D desenhado à mão.",
+    "historia": "Hollow Knight se expande com Conteúdo Grátis\n\nDeus Mestre \n\nSangue Vital \n\nA Trupe Grimm - Acenda a Lanterna do Pesadelo. Invoque a Trupe. Nova Grande Missão. Novos Chefes. Novos Amuletos. Novos Inimigos. Novos Amigos.\n\nSonhos Escondidos - Poderosos inimigos emergem! Novos Chefes. Novos Aprimoramentos. Novas Músicas.\n\nEnfrente as profundezas de um reino esquecido\nAbaixo da cidade moribunda de Dirtmouth jaz um reino antigo e arruinado. Muitos são atraídos para o subterrâneo em busca de riquezas, glórias ou respostas para antigos segredos.\nHollow Knight é uma aventura de ação clássica em estilo 2D por um vasto mundo interligado. Explore cavernas serpenteantes, cidades antigas e ermos mortais; lute contra criaturas malignas e alie-se a insetos bizarros, e solucione mistérios antigos no centro do reino. \n\nCaracterísticas do jogo\nAção clássica de rolagem de tela com todos os aperfeiçoamentos modernos. \n\nControles 2D bem ajustados. Esquive, ataque e golpeie enquanto passa pelos adversários mais letais. \n\nExplore um vasto mundo interligado de caminhos esquecidos, florestas frondosas e cidades em ruínas. \n\nForje seu caminho! O mundo de Hallownest é expansivo e aberto. Escolha que caminhos tomar, que inimigos enfrentar e abra seu caminho adiante. \n\nEvolua com novas habilidades e perícias poderosas! Ganhe feitiços, força e velocidade. Pule a novas alturas com as asas etéreas. Arremeta à frente em um ágil lampejo. Exploda inimigos com a Alma Flamejante! \n\nEquipe-se com amuletos! Antigas relíquias que oferecem novos poderes e habilidades. Escolha seus favoritos e trilhe uma aventura exclusiva! \n\nUm enorme elenco de personagens fofos e assustadores revividos em animações tradicionais 2D quadro a quadro. \n\nMais de 130 inimigos! São 30 chefes épicos! Enfrente feras selvagens e subjugu",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Indie"
+    ],
+    "trailer": {
+      "titulo": "Release Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256679401/movie.293x165.jpg?t=1497589417",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256679401/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_5384f9f8b96a0b9934b2bc35a4058376211636d2.600x338.jpg?t=1776125684"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_d5b6edd94e77ba6db31c44d8a3c09d807ab27751.600x338.jpg?t=1776125684"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_a81e4231cc8d55f58b51a4a938898af46503cae5.600x338.jpg?t=1776125684"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_62e10cf506d461e11e050457b08aa0e2a1c078d0.600x338.jpg?t=1776125684"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_bd76bd88bc5334ee56ae3d5f0d8dec4455e8e3b8.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_bd76bd88bc5334ee56ae3d5f0d8dec4455e8e3b8.600x338.jpg?t=1776125684"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_33a645903d6dd9beec39f272a3daf57174a6cc26.1920x1080.jpg?t=1776125684",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/367520/ss_33a645903d6dd9beec39f272a3daf57174a6cc26.600x338.jpg?t=1776125684"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 version 21H1 (build 19043) or newer",
+        "Processador: Intel Core i3-3240, AMD FX-4300",
+        "Memória: 4 GB de RAM",
+        "Placa de vídeo: GeForce GTX 560 Ti (1GB), Radeon HD 7750 (1GB)",
+        "DirectX: Versão 10",
+        "Armazenamento: 9 GB de espaço disponível"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 version 21H1 (build 19043) or newer",
+        "Processador: Intel Core i5-3470",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: GeForce GTX 1050 (2GB), Radeon R9 380 (2GB)",
+        "DirectX: Versão 10",
+        "Armazenamento: 9 GB de espaço disponível"
+      ]
+    }
+  },
+  "sekirotm-shadows-die-twice-goty-edition": {
+    "legenda": "Jogo do Ano - The Game Awards 2019 Melhor Jogo de Ação de 2019 - IGN Trilhe seu próprio caminho de vingança nesta premiada aventura da FromSoftware, os criadores de Bloodborne e da franquia Dark Souls. Obtenha vingança. Retome sua honra. Mate astuciosamente.",
+    "historia": "Esta Edição Jogo do Ano inclui conteúdo bônus*:\n\r\n\n\r\n- Reflexão e desafio de força - novos modos de desafio de chefe\n\r\n- Vestígios - deixe mensagens e registros de suas ações, que outros jogadores podem visualizar e avaliar\n\r\n- 3 visuais cosméticos desbloqueáveis\n\r\n\n\r\nJogo do Ano - The Game Awards 2019\n\r\nMelhor Jogo de Ação de 2019 - IGN\n\r\nMais de 50 prêmios e indicações\n\r\n\n\r\nTrilhe seu próprio caminho de vingança nesta premiada aventura da FromSoftware, os criadores da franquia Dark Souls.\n\r\n\n\r\nEm Sekiro™: Shadows Die Twice, você é o 'lobo de um braço só', um guerreiro desfigurado e desgraçado, resgatado da beira da morte. Jurado para proteger um jovem lorde descendente de uma antiga linhagem de sangue, você vira alvo de muitos inimigos perigosos, incluindo o temido clã Ashina. Quando o jovem lorde é capturado, você parte em uma jornada de redenção onde nada impedirá você, nem mesmo a própria morte.\n\r\n\n\r\nExplore o Japão no final dos anos 1500, um período brutal de conflitos mortais constantes, enquanto enfrenta inimigos épicos em um mundo sombrio e distorcido. Use um arsenal de ferramentas prostéticas mortais e habilidades ninjas poderosas ao mesmo tempo em que alterna furtividade, travessia vertical e combate direto visceral em um confronto sangrento.\n\r\n\n\r\nObtenha vingança. Retome sua honra. Mate astuciosamente.\n\r\n\n\r\n*Requer download.\n\r\n\n\r\nRequer conexão à internet para modo de Multijogador assíncrono.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura"
+    ],
+    "trailer": {
+      "titulo": "Sekiro™: Shadows Die Twice - Game of the Year Edition",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256806899/movie.293x165.jpg?t=1603837979",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256806899/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.1920x1080.jpg?t=1762888662",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.600x338.jpg?t=1762888662"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.1920x1080.jpg?t=1762888662",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.600x338.jpg?t=1762888662"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.1920x1080.jpg?t=1762888662",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_15f0e9982621aed44900215ad283811af0779b1d.600x338.jpg?t=1762888662"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.1920x1080.jpg?t=1762888662",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.600x338.jpg?t=1762888662"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.1920x1080.jpg?t=1762888662",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/814380/ss_3d6b38c382c0eafb02dc90d22f33fd292e4e5cf3.600x338.jpg?t=1762888662"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO *: Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+        "Processador: Intel Core i3-2100 | AMD FX-6300",
+        "Memória: 4 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce GTX 760 | AMD Radeon HD 7950",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 25 GB de espaço disponível",
+        "Placa de som: DirectX 11 Compatible"
+      ],
+      "recomendado": [
+        "SO *: Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+        "Processador: Intel Core i5-2500K | AMD Ryzen 5 1400",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce GTX 970 | AMD Radeon RX 570",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 25 GB de espaço disponível",
+        "Placa de som: DirectX 11 Compatible"
+      ]
+    }
+  },
+  "monster-hunter-world": {
+    "legenda": "Conheça o Novo Mundo! Em Monster Hunter: World, o jogo mais recente da série, você pode curtir a experiência máxima de caçada, usando tudo à sua disposição para caçar monstros em um novo mundo repleto de surpresas e emoções.",
+    "historia": "Conheçam o Novo Mundo! Assuma o papel de caçador e mate monstros ferozes em um ecossistema realista e natural, onde você pode usar a paisagem e os diversos habitantes a seu favor. Cace sozinho ou em cooperação com até três outros jogadores e use os materiais coletados de adversários derrotados para montar novos equipamentos e encarar feras maiores e mais difíceis! INTRODUÇÃO\nVisão geral\nEnfrente monstros gigantes em cenários épicos. \n\nComo caçador, você aceitará missões para caçar monstros em uma variedade de habitats.\nVença esses monstros e receba materiais que você pode usar para criar armas e armaduras mais fortes e caçar monstros ainda mais perigosos.\n\nEm Monster Hunter: World, o jogo mais recente da série, você pode curtir a experiência máxima de caçada, usando tudo à sua disposição para caçar monstros em um novo mundo repleto de surpresas e emoções.\n\nAmbientação \nUma vez a cada década, dragões anciões atravessam o oceano para a terra conhecida como o Novo Mundo, em uma viagem chamada de Migração dos Anciões.\n\nPara entender esse misterioso fenômeno, a Guilda formou a Comissão de Pesquisa e a enviou para o Novo Mundo em grandes frotas.\n\nQuando a Comissão envia sua Quinta Frota em busca do colossal dragão ancião conhecido como Zorah Magdaros, um caçador está prestes a embarcar em uma jornada maior do que tudo que jamais imaginou.\nECOSSISTEMA\nUm mundo que exala vida \nHá vários locais repletos de vida nativa. Expedições a esses locais certamente permitirão descobertas interessantes. CAÇA\nUm arsenal diverso e uma parceira indispensável \nSeu equipamento dará a você todo o poder necessário para talhar seu lugar no Novo Mundo.\n\nO arsenal do caçador \nCaçadores têm catorze tipos diferentes de armas à disposição, cada um com características e ataques únicos.\nMuitos caçadores ",
+    "tempo_medio": "",
+    "tags": [
+      "Ação"
+    ],
+    "trailer": {
+      "titulo": "191203_防衛隊派生武器_BP_STEAM版",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256769112/movie.293x165.jpg?t=1578590997",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256769112/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.600x338.jpg?t=1773328926"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6b4986a37c7b5c185a796085c002febcdd5357b5.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_6b4986a37c7b5c185a796085c002febcdd5357b5.600x338.jpg?t=1773328926"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.600x338.jpg?t=1773328926"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.600x338.jpg?t=1773328926"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_681cc5358ec55a997aee9f757ffe8b418dc79a32.600x338.jpg?t=1773328926"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.1920x1080.jpg?t=1773328926",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/ss_ce69dc57e6e442c73d874f1b701f2e4af405fb19.600x338.jpg?t=1773328926"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: WINDOWS® 10 (64 bits necessário)",
+        "Processador: Intel® Core™ i5 4460 ou Core™ i3 9100F / AMD FX™-6300 ou Ryzen™ 3 3200G",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA®GeForce®GTX 760 ou GTX1050 ou AMD Radeon™ R7 260x ou RX 560",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 52 GB de espaço disponível",
+        "Placa de som: DirectSound (DirectX® 9.0c ou superior)",
+        "Outras observações: - 1080p/30 fps com configuração gráfica definida como \"Baixa\". - Requer processador e sistema operacional de 64 bits."
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: WINDOWS® 10 (64 bits necessário)",
+        "Processador: Intel® Core™ i7 3770 ou Core™ i3 8350 ou Core™ i3 9350F / AMD Ryzen™ 5 1500X ou Ryzen™ 5 3400G",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA® GeForce® GTX 1060 (VRAM 3GB) ou GTX 1650 / AMD Radeon™ RX 480 ou RX 570",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 52 GB de espaço disponível",
+        "Placa de som: DirectSound (DirectX® 9.0c ou superior)",
+        "Outras observações: - 1080p/30 fps com configuração gráfica definida como \"Alta\". - Requer processador e sistema operacional de 64 bits. - A API DirectX 12 requer Windows 10 (versão 1809 ou superior) e uma GPU com 4 GB ou mais de VRAM."
+      ]
+    }
+  },
+  "resident-evil-4": {
+    "legenda": "Sobrevivência é apenas o começo. Seis anos se passaram desde o desastre biológico em Raccoon City. Leon S. Kennedy, um dos sobreviventes, segue o rastro da raptada filha do presidente até uma vila europeia isolada, onde há algo terrivelmente errado com os habitantes.",
+    "historia": "Sobrevivência é apenas o começo.\n\r\n\n\r\nSeis anos se passaram desde o desastre biológico em Raccoon City.\n\r\nO agente Leon S. Kennedy, um dos sobreviventes do incidente, foi enviado para resgatar a filha raptada do presidente.\n\r\nEle segue o rastro dela até uma isolada vila europeia, onde há algo terrivelmente errado com os habitantes.\n\r\nEntão a cortina se abre nessa história de um resgate ousado e um terror medonho, onde vida e morte, terror e catarse, se encontram.\n\r\n\n\r\nCom jogabilidade modernizada, uma história reimaginada e gráficos com detalhes vívidos,\n\r\nResident Evil 4 marca o renascimento de um gigante da indústria.\n\r\n\n\r\nReviva o pesadelo que revolucionou o terror de sobrevivência.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura"
+    ],
+    "trailer": {
+      "titulo": "08【RE4】_GELaunchPV_Multi_BR_FullHD_DJCTQ_好評発売中.mp4",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/256998127/movie.293x165.jpg?t=1730246640",
+      "mp4": "https://cdn.akamai.steamstatic.com/steam/apps/256998127/movie_max.mp4"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_59d1b19964cc532213df92c8287b75a0bffeb33c.600x338.jpg?t=1772502922"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_ab807f8ad9e968a620777caf483cb6020367b9ee.600x338.jpg?t=1772502922"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0442f7fb4327d79802c2db8ea8d23d228a28d896.600x338.jpg?t=1772502922"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_69810f4cd155912fdfdd21da70181df7d454c874.600x338.jpg?t=1772502922"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0596bac955340495562f3ff2538756ebd9a7f073.600x338.jpg?t=1772502922"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.1920x1080.jpg?t=1772502922",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2050650/ss_0554b945aafc847d55f780f7968de00aafa968a3.600x338.jpg?t=1772502922"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 (64 bit)",
+        "Processador: AMD Ryzen 3 1200 / Intel Core i5-7500",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Outras observações: Estimated performance (when set to Prioritize Performance): 1080p/45fps. ・Framerate might drop in graphics-intensive scenes. ・AMD Radeon RX 6700 XT or NVIDIA GeForce RTX 2060 required to support ray tracing."
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 (64 bit)/Windows 11 (64 bit)",
+        "Processador: AMD Ryzen 5 3600 / Intel Core i7 8700",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Outras observações: Desempenho aproximado: 1080p/60fps. ・A taxa de quadros pode cair em cenas que exigem recursos visuais mais pesados. ・O suporte ao traçado de raios requer uma placa AMD Radeon RX 6700 XT ou NVIDIA GeForce RTX 2070."
+      ]
+    }
+  },
+  "palworld": {
+    "legenda": "Este é um jogo completamente inovador de fabricação e sobrevivência em mundo aberto com suporte para vários jogadores. Nele você reúne criaturas fantásticas conhecidas como \"Pals\" em um vasto mundo e as usa em batalhas ou para trabalhos em construção, fazendas ou fábricas.",
+    "historia": "P. Que tipo de jogo é este?\n\nR. Este é um jogo em que você pode tanto levar uma vida tranquila junto de criaturas fantásticas conhecidas como \"\"Pals\"\" quanto envolver-se em confrontos arriscados contra caçadores clandestinos.\n\nOs Pals podem ser usados em batalhas, para procriação ou até como ajudantes de trabalho em fazendas e fábricas.\nVocê também pode vendê-los ou transformá-los em comida.\n\nSobrevivência \nEscassez de comida, ambientes inóspitos, caçadores ilegais… O mundo está repleto de desafios e você precisa fazer de tudo para sobreviver. Às vezes, talvez precise até usar os Pals como alimento…\n\nMontaria e exploração \nSe você montar em certos Pals, poderá explorar todos os tipos de lugar, seja na terra, no mar ou nos ares.\n\nConstruções \nQuer construir uma pirâmide? Basta usar vários Pals para trabalhar na construção. Não se preocupe, pois as leis trabalhistas não se aplicam a eles!\n\nDia a dia \nOs Pals podem ser úteis para acender fogo, produzir energia elétrica, garimpar e muito mais. Junte vários Pals diferentes para levar uma vida mais fácil.\n\nTrabalho agrícola \nExistem Pals com talento para tarefas como plantio, rega e colheita. Trabalhe junto com eles para criar uma fazenda dos sonhos!\n\nTrabalho industrial e automação \nPara automatizar sua produção, é importante confiar trabalhos manuais aos Pals. Crie fábricas e designe Pals para se encarregarem das tarefas. Contanto que tenham ração, eles podem trabalhar sem nunca descansar — até o fim da vida.\n\nExploração de dungeons \nVocê poderá explorar até áreas mais perigosas quando estiver com Pals. Se algo de ruim acontecer, basta usá-los de escudo! Eles protegerão você com a própria vida.\n\nProcriação e transmissão de genes \nAo fazer com que os Pals procriem, você pode gerar uma prole com as mesmas características dos ",
+    "tempo_medio": "40h",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Indie",
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "Palworld 1.0 Official Launch Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257373728/7e13113e161160ac94f46ef35ac809e374f7ab7e/movie_600x337.jpg?t=1783652949",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/1623730/1248102289/5810f9197a1aa0ad560333997b04947d443c7bcd/1783607226/hls_264_master.m3u8?t=1783652949",
+      "embed": "https://www.youtube.com/embed/1fpGg9wNM9A"
     },
     "imagens": [
       {
@@ -23,6 +1233,10 @@
         "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.600x338.jpg?t=1784714419"
       },
       {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/cd7b46028d10c21db8fc8217192094d309efcebc/ss_cd7b46028d10c21db8fc8217192094d309efcebc.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/cd7b46028d10c21db8fc8217192094d309efcebc/ss_cd7b46028d10c21db8fc8217192094d309efcebc.600x338.jpg?t=1784714419"
+      },
+      {
         "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.1920x1080.jpg?t=1784714419",
         "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.600x338.jpg?t=1784714419"
       },
@@ -33,21 +1247,270 @@
     ],
     "requisitos": {
       "minimo": [
-        "SO: Windows 10 (64 bits)",
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 (64-Bit)",
         "Processador: Intel Core i5-9400F",
         "Memória: 16 GB de RAM",
         "Placa de vídeo: GeForce GTX 1660",
-        "DirectX: 11",
-        "Armazenamento: 40 GB"
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 40 GB de espaço disponível",
+        "Outras observações: SSD Required - Performance may vary depending on the amount of active Pals."
       ],
       "recomendado": [
-        "SO: Windows 11 (64 bits)",
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 11 (64-Bit)",
         "Processador: Intel Core i5-12400 / AMD Ryzen 5 5600X",
         "Memória: 32 GB de RAM",
         "Placa de vídeo: GeForce RTX 3060 Ti / Radeon RX 6700 XT",
-        "DirectX: 12",
-        "Armazenamento: 40 GB SSD"
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 40 GB de espaço disponível",
+        "Outras observações: SSD Required - Performance may vary depending on the amount of active Pals."
       ]
+    }
+  },
+  "helldiverstm-2": {
+    "legenda": "A última linha ofensiva da Galáxia. Aliste-se aos Helldivers e lute pela Liberdade numa galáxia hostil neste feroz, frenético e veloz jogo de tiro em terceira pessoa.",
+    "historia": "A última linha ofensiva da Galáxia.\n\nAliste-se aos Helldivers e lute pela Liberdade numa galáxia hostil neste feroz, frenético e veloz jogo de tiro em terceira pessoa.\n\nTRANSMISSÃO URGENTE – FORÇAS ARMADAS DA SUPERTERRA\nLiberdade. Paz. Democracia. \nSeus direitos por ter nascido na Superterra. Os principais pilares da nossa civilização. \nDa nossa existência. \nMas guerra continua. E, mais uma vez, tudo está em risco.\nJunte-se à maior força militar que a Galáxia já viu e garanta a segurança e a paz do lugar.\n\nTORNE-SE UMA LENDA\nVocê entrará em um esquadrão de até quatro Helldivers e receberá missões estratégicas.\nCuide de seus aliados — o fogo amigo é um triste fato da guerra, mas é impossível vencer sem trabalhar em equipe.\n\nAPARATOS\nProvoque uma chuva de Liberdade, infiltre-se em território inimigo ou reúna toda a sua coragem e avance com tudo no campo de batalha.\nCabe a você decidir como espalhar a Liberdade. Para isso, você terá acesso a uma vasta gama de armamentos explosivos, armaduras protetoras e estratégias capazes de mudar os rumos da batalha... O orgulho do arsenal Helldiver.\n\nREQUISIÇÕES\nA Superterra reconhece seus esforços através das valiosas Requisições. Use-as para ter acesso a diversas recompensas benéficas a você, sua equipe, seu destróier e ao esforço de guerra como um todo.\n\nAMEAÇAS\nTodos os planetas são verdadeiras armadilhas mortais. É com esse tipo de ameaça que temos que lidar.\nCada inimigo tem características, táticas e comportamentos próprios e imprevisíveis, mas todos lutam impetuosamente, sem medo nem moralidade.\n\nA GUERRA GALÁCTICA\nCapture planetas inimigos, defenda contra invasões e complete missões para contribuir com os esforços.\nO resultado da guerra depende das ações de todos os envolvidos.\nOu todos nos unimos, ou não sobrará ninguém.",
+    "tempo_medio": "",
+    "tags": [
+      "Ação"
+    ],
+    "trailer": {
+      "titulo": "Face the unknown",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257391604/01449b1c2230f3901f09313fcbbf813f45edde93/movie_600x337.jpg?t=1786525386",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/553850/1066241062/9d085e63a7061466f8db4a78f6dab24e1df5de9a/1785860021/hls_264_master.m3u8?t=1786525386"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.600x338.jpg?t=1786525389"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.600x338.jpg?t=1786525389"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.600x338.jpg?t=1786525389"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.600x338.jpg?t=1786525389"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_33e684e9cb2517af1599f0ca2b57d65ee82c2e51.600x338.jpg?t=1786525389"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.1920x1080.jpg?t=1786525389",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553850/ss_8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd.600x338.jpg?t=1786525389"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10",
+        "Processador: Intel Core i7-4790K or AMD Ryzen 5 1500X",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 470",
+        "Armazenamento: 135 GB de espaço disponível"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10",
+        "Processador: Intel Core i7-9700K or AMD Ryzen 7 3700X",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: NVIDIA GeForce RTX 2060 or AMD Radeon RX 6600XT",
+        "Armazenamento: 40 GB de espaço disponível",
+        "Outras observações: SSD Recommended"
+      ]
+    }
+  },
+  "starfield": {
+    "legenda": "Starfield é o primeiro universo novo em 25 anos da Bethesda Game Studios, os premiados criadores de The Elder Scrolls V: Skyrim e Fallout 4.",
+    "historia": "Starfield é o primeiro universo novo em mais de 25 anos da Bethesda Game Studios, os premiados criadores de The Elder Scrolls V: Skyrim e Fallout 4. Neste RPG para a nova geração em meio às estrelas, crie o personagem que você quiser e explore com liberdade inigualável enquanto embarca em uma jornada épica para desvendar o maior mistério da humanidade.\n\nNo ano de 2330, a humanidade já se aventurou para além do nosso sistema solar, colonizando planetas novos, e agora habita o espaço. Você passará a integrar a Constelação – o último grupo de exploradores espaciais em busca de artefatos raros pela galáxia – e navegará pela vastidão do espaço no maior e mais ambicioso jogo da Bethesda Game Studios. Conte Sua História\nEm Starfield, a história mais importante é a que você conta com seu personagem. Comece a jornada personalizando sua aparência e decidindo seu histórico e atributos. Você será um explorador experiente, um diplomata charmoso, um ciberita furtivo ou algo completamente diferente? A escolha é sua. Decida quem você será e o que se tornará.\n\nExplore O Espaço Sideral\nAventure-se pelas estrelas e explore mais de mil planetas. Navegue por cidades vibrantes, explore bases perigosas e atravesse paisagens selvagens. Encontre e recrute um elenco memorável de personagens, participe das aventuras de várias facções e embarque em missões dos Sistemas Colonizados. Há sempre uma nova história ou experiência a ser descoberta. \n\nComande A Nave Dos Seus Sonhos \nPilote e comande a nave de seus sonhos. Personalize a aparência da sua nave, modifique sistemas essenciais (incluindo armas e escudos) e designe membros da tripulação para proporcionar bônus exclusivos. No espaço profundo, você participará de combates aéreos de alto risco, encontrará missões aleatórias, acoplará em estações es",
+    "tempo_medio": "",
+    "tags": [
+      "RPG"
+    ],
+    "trailer": {
+      "titulo": "Free Lanes Update",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257304516/a1c476a2c5a0acaec3b89551aab73988baec78a9/movie_600x337.jpg?t=1775574003",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/1716740/1715467803/6c43957e8c847d5445cfd951f9ca1b0e3176b79d/1773679572/hls_264_master.m3u8?t=1775574003"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_4887dc140a637684ddcfca518458668409f946dc.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_4887dc140a637684ddcfca518458668409f946dc.600x338.jpg?t=1786648030"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_b2821283cb140cd5a6289a8160016b6a60d8f96e.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_b2821283cb140cd5a6289a8160016b6a60d8f96e.600x338.jpg?t=1786648030"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_68f15d580bf91971f637be5e464bc803482d78f7.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_68f15d580bf91971f637be5e464bc803482d78f7.600x338.jpg?t=1786648030"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_aae99c177004bb5ec653d2fcb65a5d30489ec7b8.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_aae99c177004bb5ec653d2fcb65a5d30489ec7b8.600x338.jpg?t=1786648030"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_c8594798fadfd8e042b2fc8afff7bcf4872c5198.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_c8594798fadfd8e042b2fc8afff7bcf4872c5198.600x338.jpg?t=1786648030"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_2288919a390c0147b7d2226354a61452016fd087.1920x1080.jpg?t=1786648030",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1716740/ss_2288919a390c0147b7d2226354a61452016fd087.600x338.jpg?t=1786648030"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO: Windows 10 version 21H1 (10.0.19043)",
+        "Processador: AMD Ryzen 5 2600X, Intel Core i7-6800K",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti",
+        "DirectX: Versão 12",
+        "Armazenamento: 125 GB de espaço disponível",
+        "Outras observações: SSD Required"
+      ],
+      "recomendado": [
+        "SO: Windows 10/11 with updates",
+        "Processador: AMD Ryzen 5 3600X, Intel i5-10600K",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: AMD Radeon RX 6800 XT, NVIDIA GeForce RTX 2080",
+        "DirectX: Versão 12",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 125 GB de espaço disponível",
+        "Outras observações: SSD Required"
+      ]
+    }
+  },
+  "valheim": {
+    "legenda": "Um brutal jogo de exploração e sobrevivência para 1 a 10 jogadores, ambientado em um purgatório gerado de forma procedural, inspirado na cultura viking. Batalhe, construa e conquiste glória em uma saga digna da benção de Odin!",
+    "historia": "Prova o teu valor\nUm guerreiro morto pela batalha, as Valquírias levaram sua alma para Valheim, o décimo mundo Nórdico. Cercado por criaturas do caos e antigos inimigos dos deuses, você é o mais novo guardião do purgatório primordial, encarregado de matar os antigos rivais de Odin e trazer ordem para Valheim. Descrição\nSeus julgamentos começam no desarmado centro pacífico de Valheim, mas os deuses recompensam os corajosos e a glória o espera. Aventure-se por florestas imponentes e montanhas cobertas de neve, explore e colha materiais valiosos para criar armas mais mortais, armaduras mais resistentes, redutos vikings e postos avançados. Construa um poderoso navio e navegue pelos grandes oceanos em busca de terras exóticas... mas tenha cuidado de velejar para muito longe...\n\nCaracterísticas: Enorme mundo gerado proceduralmente - explore e habite terras místicas, desde florestas misteriosas até imponentes cadeias de montanhas cobertas de neve e prados deslumbrantes, repletos de suas próprias criaturas lendárias para batalhar e vida selvagem para caçar.\n\nPvE Cooperativo (2-10 jogadores) - - Caso queira enfrentar as terras sozinho ou se aventurar com aliados confiáveis, Valheim suporta servidores independentes ou hospedados por jogadores, e criação de mundo ilimitada. Recomendamos jogar cooperativo com 3 a 5 jogadores.\n\nSistema de combate punitivo baseado em esquivar e bloquear com uma ampla gama de armas\n\nConstrua e navegue em navios - de balsas frágeis a navios de guerra imponentes, construa navios lendários para conquistar os mares e descobrir novas terras.\n\nInvoque e derrote vingativos chefes primordiais de mitos e lendas, e colete troféus para progredir e criar novos itens poderosos.\n\nSistema flexível de construção de casas e bases - construa salões de hidromel, fazenda",
+    "tempo_medio": "",
+    "tags": [
+      "Ação",
+      "Aventura",
+      "Indie",
+      "RPG",
+      "Acesso Antecipado"
+    ],
+    "trailer": {
+      "titulo": "1.0 Release Date Reveal Trailer",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257363622/e979dd1440c9a792e9439d71c4982874abf19a0e/movie_600x337.jpg?t=1782130908",
+      "hls": "https://video.akamai.steamstatic.com/store_trailers/892970/1497098081/82852b46712774fa05d84fbaf0fb0ab9679a07f0/1782129560/hls_264_master.m3u8?t=1782130908"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_a600a7d4ca954543e22f571a9629521a13f82143.600x338.jpg?t=1786012504"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.600x338.jpg?t=1786012504"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_3db385fc1223914dadb199ac8682683a8c59454e.600x338.jpg?t=1786012504"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.600x338.jpg?t=1786012504"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_f6cbfeea728d557fa9f483685fea3205f08f5d9e.600x338.jpg?t=1786012504"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.1920x1080.jpg?t=1786012504",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/892970/ss_551f06a43b72609d7ca3cd63e93c58e949d58384.600x338.jpg?t=1786012504"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 or later",
+        "Processador: 2.6 GHz Quad Core or similar",
+        "Memória: 8 GB de RAM",
+        "Placa de vídeo: GeForce GTX 950 or Radeon HD 7970",
+        "DirectX: Versão 11",
+        "Armazenamento: 1 GB de espaço disponível",
+        "Outras observações: The following languages have been partially translated by the community: Svenska, Italiano, Romanian, български, македонски, Suomi, Dansk, íslenska, Lietuvių kalba, čeština, Magyar nyelv, Português europeu, 한국어 (불완전한), Norsk, ภาษาไทย, ქართული ენა, Abenaki, Slovenčina"
+      ],
+      "recomendado": [
+        "Requer um processador e sistema operacional de 64 bits",
+        "SO: Windows 10 or later",
+        "Processador: i5 3GHz or Ryzen 5 3GHz",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: GeForce GTX 1060 or Radeon RX 580",
+        "DirectX: Versão 11",
+        "Rede: Conexão de internet banda larga",
+        "Armazenamento: 1 GB de espaço disponível"
+      ]
+    }
+  },
+  "fortnite": {
+    "legenda": "Battle royale gratuito da Epic Games.",
+    "historia": "Fortnite é um jogo battle royale gratuito onde até 100 jogadores disputam para ser o último de pé, construindo estruturas e usando um arsenal variado. Recebe atualizações sazonais frequentes.",
+    "tempo_medio": "",
+    "tags": [
+      "Battle Royale",
+      "Ação"
+    ],
+    "trailer": {
+      "titulo": "Trailer oficial Fortnite",
+      "embed": "https://www.youtube.com/embed/5uE0XFJSVZA",
+      "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/hqdefault.jpg"
+    },
+    "imagens": [
+      {
+        "src": "https://i.ytimg.com/vi/5uE0XFJSVZA/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/5uE0XFJSVZA/hqdefault.jpg"
+      },
+      {
+        "src": "https://i.ytimg.com/vi/YUbGFGltS0s/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/YUbGFGltS0s/hqdefault.jpg"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fortnite_Pro-Am_stadium_at_E3_2018_3.jpg",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Fortnite_Pro-Am_stadium_at_E3_2018_3.jpg"
+      }
+    ],
+    "requisitos": {
+      "minimo": [],
+      "recomendado": []
+    }
+  },
+  "valorant": {
+    "legenda": "FPS tático 5v5 baseado em agentes, da Riot Games.",
+    "historia": "Valorant é um shooter tático 5v5 baseado em personagens, onde a precisão da mira encontra habilidades únicas de cada agente. Gratuito para jogar.",
+    "tempo_medio": "",
+    "tags": [
+      "FPS",
+      "Tático"
+    ],
+    "trailer": {
+      "titulo": "Cinemática Valorant",
+      "embed": "https://www.youtube.com/embed/e_E9W2vsRbQ",
+      "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/hqdefault.jpg"
+    },
+    "imagens": [
+      {
+        "src": "https://i.ytimg.com/vi/e_E9W2vsRbQ/hqdefault.jpg",
+        "thumb": "https://i.ytimg.com/vi/e_E9W2vsRbQ/hqdefault.jpg"
+      },
+      {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/1280px-Valorant_logo_-_pink_color_version.svg.png",
+        "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/320px-Valorant_logo_-_pink_color_version.svg.png"
+      }
+    ],
+    "requisitos": {
+      "minimo": [],
+      "recomendado": []
     }
   }
 }

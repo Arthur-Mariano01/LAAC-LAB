@@ -630,6 +630,7 @@ body[data-casca="auth"] { display: grid; place-items: center; min-height: 100vh;
   border: 0; display: block;
   object-fit: cover;
 }
+video.store-frame { object-fit: contain; background: #000; }
 .store-shot--empty { display: grid; place-items: center; color: var(--text-dim); }
 .store-media > .hero-arrow { z-index: 4; }
 .store-thumbs {
