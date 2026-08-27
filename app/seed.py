@@ -34,6 +34,7 @@ BIBLIOTECA_DEMO = [
     ("grand-theft", 930, 41, False),
     ("apex", 615, 27, False),
     ("valorant", 120, 9, False),
+    ("fortnite", 340, 15, False),
 ]
 
 #: (slug parcial, tipo, título, corpo)
@@ -328,6 +329,10 @@ def _garantir_jogo(servicos, Jogo, bruto, admin):
         db.select(Jogo).where(Jogo.slug == slug)
     ).scalars().first()
     if existente is not None:
+        capa = bruto.get("cover_image") or ""
+        if capa and not (existente.capa_url or existente.arquivo_capa):
+            existente.capa_url = capa
+            db.session.commit()
         return existente
 
     # ServicoBase.criar devolve um dict serializado pelo schema de saída;

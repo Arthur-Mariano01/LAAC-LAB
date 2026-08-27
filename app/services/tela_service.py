@@ -91,10 +91,16 @@ class TelaService:
                 "imagem_capa": "",
                 "arquivo_capa": "",
             }
+        imagem = jogo.capa_url or ""
+        arquivo = jogo.arquivo_capa or ""
+        if not imagem and not arquivo:
+            fotos = extras_do_slug(jogo.slug or "").get("imagens") or []
+            if fotos:
+                imagem = fotos[0].get("src") or ""
         return {
             "capa": self._capa(jogo),
-            "imagem_capa": jogo.capa_url or "",
-            "arquivo_capa": jogo.arquivo_capa or "",
+            "imagem_capa": imagem,
+            "arquivo_capa": arquivo,
         }
 
     def _banner(self, jogo) -> dict:
