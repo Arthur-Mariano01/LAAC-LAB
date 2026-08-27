@@ -337,6 +337,90 @@ function renderizarTela(dados) {
   }
 }
 
+/* NOVO: Função para buscar todos os jogos e criar um dropdown customizado elegante (Ordenado) */
+async function preencherSeletorJogos() {
+  try {
+    const input = document.getElementById("bm-jogo-seletor");
+    const dropdown = document.getElementById("bm-custom-dropdown");
+    const container = document.getElementById("bm-seletor-container");
+    if (!input || !dropdown || !container) return;
+
+    // Busca todos os jogos na API
+    const resposta = await Api.pedir("/api/v1/jogos?limite=1000");
+    const jogos = Array.isArray(resposta) ? resposta : (resposta.itens || []);
+
+    // ORDENAÇÃO ALFABÉTICA
+    jogos.sort((a, b) => a.nome.localeCompare(b.nome));
+
+    // Função que desenha a lista baseada no que o usuário digitou
+    const renderizarLista = (filtro = "") => {
+      dropdown.innerHTML = "";
+      const termo = filtro.toLowerCase();
+      const filtrados = jogos.filter((j) => j.nome.toLowerCase().includes(termo));
+
+      if (filtrados.length === 0) {
+        dropdown.append(
+          Api.criar(
+            "div",
+            { style: "padding: 12px 14px; color: var(--text-dim); font-size: 13px; text-align: center;" },
+            "Nenhum jogo encontrado."
+          )
+        );
+        return;
+      }
+
+      filtrados.forEach((jogo) => {
+        const item = Api.criar(
+          "div",
+          {
+            style: "padding: 10px 14px; cursor: pointer; font-size: 13px; color: var(--text); border-bottom: 1px solid var(--border-soft); transition: background 0.15s ease;",
+            onmouseenter: (e) => (e.target.style.background = "var(--border)"),
+            onmouseleave: (e) => (e.target.style.background = "transparent"),
+            onclick: () => {
+              input.value = jogo.nome;
+              dropdown.style.display = "none";
+              window.location.href = "/bugometro?jogo=" + encodeURIComponent(jogo.slug);
+            },
+          },
+          jogo.nome
+        );
+        dropdown.append(item);
+      });
+
+      if (dropdown.lastChild) {
+        dropdown.lastChild.style.borderBottom = "none";
+      }
+    };
+
+    // Abre a lista ao focar no campo
+    input.addEventListener("focus", () => {
+      renderizarLista(input.value);
+      dropdown.style.display = "block";
+      input.style.borderColor = "var(--brand)";
+    });
+
+    // Filtra em tempo real conforme digita
+    input.addEventListener("input", (e) => {
+      renderizarLista(e.target.value);
+      dropdown.style.display = "block";
+    });
+
+    // Restaura a borda padrão ao sair
+    input.addEventListener("blur", () => {
+      input.style.borderColor = "var(--border)";
+    });
+
+    // Fecha o dropdown ao clicar fora
+    document.addEventListener("click", (e) => {
+      if (!container.contains(e.target)) {
+        dropdown.style.display = "none";
+      }
+    });
+  } catch (e) {
+    console.warn("Não foi possível carregar a lista de jogos para o seletor:", e);
+  }
+}
+
 /* `?jogo=<slug>` na URL da própria tela é repassado ao endpoint —
    é o que o ranking "top jogos instáveis" usa para trocar de jogo. */
 async function carregarBugometro() {
@@ -349,7 +433,11 @@ async function carregarBugometro() {
 Api.aoCarregar(async () => {
   marcarCarregando();
   try {
-    await carregarBugometro();
+    // Inicia o carregamento do Bugômetro e do seletor paralelamente
+    await Promise.all([
+      carregarBugometro(),
+      preencherSeletorJogos()
+    ]);
   } catch (e) {
     if (Api.ehSessaoExpirada(e)) return; // já foi para o login
     marcarErro(e.message);
