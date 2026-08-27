@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Jogo · LaaCLab</title>
-  <link rel="stylesheet" href="/estatico/css/estilos.css">
+  <link rel="stylesheet" href="/estatico/css/estilos.css?v=5">
 </head>
 <body data-tela="jogo">
 <!-- CASCA:INICIO -->
@@ -90,56 +90,74 @@
     </header>
 
 <!-- CASCA:FIM -->
-    <main class="page" id="conteudo">
-      <div class="with-rail">
-        <!-- Coluna principal: barra (nome + última atualização), hero e sobre -->
-        <div class="stack">
-          <div class="detail-bar" id="jg-bar">
-            <span id="jg-nome">—</span>
-            <span class="dim">— — — — — — —</span>
-            <span id="jg-atualizacao">—</span>
-          </div>
+    <main class="page store-page" id="conteudo">
+      <div class="store-bg" id="jg-fundo"></div>
 
-          <div class="detail-hero" id="jg-hero">
-            <div>
-              <div class="dh-title" id="jg-titulo">—</div>
-              <div style="position:relative;z-index:2;font-size:13px;color:rgba(255,255,255,0.85)">Sobre</div>
-            </div>
-          </div>
+      <div class="store-head">
+        <a class="store-back" href="/explorar">← Explorar</a>
+        <h1 id="jg-nome">—</h1>
+        <div class="store-sub dim">Lançamento: <span id="jg-atualizacao">—</span></div>
+      </div>
 
-          <div style="display:grid;grid-template-columns:1fr 220px;gap:28px;align-items:start">
-            <p class="muted" id="jg-sobre" style="margin:0;line-height:1.6">—</p>
-            <div class="stack" id="jg-stats" style="gap:18px"></div>
+      <div class="store-top">
+        <div class="store-media">
+          <div class="store-stage" id="jg-stage">
+            <div class="skeleton">Carregando mídia…</div>
           </div>
+          <button type="button" class="hero-arrow hero-arrow--prev" id="jg-prev" aria-label="Mídia anterior">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6 9 12l6 6"/></svg>
+          </button>
+          <button type="button" class="hero-arrow hero-arrow--next" id="jg-next" aria-label="Próxima mídia">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+          </button>
+          <div class="store-thumbs game-picker" id="jg-thumbs"></div>
         </div>
 
-        <!-- Trilho direito: merch, bugs reportados e comentários -->
-        <div class="rail">
-          <div class="card">
-            <div class="section-title">Acesso ao merch</div>
-            <p class="muted" id="jg-merch" style="margin:10px 0 0">—</p>
-          </div>
+        <aside class="store-panel" id="jg-panel">
+          <img class="store-cover" id="jg-cover" alt="" hidden>
+          <p class="store-tagline" id="jg-legenda">—</p>
+          <div class="store-tags" id="jg-tags"></div>
+          <div class="store-highlights" id="jg-stats"></div>
+          <div class="store-meta" id="jg-meta"></div>
+        </aside>
+      </div>
 
-          <div class="card">
-            <div class="section-title">Bugs reportados</div>
-            <div id="jg-bugs" class="mt"></div>
-            <div id="jg-relatar"></div>
-          </div>
+      <section class="store-block card">
+        <div class="section-title">Sobre o jogo</div>
+        <p class="store-story" id="jg-sobre">—</p>
+      </section>
 
-          <div class="card">
-            <div class="section-title" style="text-align:center;margin-bottom:14px">Comentários</div>
-            <div id="jg-comentar"></div>
-            <div id="jg-comentarios"></div>
-          </div>
+      <section class="store-block card" id="jg-req-bloco">
+        <div class="section-title">Requisitos de hardware</div>
+        <div class="store-reqs" id="jg-requisitos"></div>
+      </section>
+
+      <div class="store-bottom">
+        <div class="card">
+          <div class="section-title">Acesso ao merch</div>
+          <p class="muted" id="jg-merch" style="margin:10px 0 0">—</p>
+        </div>
+        <div class="card">
+          <div class="section-title">Bugs reportados</div>
+          <div id="jg-bugs" class="mt"></div>
+          <div id="jg-relatar"></div>
+        </div>
+        <div class="card">
+          <div class="section-title" style="text-align:center;margin-bottom:14px">Comentários</div>
+          <div id="jg-comentar"></div>
+          <div id="jg-comentarios"></div>
         </div>
       </div>
+      <span id="jg-titulo" hidden>—</span>
+      <div id="jg-bar" hidden></div>
+      <div id="jg-hero" hidden></div>
     </main>
 <!-- CASCA:RODAPE:INICIO -->
   </div>
 </div>
 <!-- CASCA:RODAPE:FIM -->
-<script src="/estatico/js/api.js"></script>
-<script src="/estatico/js/casca.js"></script>
-<script src="/estatico/js/jogo.js"></script>
+<script src="/estatico/js/api.js?v=5"></script>
+<script src="/estatico/js/casca.js?v=5"></script>
+<script src="/estatico/js/jogo.js?v=5"></script>
 </body>
 </html>

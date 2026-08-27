@@ -1,0 +1,53 @@
+{
+  "palworld": {
+    "legenda": "Lute, cultive, construa e sobreviva ao lado dos Pals neste mundo aberto de crafting e cooperação.",
+    "historia": "Nas ilhas palianas, criaturas misteriosas chamadas Pals compartilham o território com humanos. Você pode viver em paz ao lado delas — montá-las, fazê-las trabalhar na fazenda ou na fábrica, explorar terra, mar e céu — ou arriscar a vida contra um sindicato de caçadores. Comida é escassa, o clima é hostil e cada escolha pesa: até o pal que você criou pode ser a diferença entre sobreviver e sucumbir. Palworld mistura coleta, combate, construção de base e cooperativo em um sandbox onde a linha entre parceiro e recurso nunca é simples.",
+    "tempo_medio": "40h",
+    "tags": ["Mundo aberto", "Sobrevivência", "Criaturas", "Cooperativo", "Crafting"],
+    "trailer": {
+      "titulo": "Trailer oficial Palworld 1.0",
+      "embed": "https://www.youtube.com/embed/1fpGg9wNM9A",
+      "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/257373728/7e13113e161160ac94f46ef35ac809e374f7ab7e/movie_600x337.jpg?t=1783652949"
+    },
+    "imagens": [
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_f81b7c4f20be3b99f76a1415c4cdb9b444c99b97.600x338.jpg?t=1784714419"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/648ed4266fc18f413292292741304ef648421c55/ss_648ed4266fc18f413292292741304ef648421c55.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/648ed4266fc18f413292292741304ef648421c55/ss_648ed4266fc18f413292292741304ef648421c55.600x338.jpg?t=1784714419"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_b3cea7c9f04a67d784d4c6a0c157a11d6268b189.600x338.jpg?t=1784714419"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_06e27c15c7b4b10233c937b887cf6a6925c83009.600x338.jpg?t=1784714419"
+      },
+      {
+        "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.1920x1080.jpg?t=1784714419",
+        "thumb": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1623730/ss_a99fba5536acde781bd863cb3555c10b5b96c0ae.600x338.jpg?t=1784714419"
+      }
+    ],
+    "requisitos": {
+      "minimo": [
+        "SO: Windows 10 (64 bits)",
+        "Processador: Intel Core i5-9400F",
+        "Memória: 16 GB de RAM",
+        "Placa de vídeo: GeForce GTX 1660",
+        "DirectX: 11",
+        "Armazenamento: 40 GB"
+      ],
+      "recomendado": [
+        "SO: Windows 11 (64 bits)",
+        "Processador: Intel Core i5-12400 / AMD Ryzen 5 5600X",
+        "Memória: 32 GB de RAM",
+        "Placa de vídeo: GeForce RTX 3060 Ti / Radeon RX 6700 XT",
+        "DirectX: 12",
+        "Armazenamento: 40 GB SSD"
+      ]
+    }
+  }
+}

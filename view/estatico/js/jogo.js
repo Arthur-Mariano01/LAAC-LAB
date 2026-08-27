@@ -114,48 +114,143 @@ function construirComposerDeComentario(jogoId) {
 }
 
 function montarStats(dados) {
-  const ttz = dados.tempo_para_zerar;
+  const ttz = dados.tempo_para_zerar || {};
 
   document.getElementById("jg-stats").replaceChildren(
     Api.criar(
       "div",
-      {},
-      Api.criar("div", { class: "section-title", style: "margin-bottom:6px" }, "Curtidas"),
-      Api.criar(
-        "div",
-        { class: "row", style: "gap:16px" },
-        Api.criar("span", { class: "vote up" }, "👍 " + fmt(dados.curtidas)),
-        Api.criar("span", { class: "vote down" }, "👎 " + fmt(dados.descurtidas))
-      )
+      { class: "store-kpi" },
+      Api.criar("div", { class: "store-kpi-n" }, fmt(dados.conquistas)),
+      Api.criar("div", { class: "store-kpi-l" }, "Conquistas")
     ),
     Api.criar(
       "div",
-      {},
-      Api.criar("div", { class: "section-title", style: "margin-bottom:6px" }, "Tempo pra zerar"),
-      Api.criar(
-        "div",
-        { class: "stat-row" },
-        Api.criar("span", { class: "s-label" }, "Médio"),
-        Api.criar("span", { class: "s-value" }, ttz.medio)
-      ),
-      Api.criar(
-        "div",
-        { class: "stat-row" },
-        Api.criar("span", { class: "s-label" }, "Speedrun"),
-        Api.criar("span", { class: "s-value" }, ttz.speedrun)
-      ),
-      Api.criar(
-        "div",
-        { class: "stat-row" },
-        Api.criar("span", { class: "s-label" }, "Platina"),
-        Api.criar("span", { class: "s-value" }, ttz.platina)
-      )
+      { class: "store-kpi" },
+      Api.criar("div", { class: "store-kpi-n" }, ttz.medio || "—"),
+      Api.criar("div", { class: "store-kpi-l" }, "Tempo médio para zerar")
     ),
     Api.criar(
       "div",
-      { class: "stat-row" },
-      Api.criar("span", { class: "s-label" }, "Conquistas"),
-      Api.criar("span", { class: "s-value" }, fmt(dados.conquistas))
+      { class: "row", style: "gap:16px;margin-top:8px" },
+      Api.criar("span", { class: "vote up" }, "👍 " + fmt(dados.curtidas)),
+      Api.criar("span", { class: "vote down" }, "👎 " + fmt(dados.descurtidas))
+    )
+  );
+}
+
+let indiceMidia = 0;
+let itensMidia = [];
+
+function mostrarMidia(indice) {
+  if (!itensMidia.length) return;
+  indiceMidia = (indice + itensMidia.length) % itensMidia.length;
+  const item = itensMidia[indiceMidia];
+  const stage = document.getElementById("jg-stage");
+  if (item.tipo === "trailer") {
+    stage.replaceChildren(
+      Api.criar("iframe", {
+        class: "store-frame",
+        src: item.src + (item.src.includes("?") ? "&" : "?") + "rel=0",
+        title: item.titulo || "Trailer",
+        allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+        allowfullscreen: "true",
+      })
+    );
+  } else {
+    stage.replaceChildren(
+      Api.criar("img", {
+        class: "store-shot",
+        src: item.src,
+        alt: item.titulo || "",
+      })
+    );
+  }
+  document.querySelectorAll("#jg-thumbs .store-thumb").forEach((el, i) => {
+    el.classList.toggle("is-on", i === indiceMidia);
+  });
+}
+
+function montarGaleria(dados) {
+  itensMidia = dados.galeria || [];
+  const thumbs = document.getElementById("jg-thumbs");
+  const prev = document.getElementById("jg-prev");
+  const next = document.getElementById("jg-next");
+  if (itensMidia.length === 0) {
+    document.getElementById("jg-stage").replaceChildren(
+      Api.criar("div", { class: "store-shot store-shot--empty" }, "Sem mídia cadastrada.")
+    );
+    thumbs.replaceChildren();
+    prev.hidden = true;
+    next.hidden = true;
+    return;
+  }
+  prev.hidden = itensMidia.length < 2;
+  next.hidden = itensMidia.length < 2;
+  thumbs.replaceChildren(
+    ...itensMidia.map((item, i) => {
+      const thumb = Api.criar(
+        "button",
+        {
+          type: "button",
+          class: "store-thumb" + (i === 0 ? " is-on" : ""),
+          onclick: () => mostrarMidia(i),
+        },
+        item.thumb
+          ? Api.criar("img", { src: item.thumb, alt: item.titulo || "" })
+          : Api.criar("span", { class: "store-thumb-play" }, "▶")
+      );
+      if (item.tipo === "trailer") {
+        thumb.append(Api.criar("span", { class: "store-thumb-play" }, "▶"));
+      }
+      return thumb;
+    })
+  );
+  prev.onclick = () => mostrarMidia(indiceMidia - 1);
+  next.onclick = () => mostrarMidia(indiceMidia + 1);
+  mostrarMidia(0);
+}
+
+function montarRequisitos(dados) {
+  const req = dados.requisitos || {};
+  const min = req.minimo || [];
+  const rec = req.recomendado || [];
+  const bloco = document.getElementById("jg-req-bloco");
+  const alvo = document.getElementById("jg-requisitos");
+  if (!min.length && !rec.length) {
+    bloco.hidden = true;
+    return;
+  }
+  bloco.hidden = false;
+  const coluna = (titulo, linhas) =>
+    Api.criar(
+      "div",
+      { class: "store-req-col" },
+      Api.criar("div", { class: "store-req-h" }, titulo),
+      ...linhas.map((l) => Api.criar("div", { class: "store-req-l" }, l))
+    );
+  const colunas = [];
+  if (min.length) colunas.push(coluna("Mínimos", min));
+  if (rec.length) colunas.push(coluna("Recomendados", rec));
+  alvo.replaceChildren(...colunas);
+}
+
+function montarMeta(dados) {
+  const linhas = [];
+  if (dados.desenvolvedora) {
+    linhas.push(["Desenvolvedora", dados.desenvolvedora]);
+  }
+  if (dados.publicadora) {
+    linhas.push(["Publicadora", dados.publicadora]);
+  }
+  linhas.push(["Lançamento", dados.ultima_atualizacao || "—"]);
+  document.getElementById("jg-meta").replaceChildren(
+    ...linhas.map(([k, v]) =>
+      Api.criar(
+        "div",
+        { class: "stat-row" },
+        Api.criar("span", { class: "s-label" }, k),
+        Api.criar("span", { class: "s-value" }, v)
+      )
     )
   );
 }
@@ -257,19 +352,38 @@ function montarComentarios(dados) {
 }
 
 function montarTela(dados) {
+  document.title = dados.nome + " · LaaCLab";
   document.getElementById("jg-nome").textContent = dados.nome;
-  // Texto livre no formato da Steam ("27 out. 2022") ou "—": exibe como
-  // veio, sem tentar reformatar ou parsear como DD/MM/AAAA.
+  document.getElementById("jg-titulo").textContent = dados.nome;
   document.getElementById("jg-atualizacao").textContent = dados.ultima_atualizacao;
-  document.getElementById("jg-titulo").textContent = dados.nome.toUpperCase();
-
-  const [cor1, cor2] = dados.capa;
-  document.getElementById("jg-hero").style.background = `linear-gradient(135deg, ${cor1}, ${cor2})`;
-
-  document.getElementById("jg-sobre").textContent = dados.sobre || "Sem descrição disponível.";
+  document.getElementById("jg-legenda").textContent =
+    dados.descricao_curta || "Sem sinopse cadastrada.";
+  const tags = dados.tags || [];
+  document.getElementById("jg-tags").replaceChildren(
+    ...tags.map((t) => Api.criar("span", { class: "store-chip" }, t))
+  );
+  document.getElementById("jg-sobre").textContent =
+    dados.sobre || "Sem descrição disponível.";
   document.getElementById("jg-merch").textContent = dados.merch;
 
+  const capa = dados.arquivo_capa || dados.imagem_capa || "";
+  const cover = document.getElementById("jg-cover");
+  const fundo = document.getElementById("jg-fundo");
+  if (capa) {
+    cover.src = capa;
+    cover.alt = dados.nome;
+    cover.hidden = false;
+    fundo.style.backgroundImage = `url("${capa}")`;
+  } else {
+    cover.hidden = true;
+    const [c1, c2] = dados.capa || ["#1b1d2e", "#0a0b12"];
+    fundo.style.background = `linear-gradient(135deg, ${c1}, ${c2})`;
+  }
+
+  montarGaleria(dados);
   montarStats(dados);
+  montarMeta(dados);
+  montarRequisitos(dados);
   montarBugs(dados);
   montarComentarios(dados);
 }

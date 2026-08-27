@@ -288,7 +288,8 @@ def test_jogo_devolve_o_shape_completo(cliente, mundo):
     # calculá-los certo; agora `usuario` chega até `montar_detalhe`.
     assert set(corpo) == {
         "id", "slug", "nome", "capa", "imagem_capa", "arquivo_capa", "iniciais",
-        "ultima_atualizacao", "sobre", "curtidas", "descurtidas",
+        "ultima_atualizacao", "sobre", "descricao_curta", "tags", "desenvolvedora",
+        "publicadora", "galeria", "requisitos", "curtidas", "descurtidas",
         "tempo_para_zerar", "conquistas", "merch", "pontuacao", "status",
         "bugs", "comentarios", "favorito", "na_biblioteca",
     }

@@ -3,6 +3,7 @@ import re
 import unicodedata
 
 from app.services.base import ServicoBase
+from app.services.midia_catalogo import extras_do_slug
 
 #: Gradiente aplicado quando o jogo não tem capa. NUNCA devolver lista
 #: vazia: em JS `[] || padrao` resolve para `[]`, e o gradiente quebra.
@@ -197,6 +198,43 @@ class JogoService(ServicoBase):
         (defeito 2 da revisão — antes o valor era descartado com
         `.pop()` por não haver como calculá-lo certo)."""
         detalhe = self.montar_card(jogo, favorito=favorito, na_biblioteca=na_biblioteca)
+        extras = extras_do_slug(jogo.slug or "")
+        galeria = []
+        trailer = extras.get("trailer") or {}
+        if trailer.get("embed"):
+            galeria.append(
+                {
+                    "tipo": "trailer",
+                    "src": trailer["embed"],
+                    "thumb": trailer.get("thumb") or "",
+                    "titulo": trailer.get("titulo") or "Trailer",
+                }
+            )
+        for foto in extras.get("imagens") or []:
+            galeria.append(
+                {
+                    "tipo": "imagem",
+                    "src": foto.get("src") or "",
+                    "thumb": foto.get("thumb") or foto.get("src") or "",
+                    "titulo": jogo.nome,
+                }
+            )
+        if not galeria and (jogo.capa_url or jogo.arquivo_capa):
+            fonte = jogo.arquivo_capa or jogo.capa_url
+            galeria.append(
+                {
+                    "tipo": "imagem",
+                    "src": fonte,
+                    "thumb": fonte,
+                    "titulo": jogo.nome,
+                }
+            )
+
+        tempos = {
+            "medio": jogo.tempo_medio or extras.get("tempo_medio") or self.SEM_DATA,
+            "speedrun": jogo.tempo_speedrun or self.SEM_DATA,
+            "platina": jogo.tempo_platina or self.SEM_DATA,
+        }
 
         detalhe.update(
             {
@@ -206,18 +244,23 @@ class JogoService(ServicoBase):
                 # alguém editou o cadastro. Até existir uma coluna de
                 # domínio para isso, usa-se a data de lançamento.
                 "ultima_atualizacao": jogo.data_lancamento or self.SEM_DATA,
-                "sobre": jogo.sobre or jogo.descricao or "",
+                "sobre": extras.get("historia") or jogo.sobre or jogo.descricao or "",
+                "descricao_curta": extras.get("legenda") or jogo.descricao or "",
+                "tags": extras.get("tags") or [],
+                "desenvolvedora": jogo.desenvolvedora or "",
+                "publicadora": jogo.publicadora or "",
+                "galeria": galeria,
+                "requisitos": extras.get("requisitos") or {
+                    "minimo": [],
+                    "recomendado": [],
+                },
                 # Inteiro cru: a formatação de milhar é do JS, para
                 # unificar com a tela de comunidade, que já formatava lá.
                 "curtidas": jogo.curtidas,
                 "descurtidas": jogo.descurtidas,
                 "conquistas": jogo.conquistas,
                 "merch": jogo.merch or self.SEM_MERCH,
-                "tempo_para_zerar": {
-                    "medio": jogo.tempo_medio or self.SEM_DATA,
-                    "speedrun": jogo.tempo_speedrun or self.SEM_DATA,
-                    "platina": jogo.tempo_platina or self.SEM_DATA,
-                },
+                "tempo_para_zerar": tempos,
                 # Lista, igual ao bugômetro. Quem sabe quais relatos
                 # contam é o BugometroService — reimplementar a regra
                 # aqui faria as duas telas divergirem em silêncio quando
