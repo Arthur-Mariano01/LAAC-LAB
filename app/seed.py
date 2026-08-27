@@ -323,6 +323,7 @@ def _garantir_jogo(servicos, Jogo, bruto, admin):
     """Traduz as chaves em inglês do arquivo herdado e grava pelo Service,
     que gera slug e iniciais."""
     from app.services.jogo_service import gerar_slug
+    from app.services.midia_catalogo import extras_do_slug
 
     slug = bruto.get("slug") or gerar_slug(bruto["name"])
     existente = db.session.execute(
@@ -332,7 +333,10 @@ def _garantir_jogo(servicos, Jogo, bruto, admin):
         capa = bruto.get("cover_image") or ""
         if capa and not (existente.capa_url or existente.arquivo_capa):
             existente.capa_url = capa
-            db.session.commit()
+        tempo = extras_do_slug(slug).get("tempo_medio") or ""
+        if tempo and not (existente.tempo_medio or "").strip():
+            existente.tempo_medio = tempo
+        db.session.commit()
         return existente
 
     # ServicoBase.criar devolve um dict serializado pelo schema de saída;
@@ -353,6 +357,7 @@ def _garantir_jogo(servicos, Jogo, bruto, admin):
             "curtidas": bruto.get("likes") or 0,
             "descurtidas": bruto.get("dislikes") or 0,
             "conquistas": bruto.get("achievements") or 0,
+            "tempo_medio": extras_do_slug(slug).get("tempo_medio") or "",
         },
         usuario=admin,
     )
