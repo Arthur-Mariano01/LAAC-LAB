@@ -13,9 +13,14 @@ TETO_SLUG = 140
 
 
 def gerar_slug(nome: str) -> str:
-    """slugify em ASCII, com teto de 140 — igual ao Django."""
+    """slugify em ASCII, com teto de 140 — igual ao Django.
+
+    Marcas ™/®/© saem antes do NFKD: senão Helldivers™ 2 vira
+    `helldiverstm-2` e `/jogo/helldivers-2` 404.
+    """
+    sem_marca = re.sub(r"[™®©]", "", nome or "")
     sem_acento = (
-        unicodedata.normalize("NFKD", nome or "")
+        unicodedata.normalize("NFKD", sem_marca)
         .encode("ascii", "ignore")
         .decode("ascii")
     )
@@ -171,13 +176,19 @@ class JogoService(ServicoBase):
 
     def buscar_por_slug(self, slug: str):
         from app.errors import NaoEncontrado
+        from app.services.midia_catalogo import slug_sem_marca
 
         pagina = self.repositorio.listar(
             pagina=1, por_pagina=1, filtros={"slug": slug}
         )
-        if not pagina.itens:
-            raise NaoEncontrado("Jogo não encontrado.")
-        return pagina.itens[0]
+        if pagina.itens:
+            return pagina.itens[0]
+        alvo = slug_sem_marca(slug)
+        if alvo:
+            for jogo in self.listar_todos():
+                if slug_sem_marca(jogo.slug or "") == alvo:
+                    return jogo
+        raise NaoEncontrado("Jogo não encontrado.")
 
     SEM_MERCH = "Sem informações de merch para este jogo."
     SEM_DATA = "—"

@@ -20,7 +20,12 @@ def test_palworld_traz_trailer_imagens_historia_e_requisitos():
     assert extras["requisitos"]["recomendado"]
 
 
-def test_slug_desconhecido_nao_quebra():
+def test_slug_com_marca_e_sem_marca_acham_a_mesma_midia():
+    com_tm = extras_do_slug("helldiverstm-2")
+    sem_tm = extras_do_slug("helldivers-2")
+    assert com_tm["trailer"]["embed"] == sem_tm["trailer"]["embed"]
+    assert sem_tm["imagens"]
+    assert gerar_slug("Helldivers™ 2") == "helldivers-2"
     extras = extras_do_slug("jogo-que-nao-existe")
     assert extras["imagens"] == []
     assert extras["trailer"] is None

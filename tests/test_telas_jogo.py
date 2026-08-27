@@ -599,3 +599,21 @@ def test_uma_consulta_para_todos_os_bugs_da_tela(cliente, mundo, app):
         RepositorioVotosBug.ids_confirmados_por = original
 
     assert len(chamadas) == 1, f"chamou {len(chamadas)} vezes, deveria ser 1"
+
+
+def test_vitrine_aceita_slug_sem_tm_da_marca(cliente, mundo, app):
+    """Helldivers™ 2 no seed antigo ficou `helldiverstm-2`; a URL
+    digitada (e o Preview) usa `helldivers-2`."""
+    from app.extensions import db
+    from app.models import Jogo
+
+    db.session.add(
+        Jogo(nome="Helldivers™ 2", slug="helldiverstm-2", nome_busca="helldivers 2")
+    )
+    db.session.commit()
+    resposta = cliente.get(
+        "/api/v1/telas/jogo/helldivers-2", headers=mundo["cabecalho"]
+    )
+    assert resposta.status_code == 200
+    assert resposta.get_json()["nome"] == "Helldivers™ 2"
+

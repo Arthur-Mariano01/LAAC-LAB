@@ -5,6 +5,7 @@ trailer. O JSON em `dados/midia_jogos.json` completa o que a tela da
 loja precisa, indexado pelo slug do jogo.
 """
 import json
+import re
 from pathlib import Path
 from urllib.parse import quote
 
@@ -40,8 +41,20 @@ def para_origem(url: str | None) -> str:
     return "/media/origem?u=" + quote(texto, safe="")
 
 
+def slug_sem_marca(slug: str) -> str:
+    """`helldiverstm-2` e `helldivers-2` são o mesmo jogo."""
+    return re.sub(r"tm(?=-|$)", "", (slug or "").strip().lower())
+
+
 def extras_do_slug(slug: str) -> dict:
-    bruto = _catalogo().get(slug or "") or {}
+    catalogo = _catalogo()
+    bruto = catalogo.get(slug or "") or {}
+    if not bruto:
+        alvo = slug_sem_marca(slug)
+        for chave, valor in catalogo.items():
+            if slug_sem_marca(chave) == alvo:
+                bruto = valor
+                break
     requisitos = bruto.get("requisitos") or {}
     trailer = bruto.get("trailer") or None
     if trailer:
