@@ -6,7 +6,7 @@ o que dispensa CORS e deixa o token viajar num header comum.
 """
 from pathlib import Path
 
-from flask import Blueprint, send_from_directory
+from flask import Blueprint, make_response, send_from_directory
 
 RAIZ = Path(__file__).resolve().parents[2] / "view"
 PAGINAS = RAIZ / "paginas"
@@ -31,8 +31,15 @@ PAGINAS_POR_ROTA = {
 def criar_blueprint_web() -> Blueprint:
     bp = Blueprint("web", __name__)
 
+    def _sem_cache(resposta):
+        resposta.headers["Cache-Control"] = "no-store, no-cache, must-revalidate, max-age=0"
+        resposta.headers["Pragma"] = "no-cache"
+        resposta.headers["Expires"] = "0"
+        return resposta
+
     def _servir(arquivo):
-        return send_from_directory(PAGINAS, arquivo)
+        resposta = make_response(send_from_directory(PAGINAS, arquivo))
+        return _sem_cache(resposta)
 
     for rota, arquivo in PAGINAS_POR_ROTA.items():
         bp.add_url_rule(
@@ -50,6 +57,7 @@ def criar_blueprint_web() -> Blueprint:
 
     @bp.get("/estatico/<path:caminho>")
     def estatico(caminho):
-        return send_from_directory(ESTATICO, caminho)
+        resposta = make_response(send_from_directory(ESTATICO, caminho))
+        return _sem_cache(resposta)
 
     return bp

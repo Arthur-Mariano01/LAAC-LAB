@@ -212,10 +212,20 @@ def cenario(cliente, app):
 
     servicos = montar_servicos()
     alto = servicos.jogos.criar(
-        {"nome": "Cyberpunk 2077", "metacritic": 86}, usuario=chefe
+        {
+            "nome": "Cyberpunk 2077",
+            "metacritic": 86,
+            "capa_url": "https://cdn.example/cyberpunk.jpg",
+        },
+        usuario=chefe,
     )
     baixo = servicos.jogos.criar(
-        {"nome": "Hollow Knight", "metacritic": 90}, usuario=chefe
+        {
+            "nome": "Hollow Knight",
+            "metacritic": 90,
+            "capa_url": "https://cdn.example/hollow.jpg",
+        },
+        usuario=chefe,
     )
 
     db.session.add(
@@ -251,6 +261,8 @@ def test_banners_sao_os_de_maior_metacritic(cliente, cenario):
     assert corpo["banners"][0]["jogo_slug"] == "hollow-knight"
     assert corpo["banners"][0]["titulo"] == "Novidades e atualizações em Hollow Knight"
     assert len(corpo["banners"][0]["capa"]) == 2
+    assert corpo["banners"][0]["imagem_capa"] == "https://cdn.example/hollow.jpg"
+    assert corpo["banners"][0]["arquivo_capa"] == ""
 
 
 def test_alerta_do_topo_traz_nome_e_slug_separados(cliente, cenario):
@@ -288,6 +300,8 @@ def test_atualizacao_traz_titulo_em_caixa_alta_e_nivel_derivado(cliente, cenario
         "quando"
     ].startswith("há")
     assert len(atualizacao["capa"]) == 2
+    assert atualizacao["imagem_capa"] == "https://cdn.example/cyberpunk.jpg"
+    assert atualizacao["arquivo_capa"] == ""
 
 
 def test_atualizacao_expoe_jogo_e_o_js_le_essa_chave_nao_nome(cliente, cenario):

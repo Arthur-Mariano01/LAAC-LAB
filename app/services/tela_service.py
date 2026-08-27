@@ -82,6 +82,20 @@ class TelaService:
             return list(CAPA_PADRAO)
         return list(gradiente)
 
+    def _capa_completa(self, jogo) -> dict:
+        """Gradiente + URLs de arte. Sem jogo, o fallback do card."""
+        if not jogo:
+            return {
+                "capa": list(CAPA_PADRAO),
+                "imagem_capa": "",
+                "arquivo_capa": "",
+            }
+        return {
+            "capa": self._capa(jogo),
+            "imagem_capa": jogo.capa_url or "",
+            "arquivo_capa": jogo.arquivo_capa or "",
+        }
+
     def _banner(self, jogo) -> dict:
         # Regra única (defeito 6 da revisão): `jogo` é sempre o NOME de
         # exibição; o slug, quando existe, é sempre `jogo_slug`.
@@ -89,7 +103,7 @@ class TelaService:
             "jogo": jogo.nome,
             "jogo_slug": jogo.slug or "",
             "titulo": f"Novidades e atualizações em {jogo.nome}",
-            "capa": self._capa(jogo),
+            **self._capa_completa(jogo),
         }
 
     def _atualizacao(self, alerta) -> dict:
@@ -97,7 +111,7 @@ class TelaService:
         return {
             "jogo": apresentado["jogo"],
             "jogo_slug": apresentado["slug"],
-            "capa": self._capa(alerta.jogo) if alerta.jogo else list(CAPA_PADRAO),
+            **self._capa_completa(alerta.jogo),
             "etiqueta": apresentado["severidade"],
             "nivel": apresentado["nivel"],
             # Caixa alta no servidor: o CSS não aplica text-transform aqui.

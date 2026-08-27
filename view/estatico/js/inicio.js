@@ -1,6 +1,6 @@
-/* Início (home) screen: hero banner, recent-update cards, trending topics
-   rail, favourite games and a sticky alert bar. All data comes from
-   /api/v1/telas/inicio and is rendered here with the shared Api helpers.
+/* Início (home) screen: carrossel dos jogos em destaque, cards de
+   atualização com capa, trending topics e jogos favoritos. Tudo vem de
+   /api/v1/telas/inicio e é renderizado com os helpers de Api.
 
    IMPORTANTE: a chave `jogo` na resposta é o NOME de exibição;
    o slug é sempre `jogo_slug` em banners/atualizacoes. Os favoritos
@@ -11,10 +11,135 @@ const TRENDING_GLYPH =
   '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">' +
   '<circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg>';
 
+const INTERVALO_CARROSSEL_MS = 6000;
+
+let indiceBanner = 0;
+let timerCarrossel = null;
+
+function fonteCapa(item) {
+  return item.arquivo_capa || item.imagem_capa || "";
+}
+
+function aplicarBanner(banner) {
+  const hero = document.getElementById("home-hero");
+  hero.style.background = `linear-gradient(135deg, ${banner.capa[0]}, ${banner.capa[1]})`;
+  document.getElementById("hero-text").textContent = banner.titulo;
+
+  const img = document.getElementById("hero-img");
+  const fonte = fonteCapa(banner);
+  if (fonte) {
+    img.src = fonte;
+    img.alt = banner.jogo || "";
+    img.hidden = false;
+    img.onerror = () => {
+      img.hidden = true;
+    };
+  } else {
+    img.removeAttribute("src");
+    img.alt = "";
+    img.hidden = true;
+  }
+}
+
+function marcarPonto(indice) {
+  document.querySelectorAll("#hero-dots span").forEach((ponto, i) => {
+    ponto.classList.toggle("on", i === indice);
+  });
+}
+
+function irParaBanner(banners, indice) {
+  indiceBanner = (indice + banners.length) % banners.length;
+  aplicarBanner(banners[indiceBanner]);
+  marcarPonto(indiceBanner);
+}
+
+function pararCarrossel() {
+  if (timerCarrossel) {
+    clearInterval(timerCarrossel);
+    timerCarrossel = null;
+  }
+}
+
+function reiniciarTimer(banners) {
+  pararCarrossel();
+  if (banners.length < 2) return;
+  timerCarrossel = setInterval(() => {
+    irParaBanner(banners, indiceBanner + 1);
+  }, INTERVALO_CARROSSEL_MS);
+}
+
+function iniciarCarrossel(banners) {
+  const dots = document.getElementById("hero-dots");
+  dots.replaceChildren();
+  banners.forEach((banner, i) => {
+    const ponto = Api.criar("span", i === 0 ? { class: "on" } : {});
+    ponto.setAttribute("role", "button");
+    ponto.setAttribute("tabindex", "0");
+    ponto.setAttribute("aria-label", "Mostrar " + banner.jogo);
+    ponto.addEventListener("click", (evento) => {
+      evento.stopPropagation();
+      irParaBanner(banners, i);
+      reiniciarTimer(banners);
+    });
+    ponto.addEventListener("keydown", (evento) => {
+      if (evento.key === "Enter" || evento.key === " ") {
+        evento.preventDefault();
+        ponto.click();
+      }
+    });
+    dots.append(ponto);
+  });
+
+  indiceBanner = 0;
+  aplicarBanner(banners[0]);
+
+  const prev = document.getElementById("hero-prev");
+  const next = document.getElementById("hero-next");
+  const varios = banners.length > 1;
+  prev.hidden = !varios;
+  next.hidden = !varios;
+  prev.onclick = (evento) => {
+    evento.stopPropagation();
+    irParaBanner(banners, indiceBanner - 1);
+    reiniciarTimer(banners);
+  };
+  next.onclick = (evento) => {
+    evento.stopPropagation();
+    irParaBanner(banners, indiceBanner + 1);
+    reiniciarTimer(banners);
+  };
+
+  const hero = document.getElementById("home-hero");
+  hero.style.cursor = banners[0].jogo_slug ? "pointer" : "";
+  hero.onclick = (evento) => {
+    if (evento.target.closest("#hero-dots") || evento.target.closest(".hero-arrow")) return;
+    const slug = banners[indiceBanner].jogo_slug;
+    if (slug) location.href = "/jogo/" + slug;
+  };
+
+  if (varios) {
+    reiniciarTimer(banners);
+    hero.onmouseenter = pararCarrossel;
+    hero.onmouseleave = () => reiniciarTimer(banners);
+  }
+}
+
+function capaDaAtualizacao(u) {
+  /* atualizacoes[] usa `jogo` (nome de exibição). Api.capa espera
+     `nome` e `iniciais` — montamos esse shape aqui. */
+  return Api.capa({
+    nome: u.jogo,
+    iniciais: Api.iniciaisDe(u.jogo),
+    capa: u.capa,
+    imagem_capa: u.imagem_capa,
+    arquivo_capa: u.arquivo_capa,
+  });
+}
+
 async function initHome() {
   const data = await Api.pedir("/api/v1/telas/inicio");
 
-  // --- Hero: primeiro banner (fundo em gradiente + título) ---
+  // --- Carrossel: um slide por jogo em destaque (maior metacritic) ---
   // `banners` vem `[]` em banco recém-criado (nenhum jogo ainda tem
   // metacritic o bastante) — sem esta guarda, `data.banners[0]` é
   // undefined e `banner.capa[0]` explode em TypeError, não ErroApi.
@@ -25,26 +150,23 @@ async function initHome() {
     // no alvo — chamado em home-hero apagaria esses filhos, a mesma
     // armadilha que quebrava pf-usuario (achado do item 4).
     document.getElementById("hero-text").textContent = "Nenhum destaque no momento.";
+    document.getElementById("hero-dots").replaceChildren();
+    document.getElementById("hero-prev").hidden = true;
+    document.getElementById("hero-next").hidden = true;
+    document.getElementById("hero-img").hidden = true;
   } else {
-    const banner = data.banners[0];
-    const hero = document.getElementById("home-hero");
-    hero.style.background = `linear-gradient(135deg, ${banner.capa[0]}, ${banner.capa[1]})`;
-    document.getElementById("hero-text").textContent = banner.titulo;
-
-    // Um ponto por banner; o primeiro fica ativo.
-    const dots = document.getElementById("hero-dots");
-    data.banners.forEach((_, i) => dots.append(Api.criar("span", i === 0 ? { class: "on" } : {})));
+    iniciarCarrossel(data.banners);
   }
 
-  // --- Grade de atualizações recentes ---
+  // --- Grade de atualizações recentes (capa real quando o jogo tem) ---
   const updates = document.getElementById("home-updates");
   if (data.atualizacoes.length === 0) {
     Api.vazio("home-updates");
   } else {
+    updates.replaceChildren();
     data.atualizacoes.forEach((u) => {
       updates.append(Api.criar("div", { class: "update-card" },
-        // .cover com altura definida pela classe, mostrando as iniciais do jogo
-        Api.criar("div", { class: "cover", style: `background: linear-gradient(135deg, ${u.capa[0]}, ${u.capa[1]});` }, Api.iniciaisDe(u.jogo)),
+        capaDaAtualizacao(u),
         Api.criar("div", { class: "u-body" },
           Api.badge(u.etiqueta, u.nivel),
           Api.criar("div", { class: "u-title" }, u.titulo),
@@ -78,15 +200,6 @@ async function initHome() {
     data.favoritos.forEach((g) => {
       favorites.append(Api.cartaoDeJogo(g));
     });
-  }
-
-  // --- Barra de alerta fixa: 'ALERTA:' em destaque + mensagem ---
-  if (data.alerta && data.alerta.mensagem) {
-    const msg = document.getElementById("home-alert-msg");
-    msg.replaceChildren(
-      Api.criar("b", {}, "ALERTA:"),
-      " " + data.alerta.mensagem
-    );
   }
 }
 
