@@ -193,6 +193,8 @@ function buscarComAtraso() {
 }
 
 async function iniciarExplorar() {
+  const inicial = new URLSearchParams(location.search).get("busca");
+  if (inicial) document.getElementById("ex-busca").value = inicial;
   document.getElementById("ex-busca").addEventListener("input", buscarComAtraso);
   document.getElementById("ex-genero").addEventListener("change", recarregarDoZero);
   document.getElementById("ex-ordem").addEventListener("change", recarregarDoZero);
