@@ -28,6 +28,7 @@ GRUPOS = {
         "explorar.html", "configuracao.html",
     ],
     "autenticação": ["login.html", "registro.html"],
+    "históricos": ["historicos.html"],
 }
 
 

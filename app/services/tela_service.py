@@ -5,6 +5,7 @@ com seu dono, e esta camada só monta o objeto que a tela consome.
 """
 from app.services.formatacao import tempo_relativo, duracao_jogada
 from app.services.jogo_service import CAPA_PADRAO, gerar_iniciais
+from app.services.midia_catalogo import extras_do_slug
 
 GRUPO_ASSUNTOS = "Últimos assuntos"
 SEM_ALERTA = "Nenhum alerta recente."
@@ -82,6 +83,20 @@ class TelaService:
             return list(CAPA_PADRAO)
         return list(gradiente)
 
+    def _capa_completa(self, jogo) -> dict:
+        """Gradiente + URLs de arte. Sem jogo, o fallback do card."""
+        if not jogo:
+            return {
+                "capa": list(CAPA_PADRAO),
+                "imagem_capa": "",
+                "arquivo_capa": "",
+            }
+        return {
+            "capa": self._capa(jogo),
+            "imagem_capa": jogo.capa_url or "",
+            "arquivo_capa": jogo.arquivo_capa or "",
+        }
+
     def _banner(self, jogo) -> dict:
         # Regra única (defeito 6 da revisão): `jogo` é sempre o NOME de
         # exibição; o slug, quando existe, é sempre `jogo_slug`.
@@ -89,7 +104,7 @@ class TelaService:
             "jogo": jogo.nome,
             "jogo_slug": jogo.slug or "",
             "titulo": f"Novidades e atualizações em {jogo.nome}",
-            "capa": self._capa(jogo),
+            **self._capa_completa(jogo),
         }
 
     def _atualizacao(self, alerta) -> dict:
@@ -97,7 +112,7 @@ class TelaService:
         return {
             "jogo": apresentado["jogo"],
             "jogo_slug": apresentado["slug"],
-            "capa": self._capa(alerta.jogo) if alerta.jogo else list(CAPA_PADRAO),
+            **self._capa_completa(alerta.jogo),
             "etiqueta": apresentado["severidade"],
             "nivel": apresentado["nivel"],
             # Caixa alta no servidor: o CSS não aplica text-transform aqui.
@@ -194,29 +209,49 @@ class TelaService:
             busca=busca,
             genero_slug=genero_slug,
         )
-        # Uma consulta para a página inteira, não uma por cartão.
         na_biblioteca = self._biblioteca_por_jogo(usuario)
         itens = []
         for jogo in resultado.itens:
             entrada = na_biblioteca.get(jogo.id)
             itens.append(
-                self.jogos.montar_card(
+                self._card_explorar(
                     jogo,
                     favorito=bool(entrada and entrada.favorito),
                     na_biblioteca=entrada is not None,
                 )
             )
+        catalogo_livre = pagina == 1 and not (busca or "").strip() and not genero_slug
         return {
             "itens": itens,
             "pagina": resultado.pagina,
             "por_pagina": resultado.por_pagina,
             "total": resultado.total,
             "paginas": resultado.paginas,
+            "vitrine": itens[0] if catalogo_livre and itens else None,
+            "vitrines": itens[:4] if catalogo_livre else [],
             "generos": [
                 {"slug": g.slug or "", "nome": g.nome}
                 for g in self.generos.listar_todos(ordenar_por="nome")
             ],
         }
+
+    def _card_explorar(self, jogo, favorito: bool, na_biblioteca: bool) -> dict:
+        card = self.jogos.montar_card(
+            jogo, favorito=favorito, na_biblioteca=na_biblioteca
+        )
+        extras = extras_do_slug(jogo.slug or "")
+        trailer = extras.get("trailer") or {}
+        fotos = extras.get("imagens") or []
+        card["tem_trailer"] = bool(
+            trailer.get("embed") or trailer.get("mp4") or trailer.get("hls")
+        )
+        card["foto_vitrine"] = ""
+        if fotos:
+            card["foto_vitrine"] = fotos[0].get("thumb") or fotos[0].get("src") or ""
+        if not card.get("imagem_capa") and not card.get("arquivo_capa") and card["foto_vitrine"]:
+            card["imagem_capa"] = card["foto_vitrine"]
+        card["descricao_curta"] = extras.get("legenda") or jogo.descricao or ""
+        return card
 
     # ------------------------------------------------------------------
     RECENTES_NO_PERFIL = 3

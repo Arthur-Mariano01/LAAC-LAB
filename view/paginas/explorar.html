@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Explorar · LaaCLab</title>
-  <link rel="stylesheet" href="/estatico/css/estilos.css">
+  <link rel="stylesheet" href="/estatico/css/estilos.css?v=yt8">
 </head>
 <body data-tela="explorar">
 <!-- CASCA:INICIO -->
@@ -76,7 +76,8 @@
     <header class="topbar">
       <div class="search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:18px;height:18px"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="search" placeholder="Buscar jogos..." aria-label="Buscar">
+        <input id="casca-busca" type="search" placeholder="Buscar jogos..." aria-label="Buscar jogos" autocomplete="off">
+        <div id="casca-busca-sugestoes" class="search-sugestoes" hidden></div>
       </div>
       <div class="topbar-actions">
         <button class="icon-btn" aria-label="Notificações">
@@ -114,6 +115,8 @@
         </select>
       </div>
 
+      <div id="ex-vitrine" hidden></div>
+
       <div class="games-grid" id="ex-grade"><div class="skeleton">Carregando…</div></div>
       <div style="text-align:center;margin-top:18px">
         <div id="ex-erro-mais"></div>
@@ -124,8 +127,8 @@
   </div>
 </div>
 <!-- CASCA:RODAPE:FIM -->
-<script src="/estatico/js/api.js"></script>
-<script src="/estatico/js/casca.js"></script>
-<script src="/estatico/js/explorar.js"></script>
+<script src="/estatico/js/api.js?v=yt8"></script>
+<script src="/estatico/js/casca.js?v=yt8"></script>
+<script src="/estatico/js/explorar.js?v=yt8"></script>
 </body>
 </html>

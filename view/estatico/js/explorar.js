@@ -62,7 +62,57 @@ function montarCartao(jogo) {
     jogo.na_biblioteca ? "Na biblioteca ✓" : "Adicionar"
   );
   if (jogo.na_biblioteca) botao.disabled = true;
-  return Api.cartaoDeJogo(jogo, botao);
+  const pecas = [
+    Api.criar("span", { class: "store-chip" }, "Abrir vitrine"),
+    botao,
+  ];
+  const cartao = Api.cartaoDeJogo(jogo, Api.criar("div", {}, ...pecas));
+  cartao.classList.add("game-card--vitrine");
+  const capa = cartao.querySelector(".cover");
+  if (capa && jogo.tem_trailer) {
+    capa.style.position = "relative";
+    capa.append(Api.criar("span", { class: "store-thumb-play" }, "▶ Trailer"));
+  }
+  return cartao;
+}
+
+function montarVitrine(jogos) {
+  const bloco = document.getElementById("ex-vitrine");
+  const lista = Array.isArray(jogos) ? jogos : jogos ? [jogos] : [];
+  if (!lista.length) {
+    bloco.hidden = true;
+    bloco.replaceChildren();
+    return;
+  }
+  bloco.hidden = false;
+  bloco.replaceChildren(
+    ...lista.map((jogo) => {
+      const arte = jogo.foto_vitrine || jogo.arquivo_capa || jogo.imagem_capa || "";
+      return Api.criar(
+        "a",
+        { class: "ex-vitrine-card", href: "/jogo/" + jogo.slug },
+        arte
+          ? Api.criar("img", {
+              class: "ex-vitrine-art",
+              src: arte,
+              alt: jogo.nome,
+            })
+          : Api.criar("div", { class: "ex-vitrine-art" }),
+        Api.criar(
+          "div",
+          { class: "ex-vitrine-copy" },
+          Api.criar("div", { class: "ex-vitrine-kicker" }, jogo.tem_trailer ? "Trailer + fotos" : "Vitrine"),
+          Api.criar("h2", {}, jogo.nome),
+          Api.criar(
+            "p",
+            {},
+            jogo.descricao_curta || "Abra a página da loja: trailer, capturas e requisitos."
+          ),
+          Api.criar("span", { class: "btn btn--primary" }, "Abrir vitrine")
+        )
+      );
+    })
+  );
 }
 
 /* Os gêneros vêm dentro do próprio envelope de /telas/explorar, então
@@ -111,6 +161,8 @@ async function carregar(caminho, reset) {
 
   preencherGeneros(dados.generos);
 
+  if (reset) montarVitrine(dados.vitrines);
+
   // Busca sem resultado é caso comum, não erro.
   if (reset && dados.itens.length === 0) {
     Api.vazio("ex-grade", "Nenhum jogo encontrado.");
@@ -141,6 +193,8 @@ function buscarComAtraso() {
 }
 
 async function iniciarExplorar() {
+  const inicial = new URLSearchParams(location.search).get("busca");
+  if (inicial) document.getElementById("ex-busca").value = inicial;
   document.getElementById("ex-busca").addEventListener("input", buscarComAtraso);
   document.getElementById("ex-genero").addEventListener("change", recarregarDoZero);
   document.getElementById("ex-ordem").addEventListener("change", recarregarDoZero);

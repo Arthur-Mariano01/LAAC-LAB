@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Início · LaaCLab</title>
-  <link rel="stylesheet" href="/estatico/css/estilos.css">
+  <link rel="stylesheet" href="/estatico/css/estilos.css?v=4">
 </head>
 <body data-tela="inicio">
 <!-- CASCA:INICIO -->
@@ -76,7 +76,8 @@
     <header class="topbar">
       <div class="search">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:18px;height:18px"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-        <input type="search" placeholder="Buscar jogos..." aria-label="Buscar">
+        <input id="casca-busca" type="search" placeholder="Buscar jogos..." aria-label="Buscar jogos" autocomplete="off">
+        <div id="casca-busca-sugestoes" class="search-sugestoes" hidden></div>
       </div>
       <div class="topbar-actions">
         <button class="icon-btn" aria-label="Notificações">
@@ -92,27 +93,24 @@
 <!-- CASCA:FIM -->
     <main class="page" id="conteudo">
       <div class="with-rail">
-        <!-- Coluna principal: banner de destaque + atualizações + barra de alerta -->
+        <!-- Coluna principal: carrossel dos jogos em destaque + atualizações -->
         <div class="stack">
 
-          <!-- Banner de destaque (banners[0]); fundo e título vêm do endpoint -->
+          <!-- Carrossel: um slide por jogo de `banners` (destaques do catálogo) -->
           <div class="hero" id="home-hero">
+            <img class="hero-img" id="hero-img" alt="" hidden>
             <div class="hero-text" id="hero-text">—</div>
+            <button type="button" class="hero-arrow hero-arrow--prev" id="hero-prev" aria-label="Jogo anterior">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6 9 12l6 6"/></svg>
+            </button>
+            <button type="button" class="hero-arrow hero-arrow--next" id="hero-next" aria-label="Próximo jogo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+            </button>
             <div class="dots" id="hero-dots"></div>
           </div>
 
           <!-- Grade de atualizações recentes: uma .update-card por item -->
           <div class="update-grid" id="home-updates"></div>
-
-          <!-- Barra de alerta fixa no rodapé (mensagem preenchida via JS) -->
-          <div class="alert-bar" id="home-alert">
-            <svg viewBox="0 0 24 24" fill="none" stroke="var(--brand)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:22px;height:22px;flex:none"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
-            <div class="ab-msg" id="home-alert-msg">—</div>
-            <button class="btn">Ver alerta</button>
-            <button class="icon-btn" aria-label="Dispensar alerta">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
-            </button>
-          </div>
         </div>
 
         <!-- Rail direita: assuntos em alta + jogos favoritos -->
@@ -140,8 +138,8 @@
   </div>
 </div>
 <!-- CASCA:RODAPE:FIM -->
-<script src="/estatico/js/api.js"></script>
-<script src="/estatico/js/casca.js"></script>
-<script src="/estatico/js/inicio.js"></script>
+<script src="/estatico/js/api.js?v=4"></script>
+<script src="/estatico/js/casca.js?v=4"></script>
+<script src="/estatico/js/inicio.js?v=4"></script>
 </body>
 </html>

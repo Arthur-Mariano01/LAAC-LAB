@@ -37,8 +37,11 @@ def test_explorar_devolve_envelope_de_paginacao(cliente, mundo):
     ).get_json()
     assert set(corpo) >= {
         "itens", "pagina", "por_pagina", "total", "paginas",
-        "proxima", "anterior", "generos",
+        "proxima", "anterior", "generos", "vitrine", "vitrines",
     }
+    assert corpo["vitrine"]["slug"] in {c["slug"] for c in corpo["itens"]}
+    assert isinstance(corpo["vitrines"], list)
+    assert len(corpo["vitrines"]) >= 1
 
 
 def test_cartao_traz_o_estado_da_biblioteca_do_usuario(cliente, mundo, app):
@@ -141,3 +144,29 @@ def test_teto_de_paginacao_vale_nesta_rota(cliente, mundo):
         "/api/v1/telas/explorar?por_pagina=500", headers=mundo["cabecalho"]
     ).get_json()
     assert resposta["por_pagina"] <= 100
+
+
+def test_vitrines_trazem_midia_dos_jogos_do_catalogo(cliente, mundo):
+    from app.composicao import montar_servicos
+    from app.extensions import db
+    from app.models import Usuario
+
+    chefe = db.session.execute(
+        db.select(Usuario).where(Usuario.nome_usuario == "chefe")
+    ).scalars().first()
+    montar_servicos().jogos.criar({"nome": "Palworld"}, usuario=chefe)
+
+    corpo = cliente.get(
+        "/api/v1/telas/explorar", headers=mundo["cabecalho"]
+    ).get_json()
+    slugs = {c["slug"] for c in corpo["itens"]}
+    assert "palworld" in slugs
+    assert "cyberpunk-2077" in slugs
+    for card in corpo["itens"]:
+        assert "tem_trailer" in card
+        assert "foto_vitrine" in card
+    por_slug = {c["slug"]: c for c in corpo["itens"]}
+    assert por_slug["palworld"]["tem_trailer"] is True
+    assert por_slug["cyberpunk-2077"]["tem_trailer"] is True
+    assert por_slug["palworld"]["foto_vitrine"]
+    assert any(v["slug"] == "cyberpunk-2077" for v in corpo["vitrines"])

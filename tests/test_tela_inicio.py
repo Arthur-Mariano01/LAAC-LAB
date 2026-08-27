@@ -9,9 +9,17 @@ RAIZ = Path(__file__).resolve().parents[1]
 
 def test_pagina_tem_as_regioes_que_o_js_preenche(cliente):
     corpo = cliente.get("/").get_data(as_text=True)
-    for regiao in ["home-hero", "home-updates", "home-trending",
-                   "home-favorites", "home-alert-msg"]:
+    for regiao in ["home-hero", "hero-text", "hero-dots", "hero-img",
+                   "hero-prev", "hero-next", "home-updates",
+                   "home-trending", "home-favorites"]:
         assert f'id="{regiao}"' in corpo
+
+
+def test_pagina_nao_tem_barra_de_alerta(cliente):
+    corpo = cliente.get("/").get_data(as_text=True)
+    assert 'id="home-alert"' not in corpo
+    assert 'id="home-alert-msg"' not in corpo
+    assert "alert-bar" not in corpo
 
 
 def test_js_nao_linka_jogo_pelo_nome_de_exibicao():
@@ -81,3 +89,24 @@ def test_catch_de_inicio_pinta_erro_tambem_para_erro_que_nao_e_da_api():
     assert "if (e instanceof ErroApi) {" not in trecho, (
         "Api.erro ainda parece condicionado só ao ramo ErroApi"
     )
+
+
+def test_js_monta_carrossel_com_todos_os_banners():
+    """Os pontos existiam, mas só o banners[0] era pintado. O carrossel
+    precisa percorrer a lista inteira (os jogos em destaque do catálogo)
+    e avançar sozinho."""
+    texto = _sem_comentarios((RAIZ / "view/estatico/js/inicio.js").read_text(encoding="utf-8"))
+    assert "iniciarCarrossel" in texto
+    assert "setInterval" in texto
+    assert "irParaBanner" in texto
+    assert "home-alert-msg" not in texto
+
+
+def test_js_usa_capa_com_imagem_nas_atualizacoes():
+    """As abas de jogos usavam só o gradiente + iniciais. A arte do
+    catálogo (imagem_capa / arquivo_capa) tem que chegar no ladrilho
+    via Api.capa, que já sabe cair no gradiente quando a URL falta."""
+    texto = _sem_comentarios((RAIZ / "view/estatico/js/inicio.js").read_text(encoding="utf-8"))
+    assert "Api.capa" in texto
+    assert "u.imagem_capa" in texto
+    assert "u.arquivo_capa" in texto

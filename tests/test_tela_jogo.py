@@ -17,6 +17,13 @@ def test_js_le_o_slug_da_url():
     assert "dataset.slug" not in texto
 
 
+def test_js_reproduz_trailer_em_video_ou_youtube():
+    texto = _sem_comentarios((RAIZ / "view/estatico/js/jogo.js").read_text(encoding="utf-8"))
+    assert 'item.tipo === "trailer"' in texto
+    assert "youtube" in texto
+    assert "video" in texto
+
+
 def test_comentar_e_relatar_mandam_jogo_id():
     texto = _sem_comentarios((RAIZ / "view/estatico/js/jogo.js").read_text(encoding="utf-8"))
     assert "/api/v1/avaliacoes" in texto
