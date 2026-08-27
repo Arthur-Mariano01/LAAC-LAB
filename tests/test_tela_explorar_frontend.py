@@ -100,5 +100,6 @@ def test_falha_no_carregar_mais_nao_apaga_a_grade():
 def test_card_do_palworld_abre_a_pagina_da_loja():
     texto = _codigo()
     assert '"/jogo/" + jogo.slug' in texto
-    assert "palworld" in texto
+    assert "Abrir vitrine" in texto
     assert "montarVitrine" in texto
+    assert "dados.vitrines" in texto

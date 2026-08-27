@@ -706,11 +706,25 @@ video.store-frame { object-fit: contain; background: #000; }
   border: 1px solid rgba(102, 192, 244, 0.55);
   box-shadow: 0 0 0 1px rgba(102, 192, 244, 0.15);
 }
+.game-card .cover { position: relative; }
+.game-card .store-thumb-play {
+  height: 28px; inset: auto 8px 8px auto;
+  width: auto; padding: 0 8px;
+  font-size: 11px; font-weight: 800;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.55);
+}
+#ex-vitrine:not([hidden]) {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 22px;
+}
 .ex-vitrine-card {
   display: grid;
-  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 42%) minmax(0, 1fr);
   gap: 0;
-  margin: 0 0 22px;
+  margin: 0;
   overflow: hidden;
   border-radius: var(--radius);
   border: 1px solid rgba(102, 192, 244, 0.4);
@@ -731,7 +745,7 @@ video.store-frame { object-fit: contain; background: #000; }
   justify-content: center;
   gap: 8px;
 }
-.ex-vitrine-copy h2 { margin: 0; font-size: 28px; }
+.ex-vitrine-copy h2 { margin: 0; font-size: 20px; }
 .ex-vitrine-copy p { margin: 0; color: var(--text-muted); line-height: 1.45; }
 .ex-vitrine-kicker {
   font-size: 11px;
@@ -743,4 +757,5 @@ video.store-frame { object-fit: contain; background: #000; }
 .ex-vitrine-copy .btn { width: fit-content; margin-top: 6px; }
 @media (max-width: 720px) {
   .ex-vitrine-card { grid-template-columns: 1fr; }
+  #ex-vitrine { grid-template-columns: 1fr; }
 }

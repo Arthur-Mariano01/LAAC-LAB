@@ -62,49 +62,56 @@ function montarCartao(jogo) {
     jogo.na_biblioteca ? "Na biblioteca ✓" : "Adicionar"
   );
   if (jogo.na_biblioteca) botao.disabled = true;
-  const pecas = [];
-  if (jogo.slug === "palworld") {
-    pecas.push(Api.criar("span", { class: "store-chip" }, "Abrir vitrine"));
-  }
-  pecas.push(botao);
+  const pecas = [
+    Api.criar("span", { class: "store-chip" }, "Abrir vitrine"),
+    botao,
+  ];
   const cartao = Api.cartaoDeJogo(jogo, Api.criar("div", {}, ...pecas));
-  if (jogo.slug === "palworld") cartao.classList.add("game-card--vitrine");
+  cartao.classList.add("game-card--vitrine");
+  const capa = cartao.querySelector(".cover");
+  if (capa && jogo.tem_trailer) {
+    capa.style.position = "relative";
+    capa.append(Api.criar("span", { class: "store-thumb-play" }, "▶ Trailer"));
+  }
   return cartao;
 }
 
-function montarVitrine(jogo) {
+function montarVitrine(jogos) {
   const bloco = document.getElementById("ex-vitrine");
-  if (!jogo) {
+  const lista = Array.isArray(jogos) ? jogos : jogos ? [jogos] : [];
+  if (!lista.length) {
     bloco.hidden = true;
     bloco.replaceChildren();
     return;
   }
-  const capa = jogo.arquivo_capa || jogo.imagem_capa || "";
   bloco.hidden = false;
   bloco.replaceChildren(
-    Api.criar(
-      "a",
-      { class: "ex-vitrine-card", href: "/jogo/" + jogo.slug },
-      capa
-        ? Api.criar("img", {
-            class: "ex-vitrine-art",
-            src: capa,
-            alt: jogo.nome,
-          })
-        : Api.criar("div", { class: "ex-vitrine-art" }),
-      Api.criar(
-        "div",
-        { class: "ex-vitrine-copy" },
-        Api.criar("div", { class: "ex-vitrine-kicker" }, "Em destaque"),
-        Api.criar("h2", {}, jogo.nome),
+    ...lista.map((jogo) => {
+      const arte = jogo.foto_vitrine || jogo.arquivo_capa || jogo.imagem_capa || "";
+      return Api.criar(
+        "a",
+        { class: "ex-vitrine-card", href: "/jogo/" + jogo.slug },
+        arte
+          ? Api.criar("img", {
+              class: "ex-vitrine-art",
+              src: arte,
+              alt: jogo.nome,
+            })
+          : Api.criar("div", { class: "ex-vitrine-art" }),
         Api.criar(
-          "p",
-          {},
-          jogo.descricao_curta || "Abra a página da loja: trailer, capturas e requisitos."
-        ),
-        Api.criar("span", { class: "btn btn--primary" }, "Ver página do jogo")
-      )
-    )
+          "div",
+          { class: "ex-vitrine-copy" },
+          Api.criar("div", { class: "ex-vitrine-kicker" }, jogo.tem_trailer ? "Trailer + fotos" : "Vitrine"),
+          Api.criar("h2", {}, jogo.nome),
+          Api.criar(
+            "p",
+            {},
+            jogo.descricao_curta || "Abra a página da loja: trailer, capturas e requisitos."
+          ),
+          Api.criar("span", { class: "btn btn--primary" }, "Abrir vitrine")
+        )
+      );
+    })
   );
 }
 
@@ -154,7 +161,7 @@ async function carregar(caminho, reset) {
 
   preencherGeneros(dados.generos);
 
-  if (reset) montarVitrine(dados.vitrine);
+  if (reset) montarVitrine(dados.vitrines);
 
   // Busca sem resultado é caso comum, não erro.
   if (reset && dados.itens.length === 0) {

@@ -3,7 +3,6 @@
 Compõe SERVICES de domínio, nunca repositórios: cada regra continua morando
 com seu dono, e esta camada só monta o objeto que a tela consome.
 """
-from app.errors import NaoEncontrado
 from app.services.formatacao import tempo_relativo, duracao_jogada
 from app.services.jogo_service import CAPA_PADRAO, gerar_iniciais
 from app.services.midia_catalogo import extras_do_slug
@@ -210,13 +209,12 @@ class TelaService:
             busca=busca,
             genero_slug=genero_slug,
         )
-        # Uma consulta para a página inteira, não uma por cartão.
         na_biblioteca = self._biblioteca_por_jogo(usuario)
         itens = []
         for jogo in resultado.itens:
             entrada = na_biblioteca.get(jogo.id)
             itens.append(
-                self.jogos.montar_card(
+                self._card_explorar(
                     jogo,
                     favorito=bool(entrada and entrada.favorito),
                     na_biblioteca=entrada is not None,
@@ -229,28 +227,29 @@ class TelaService:
             "por_pagina": resultado.por_pagina,
             "total": resultado.total,
             "paginas": resultado.paginas,
-            "vitrine": self._vitrine_palworld(usuario, na_biblioteca) if catalogo_livre else None,
+            "vitrine": itens[0] if catalogo_livre and itens else None,
+            "vitrines": itens[:4] if catalogo_livre else [],
             "generos": [
                 {"slug": g.slug or "", "nome": g.nome}
                 for g in self.generos.listar_todos(ordenar_por="nome")
             ],
         }
 
-    SLUG_VITRINE = "palworld"
-
-    def _vitrine_palworld(self, usuario, na_biblioteca: dict) -> dict | None:
-        """Card de Palworld no topo de Explorar, ligado à página da loja."""
-        try:
-            jogo = self.jogos.buscar_por_slug(self.SLUG_VITRINE)
-        except NaoEncontrado:
-            return None
-        entrada = na_biblioteca.get(jogo.id)
-        extras = extras_do_slug(self.SLUG_VITRINE)
+    def _card_explorar(self, jogo, favorito: bool, na_biblioteca: bool) -> dict:
         card = self.jogos.montar_card(
-            jogo,
-            favorito=bool(entrada and entrada.favorito),
-            na_biblioteca=entrada is not None,
+            jogo, favorito=favorito, na_biblioteca=na_biblioteca
         )
+        extras = extras_do_slug(jogo.slug or "")
+        trailer = extras.get("trailer") or {}
+        fotos = extras.get("imagens") or []
+        card["tem_trailer"] = bool(
+            trailer.get("embed") or trailer.get("mp4") or trailer.get("hls")
+        )
+        card["foto_vitrine"] = ""
+        if fotos:
+            card["foto_vitrine"] = fotos[0].get("thumb") or fotos[0].get("src") or ""
+        if not card.get("imagem_capa") and not card.get("arquivo_capa") and card["foto_vitrine"]:
+            card["imagem_capa"] = card["foto_vitrine"]
         card["descricao_curta"] = extras.get("legenda") or jogo.descricao or ""
         return card
 
