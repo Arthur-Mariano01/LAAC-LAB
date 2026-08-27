@@ -102,7 +102,7 @@ numa base nova e não conseguir cadastrar um jogo, é isto.
 
 Os três precisam passar. O segundo é explicado abaixo. O terceiro compara
 byte a byte a casca (cabeçalho, navegação, rodapé) copiada em cada uma das
-páginas de `view/paginas/` — sem `{% extends %}` nem injeção por JS, cada
+páginas de `view/paginas/` — sem `{% raw %}{% extends %}{% endraw %}` nem injeção por JS, cada
 página chega pintada, e uma cópia que diverge silenciosamente só aparece
 depois, na tela.
 
