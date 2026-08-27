@@ -14,7 +14,7 @@ def test_palworld_traz_trailer_imagens_historia_e_requisitos():
     assert extras["tempo_medio"] == "40h"
     trailer = extras["trailer"] or {}
     assert trailer["embed"].startswith("https://www.youtube.com/embed/")
-    assert extras["imagens"][0]["src"].startswith("https://i.ytimg.com/")
+    assert extras["imagens"][0]["src"].startswith("/estatico/vitrine/palworld/")
     assert len(extras["imagens"]) >= 4
     assert extras["requisitos"]["minimo"]
     assert extras["requisitos"]["recomendado"]
@@ -35,5 +35,5 @@ def test_catalogo_usa_youtube_como_o_palworld():
         extras = extras_do_slug(slug)
         trailer = extras["trailer"] or {}
         assert (trailer.get("embed") or "").startswith("https://www.youtube.com/embed/"), slug
-        assert extras["imagens"], slug
-        assert all("ytimg.com" in (f.get("src") or "") for f in extras["imagens"]), slug
+        assert extras["imagens"][0]["src"].startswith("/estatico/vitrine/"), slug
+        assert all(f["src"].startswith("/estatico/vitrine/") for f in extras["imagens"]), slug

@@ -156,7 +156,7 @@ function mostrarMidia(indice) {
       stage.replaceChildren(
         Api.criar("iframe", {
           class: "store-frame",
-          src: item.src + (item.src.includes("?") ? "&" : "?") + "rel=0",
+          src: item.src.replace("www.youtube.com", "www.youtube-nocookie.com") + (item.src.includes("?") ? "&" : "?") + "rel=0&modestbranding=1",
           title: item.titulo || "Trailer",
           allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
           allowfullscreen: "true",

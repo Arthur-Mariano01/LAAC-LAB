@@ -4,7 +4,7 @@ from app.services.midia_catalogo import extras_do_slug, para_origem
 def test_imagens_do_youtube_nao_passam_pelo_proxy():
     extras = extras_do_slug("cyberpunk-2077")
     assert extras["trailer"]["embed"].startswith("https://www.youtube.com/embed/")
-    assert extras["imagens"][0]["src"].startswith("https://i.ytimg.com/")
+    assert extras["imagens"][0]["src"].startswith("/estatico/vitrine/cyberpunk-2077/")
 
 
 def test_youtube_nao_e_proxied():
