@@ -137,8 +137,22 @@
           </div>
         </div>
 
-        <!-- Rail direita: atividade recente e ranking dos jogos mais instáveis -->
+        <!-- Rail direita: seletor, atividade recente e ranking dos jogos mais instáveis -->
         <div class="rail">
+          
+          <!-- NOVO: Seletor de Jogo Customizado (Elegante e Dark) -->
+          <div class="card" style="overflow: visible;">
+            <div class="section-title">Analisar outro jogo</div>
+            <div id="bm-seletor-container" style="position: relative; margin-top: 12px;">
+              <input type="text" id="bm-jogo-seletor" placeholder="Buscar jogo..." autocomplete="off"
+                     style="width: 100%; background: var(--bg); border: 1px solid var(--border); color: var(--text); padding: 10px 14px; border-radius: 8px; font-size: 13px; outline: none; transition: border-color 0.2s;">
+              
+              <!-- Div que o JS vai controlar para renderizar a lista -->
+              <div id="bm-custom-dropdown" style="display: none; position: absolute; top: 100%; left: 0; right: 0; margin-top: 4px; background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; max-height: 220px; overflow-y: auto; z-index: 50; box-shadow: 0 8px 24px rgba(0,0,0,0.4);">
+              </div>
+            </div>
+          </div>
+
           <div class="card">
             <div class="section-title">Atividade recente</div>
             <div id="bm-activity" class="mt"><div class="skeleton">Carregando…</div></div>
