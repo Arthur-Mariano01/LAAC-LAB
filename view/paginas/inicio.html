@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Início · LaaCLab</title>
-  <link rel="stylesheet" href="/estatico/css/estilos.css?v=news1">
+  <link rel="stylesheet" href="/estatico/css/estilos.css">
 </head>
 <body data-tela="inicio">
 <!-- CASCA:INICIO -->
@@ -80,9 +80,16 @@
         <div id="casca-busca-sugestoes" class="search-sugestoes" hidden></div>
       </div>
       <div class="topbar-actions">
-        <button class="icon-btn" aria-label="Notificações">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
-        </button>
+        <div class="topbar-notify">
+          <button type="button" class="icon-btn" id="casca-sino" aria-label="Notificações" aria-expanded="false" aria-controls="casca-notificacoes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+            <span class="notify-dot" id="casca-sino-dot" hidden></span>
+          </button>
+          <div class="notify-panel" id="casca-notificacoes" hidden>
+            <p class="notify-panel-title">Notificações</p>
+            <div id="casca-notificacoes-lista"></div>
+          </div>
+        </div>
         <button class="icon-btn" id="alternar-tema" aria-label="Alternar tema">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
         </button>
@@ -143,14 +150,13 @@
             <div id="home-trending"></div>
           </div>
 
-          <!-- Jogos favoritos (estrela vermelha) -->
           <div class="card">
             <div class="row" style="gap:10px">
               <svg viewBox="0 0 24 24" fill="var(--brand)" stroke="var(--brand)" stroke-width="1.5" stroke-linejoin="round" style="width:20px;height:20px;flex:none"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17.8 5.9 21.4l1.5-6.8L2.2 9l6.9-.7z"/></svg>
-              <b style="font-size:16px">Jogos favoritos</b>
+              <b style="font-size:16px">Jogos mais jogados no Brasil este mês</b>
             </div>
             <div id="home-favorites" class="mt"></div>
-            <a href="/biblioteca" style="display:block;text-align:center;margin-top:12px;color:var(--brand);font-weight:700;font-size:13px">Ver todos os jogos →</a>
+            <a href="/explorar" style="display:block;text-align:center;margin-top:12px;color:var(--brand);font-weight:700;font-size:13px">Ver o catálogo →</a>
           </div>
         </div>
       </div>
@@ -159,8 +165,8 @@
   </div>
 </div>
 <!-- CASCA:RODAPE:FIM -->
-<script src="/estatico/js/api.js?v=news1"></script>
-<script src="/estatico/js/casca.js?v=news1"></script>
-<script src="/estatico/js/inicio.js?v=news1"></script>
+<script src="/estatico/js/api.js"></script>
+<script src="/estatico/js/casca.js"></script>
+<script src="/estatico/js/inicio.js"></script>
 </body>
 </html>

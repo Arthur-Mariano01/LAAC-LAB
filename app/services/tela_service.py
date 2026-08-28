@@ -73,6 +73,7 @@ class TelaService:
             "noticias": self._noticias(limite=6),
             "assuntos": self._assuntos(limite=8),
             "favoritos": favoritos,
+            "mais_jogados": self._cartoes_mais_jogados(limite=6),
             "alerta": self._alerta_do_topo(alertas),
         }
 
@@ -179,6 +180,51 @@ class TelaService:
             for e in entradas
             if e.jogo is not None
         ]
+
+    def _cartoes_mais_jogados(self, limite: int = 6) -> list[dict]:
+        """Ranking do mês no Brasil: `popularidade` do catálogo (seed)."""
+        jogos = self.jogos.listar_todos(
+            usuario=None, ordenar_por="-popularidade"
+        )
+        return [
+            self.jogos.montar_card(jogo, favorito=False, na_biblioteca=False)
+            for jogo in jogos[:limite]
+            if (jogo.popularidade or 0) > 0
+        ]
+
+    def notificacoes(self, usuario_id: int) -> dict:
+        usuario = self.auth.obter_entidade(usuario_id)
+        itens = [
+            {
+                "id": "conta-sessao",
+                "tipo": "conta",
+                "titulo": "Conta ativa",
+                "texto": f"Você está conectado como {usuario.nome_usuario}.",
+                "quando": "agora",
+                "href": "/perfil",
+            },
+            {
+                "id": "conta-nivel",
+                "tipo": "conta",
+                "titulo": f"Nível {usuario.nivel}",
+                "texto": f"{usuario.xp} XP nesta temporada. Abra o perfil para ver o progresso.",
+                "quando": "esta semana",
+                "href": "/perfil",
+            },
+        ]
+        for alerta in self.alertas_servico.recentes(limite=5):
+            apresentado = self.alertas_servico.apresentar(alerta)
+            itens.append(
+                {
+                    "id": f"alerta-{alerta.id}",
+                    "tipo": "alerta",
+                    "titulo": apresentado["jogo"],
+                    "texto": alerta.texto,
+                    "quando": tempo_relativo(alerta.criado_em),
+                    "href": f"/alertas#alerta-{alerta.id}",
+                }
+            )
+        return {"itens": itens, "nao_lidas": len(itens)}
 
     @staticmethod
     def _alerta_do_topo(alertas: list) -> dict:
@@ -567,6 +613,8 @@ class TelaService:
             "nivel": apresentado["nivel"],
             "icone": apresentado["icone"],
             "texto": alerta.texto,
+            "quando": tempo_relativo(alerta.criado_em),
+            **self._capa_completa(alerta.jogo),
         }
 
     def historicos(self, slug: str, periodo: str = "7d", ultimo_id: int = 0) -> dict:

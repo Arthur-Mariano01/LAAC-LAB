@@ -294,12 +294,15 @@ async function initHome() {
     });
   }
 
-  // --- Jogos favoritos: usa cartão canônico da API ---
+  // --- Mais jogados no Brasil: cartão canônico ---
   const favorites = document.getElementById("home-favorites");
-  if (data.favoritos.length === 0) {
-    Api.vazio("home-favorites");
+  const ranking = data.mais_jogados && data.mais_jogados.length
+    ? data.mais_jogados
+    : data.favoritos;
+  if (ranking.length === 0) {
+    Api.vazio("home-favorites", "Ainda não há ranking deste mês.");
   } else {
-    data.favoritos.forEach((g) => {
+    ranking.forEach((g) => {
       favorites.append(Api.cartaoDeJogo(g));
     });
   }

@@ -251,7 +251,8 @@ def cenario(cliente, app):
 def test_inicio_devolve_as_chaves_da_tela(cliente, cenario):
     corpo = cliente.get("/api/v1/telas/inicio", headers=cenario["cabecalho"]).get_json()
     assert set(corpo) == {
-        "banners", "atualizacoes", "noticias", "assuntos", "favoritos", "alerta",
+        "banners", "atualizacoes", "noticias", "assuntos", "favoritos",
+        "mais_jogados", "alerta",
     }
 
 
@@ -289,6 +290,7 @@ def test_banco_vazio_devolve_listas_vazias_sem_quebrar(cliente):
     assert corpo["atualizacoes"] == []
     assert corpo["noticias"] == []
     assert corpo["favoritos"] == []
+    assert corpo["mais_jogados"] == []
     assert corpo["alerta"]["mensagem"] == "Nenhum alerta recente."
 
 

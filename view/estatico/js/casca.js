@@ -141,6 +141,80 @@ function ligarBuscaDoTopo() {
   });
 }
 
+const CHAVE_NOTIFICACOES = "laac.notificacoes.ativas";
+
+function notificacoesLigadas() {
+  return localStorage.getItem(CHAVE_NOTIFICACOES) === "1";
+}
+
+function definirNotificacoesLigadas(ligado) {
+  localStorage.setItem(CHAVE_NOTIFICACOES, ligado ? "1" : "0");
+}
+
+function pintarNotificacoes(lista, dados) {
+  const itens = (dados && dados.itens) || [];
+  if (!itens.length) {
+    lista.replaceChildren(Api.criar("p", { class: "muted" }, "Nenhuma notificação agora."));
+    return;
+  }
+  lista.replaceChildren(
+    ...itens.map((item) =>
+      Api.criar(
+        "a",
+        { class: "notify-item", href: item.href || "#" },
+        Api.criar("div", { class: "notify-item-kicker" }, item.tipo === "conta" ? "Conta" : "Alerta"),
+        Api.criar("div", { class: "notify-item-title" }, item.titulo || ""),
+        Api.criar("div", { class: "notify-item-text" }, item.texto || ""),
+        Api.criar("div", { class: "notify-item-when" }, item.quando || "")
+      )
+    )
+  );
+}
+
+function ligarSino() {
+  const botao = document.getElementById("casca-sino");
+  const painel = document.getElementById("casca-notificacoes");
+  const lista = document.getElementById("casca-notificacoes-lista");
+  const ponto = document.getElementById("casca-sino-dot");
+  if (!botao || !painel || !lista) return;
+
+  if (ponto) ponto.hidden = false;
+
+  const fechar = () => {
+    painel.hidden = true;
+    botao.setAttribute("aria-expanded", "false");
+  };
+
+  botao.addEventListener("click", async (evento) => {
+    evento.stopPropagation();
+    const abrir = painel.hidden;
+    if (!abrir) {
+      fechar();
+      return;
+    }
+    painel.hidden = false;
+    botao.setAttribute("aria-expanded", "true");
+    lista.replaceChildren(Api.criar("p", { class: "muted" }, "Carregando…"));
+    try {
+      const dados = await Api.pedir("/api/v1/eu/notificacoes");
+      pintarNotificacoes(lista, dados);
+      if (ponto) ponto.hidden = true;
+    } catch (erro) {
+      if (Api.ehSessaoExpirada(erro)) return;
+      lista.replaceChildren(
+        Api.criar("p", { class: "muted" }, "Não foi possível carregar as notificações.")
+      );
+    }
+  });
+
+  document.addEventListener("click", (evento) => {
+    if (!evento.target.closest(".topbar-notify")) fechar();
+  });
+  document.addEventListener("keydown", (evento) => {
+    if (evento.key === "Escape") fechar();
+  });
+}
+
 Api.aoCarregar(async () => {
   aplicarTema();
   marcarItemAtivo();
@@ -148,5 +222,6 @@ Api.aoCarregar(async () => {
   // /api/v1/eu daria 401, que redirecionaria o login para o login.
   if (document.body.dataset.casca === "auth") return;
   ligarBuscaDoTopo();
+  ligarSino();
   await preencherUsuario();
 });
