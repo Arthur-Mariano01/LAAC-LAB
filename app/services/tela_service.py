@@ -145,7 +145,12 @@ class TelaService:
             por_pagina=limite, ordenar_por="-criado_em"
         )
         itens = []
+        vistos = set()
         for topico in topicos:
+            chave = (topico.titulo or "").strip().lower()
+            if chave in vistos:
+                continue
+            vistos.add(chave)
             jogo = topico.jogo
             capa = self._capa_completa(jogo)
             resumo = (topico.corpo or "").strip()
