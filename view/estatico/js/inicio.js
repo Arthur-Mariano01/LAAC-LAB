@@ -294,20 +294,20 @@ async function initHome() {
     });
   }
 
-  // --- Ranking simples: 1º, 2º e 3º, nome clicável pelo slug ---
+  // --- Pódio: 1º, 2º e 3º lugar; só o nome do jogo é um link ---
   const favorites = document.getElementById("home-favorites");
   const ranking = (data.mais_jogados || []).slice(0, 3);
   if (ranking.length === 0) {
     Api.vazio("home-favorites", "Ainda não há ranking deste mês.");
   } else {
-    const posto = ["1º", "2º", "3º"];
+    const posto = ["1º lugar", "2º lugar", "3º lugar"];
     ranking.forEach((g, i) => {
       favorites.append(
         Api.criar(
           "div",
-          { class: "rank-row" + (i === 0 ? " rank-row--gold" : "") },
-          Api.criar("span", { class: "rank-pos" }, posto[i] || String(i + 1) + "º"),
-          Api.criar("a", { class: "rank-name", href: "/jogo/" + g.slug }, g.nome)
+          { class: "podium-item" },
+          Api.criar("div", { class: "podium-place" }, posto[i]),
+          Api.criar("a", { class: "podium-name", href: "/jogo/" + g.slug }, g.nome)
         )
       );
     });
