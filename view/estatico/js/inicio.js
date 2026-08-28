@@ -124,6 +124,94 @@ function iniciarCarrossel(banners) {
   }
 }
 
+let indiceNoticia = 0;
+
+function fonteCapaNoticia(item) {
+  return item.arquivo_capa || item.imagem_capa || "";
+}
+
+function aplicarNoticia(item) {
+  const bloco = document.getElementById("home-noticias");
+  bloco.style.background = `linear-gradient(135deg, ${item.capa[0]}, ${item.capa[1]})`;
+  document.getElementById("news-game").textContent = item.jogo || "Comunidade";
+  document.getElementById("news-title").textContent = item.titulo;
+  document.getElementById("news-text").textContent = item.resumo || "";
+  document.getElementById("news-when").textContent = item.quando || "";
+  const img = document.getElementById("news-img");
+  const fonte = fonteCapaNoticia(item);
+  if (fonte) {
+    img.src = fonte;
+    img.alt = item.titulo || "";
+    img.hidden = false;
+    img.onerror = () => {
+      img.hidden = true;
+    };
+  } else {
+    img.removeAttribute("src");
+    img.alt = "";
+    img.hidden = true;
+  }
+}
+
+function marcarPontoNoticia(indice) {
+  document.querySelectorAll("#news-dots span").forEach((ponto, i) => {
+    ponto.classList.toggle("on", i === indice);
+  });
+}
+
+function irParaNoticia(noticias, indice) {
+  indiceNoticia = (indice + noticias.length) % noticias.length;
+  aplicarNoticia(noticias[indiceNoticia]);
+  marcarPontoNoticia(indiceNoticia);
+}
+
+function iniciarCarrosselNoticias(noticias) {
+  const dots = document.getElementById("news-dots");
+  dots.replaceChildren();
+  noticias.forEach((item, i) => {
+    const ponto = Api.criar("span", i === 0 ? { class: "on" } : {});
+    ponto.setAttribute("role", "button");
+    ponto.setAttribute("tabindex", "0");
+    ponto.setAttribute("aria-label", "Mostrar " + item.titulo);
+    ponto.addEventListener("click", (evento) => {
+      evento.stopPropagation();
+      irParaNoticia(noticias, i);
+    });
+    ponto.addEventListener("keydown", (evento) => {
+      if (evento.key === "Enter" || evento.key === " ") {
+        evento.preventDefault();
+        ponto.click();
+      }
+    });
+    dots.append(ponto);
+  });
+
+  indiceNoticia = 0;
+  aplicarNoticia(noticias[0]);
+
+  const prev = document.getElementById("news-prev");
+  const next = document.getElementById("news-next");
+  const varios = noticias.length > 1;
+  prev.hidden = !varios;
+  next.hidden = !varios;
+  prev.onclick = (evento) => {
+    evento.stopPropagation();
+    irParaNoticia(noticias, indiceNoticia - 1);
+  };
+  next.onclick = (evento) => {
+    evento.stopPropagation();
+    irParaNoticia(noticias, indiceNoticia + 1);
+  };
+
+  const bloco = document.getElementById("home-noticias");
+  bloco.style.cursor = noticias[0].jogo_slug ? "pointer" : "";
+  bloco.onclick = (evento) => {
+    if (evento.target.closest("#news-dots") || evento.target.closest(".hero-arrow")) return;
+    const slug = noticias[indiceNoticia].jogo_slug;
+    if (slug) location.href = "/jogo/" + slug;
+  };
+}
+
 function capaDaAtualizacao(u) {
   /* atualizacoes[] usa `jogo` (nome de exibição). Api.capa espera
      `nome` e `iniciais` — montamos esse shape aqui. */
@@ -156,6 +244,20 @@ async function initHome() {
     document.getElementById("hero-img").hidden = true;
   } else {
     iniciarCarrossel(data.banners);
+  }
+
+  const noticias = data.noticias || [];
+  if (noticias.length === 0) {
+    document.getElementById("news-title").textContent = "Nenhuma notícia no momento.";
+    document.getElementById("news-text").textContent = "";
+    document.getElementById("news-game").textContent = "";
+    document.getElementById("news-when").textContent = "";
+    document.getElementById("news-dots").replaceChildren();
+    document.getElementById("news-prev").hidden = true;
+    document.getElementById("news-next").hidden = true;
+    document.getElementById("news-img").hidden = true;
+  } else {
+    iniciarCarrosselNoticias(noticias);
   }
 
   // --- Grade de atualizações recentes (capa real quando o jogo tem) ---

@@ -49,6 +49,14 @@ TOPICOS_DEMO = [
      "Corrigiram o bug de salvar no meio da missão."),
     ("apex", "discussao", "Qual lenda vocês estão jogando?",
      "Voltei depois de uns meses e o meta parece bem diferente."),
+    ("valorant", "noticia", "Novo episódio do Valorant está no ar",
+     "O patch notes chegou com agentes reequilibrados e mapa novo na fila."),
+    ("palworld", "noticia", "Palworld 1.0 amplia o arquipélago",
+     "Mais Pals, raids cooperativas e ajuste de captura no acesso completo."),
+    ("baldurs-gate", "noticia", "Baldur's Gate 3 recebe patch de equilíbrio",
+     "A Larian ajustou classes e corrige travamentos em atos longos."),
+    ("helldivers", "noticia", "Helldivers 2: ordem maior da semana",
+     "A Super Terra pede defesa de planetas da borda exterior neste fim de semana."),
 ]
 
 #: (slug parcial, severidade, texto)

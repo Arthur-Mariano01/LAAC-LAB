@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Início · LaaCLab</title>
-  <link rel="stylesheet" href="/estatico/css/estilos.css?v=cards5">
+  <link rel="stylesheet" href="/estatico/css/estilos.css?v=news1">
 </head>
 <body data-tela="inicio">
 <!-- CASCA:INICIO -->
@@ -109,6 +109,27 @@
             <div class="dots" id="hero-dots"></div>
           </div>
 
+          <section class="news-block" aria-labelledby="home-noticias-titulo">
+            <h2 class="news-heading" id="home-noticias-titulo">Notícias</h2>
+            <p class="news-kicker">Carrossel com as notícias recentes</p>
+            <div class="news-hero" id="home-noticias">
+              <img class="news-img" id="news-img" alt="" hidden>
+              <div class="news-copy">
+                <div class="news-game" id="news-game"></div>
+                <div class="news-title" id="news-title">—</div>
+                <div class="news-text" id="news-text"></div>
+                <div class="news-when" id="news-when"></div>
+              </div>
+              <button type="button" class="hero-arrow hero-arrow--prev" id="news-prev" aria-label="Notícia anterior">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6 9 12l6 6"/></svg>
+              </button>
+              <button type="button" class="hero-arrow hero-arrow--next" id="news-next" aria-label="Próxima notícia">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+              </button>
+              <div class="dots" id="news-dots"></div>
+            </div>
+          </section>
+
           <!-- Grade de atualizações recentes: uma .update-card por item -->
           <div class="update-grid" id="home-updates"></div>
         </div>
@@ -138,8 +159,8 @@
   </div>
 </div>
 <!-- CASCA:RODAPE:FIM -->
-<script src="/estatico/js/api.js?v=cards5"></script>
-<script src="/estatico/js/casca.js?v=cards5"></script>
-<script src="/estatico/js/inicio.js?v=cards5"></script>
+<script src="/estatico/js/api.js?v=news1"></script>
+<script src="/estatico/js/casca.js?v=news1"></script>
+<script src="/estatico/js/inicio.js?v=news1"></script>
 </body>
 </html>
