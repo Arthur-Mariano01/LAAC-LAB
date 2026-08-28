@@ -294,16 +294,22 @@ async function initHome() {
     });
   }
 
-  // --- Mais jogados no Brasil: cartão canônico ---
+  // --- Ranking simples: 1º, 2º e 3º, nome clicável pelo slug ---
   const favorites = document.getElementById("home-favorites");
-  const ranking = data.mais_jogados && data.mais_jogados.length
-    ? data.mais_jogados
-    : data.favoritos;
+  const ranking = (data.mais_jogados || []).slice(0, 3);
   if (ranking.length === 0) {
     Api.vazio("home-favorites", "Ainda não há ranking deste mês.");
   } else {
-    ranking.forEach((g) => {
-      favorites.append(Api.cartaoDeJogo(g));
+    const posto = ["1º", "2º", "3º"];
+    ranking.forEach((g, i) => {
+      favorites.append(
+        Api.criar(
+          "div",
+          { class: "rank-row" + (i === 0 ? " rank-row--gold" : "") },
+          Api.criar("span", { class: "rank-pos" }, posto[i] || String(i + 1) + "º"),
+          Api.criar("a", { class: "rank-name", href: "/jogo/" + g.slug }, g.nome)
+        )
+      );
     });
   }
 }

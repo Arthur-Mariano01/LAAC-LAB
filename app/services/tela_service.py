@@ -73,7 +73,7 @@ class TelaService:
             "noticias": self._noticias(limite=6),
             "assuntos": self._assuntos(limite=8),
             "favoritos": favoritos,
-            "mais_jogados": self._cartoes_mais_jogados(limite=6),
+            "mais_jogados": self._cartoes_mais_jogados(limite=3),
             "alerta": self._alerta_do_topo(alertas),
         }
 
