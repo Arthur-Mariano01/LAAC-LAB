@@ -57,7 +57,7 @@ function renderAlert(alerta) {
     "a",
     {
       class: "btn btn--outline",
-      href: alerta.jogo_slug ? "/jogo/" + alerta.jogo_slug : "/alertas",
+      href: alerta.jogo_slug ? "/jogo/" + alerta.jogo_slug + "?de=alertas" : "/alertas",
       style: "padding:6px 14px;font-size:12px",
     },
     "Ver detalhes"
