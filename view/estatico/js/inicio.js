@@ -3,8 +3,8 @@
    /api/v1/telas/inicio e é renderizado com os helpers de Api.
 
    IMPORTANTE: a chave `jogo` na resposta é o NOME de exibição;
-   o slug é sempre `jogo_slug` em banners/atualizacoes. Os favoritos
-   vêm como cartão já pronto e linkam pelo `slug` (via Api.cartaoDeJogo). */
+   o slug é sempre `jogo_slug` em banners/atualizacoes. O ranking do
+   mês linka pelo `slug` do cartão. */
 
 /* Vertical three-dots glyph shown at the end of each trending row. */
 const TRENDING_GLYPH =
